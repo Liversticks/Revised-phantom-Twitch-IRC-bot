@@ -197,9 +197,8 @@ bool TwitchIRC::fetchServerMessage() {
 }
 
 void TwitchIRC::streamUpdates() {
-    string recurMessage("Today's stream commands are: ");
-    //to-do: replace with not-hard-coded stuff
-    recurMessage += CustomCommandManager::fetchInstance().listCommands();
+    string recurMessage("This is the start of something great, and Happy Holidays!");
+    //recurMessage += CustomCommandManager::fetchInstance().listCommands();
     while (SocketActive()) {
         SendChatMessage(recurMessage.c_str());
         this_thread::sleep_for(chrono::milliseconds(COMMANDS_INTERVAL));

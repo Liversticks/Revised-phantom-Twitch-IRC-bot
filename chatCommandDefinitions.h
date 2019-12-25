@@ -15,6 +15,8 @@
 #include "CustomCommands/ccmd_isadmin.h"
 #include "CustomCommands/ccmd_adminonly.h"
 
+#include "CustomCommands/ccmd_pmdseries.h"
+
 /*
 ChatCommandDecs Class
 Handle class which contains and initalizes all of the custom chat command definitions
@@ -39,9 +41,16 @@ class ChatCommandDecs {
 				return;
 			}
 			initialized = true;
-			CustomCommandManager::fetchInstance().AddCommand("!time", new Command_Time());
-			CustomCommandManager::fetchInstance().AddCommand("!isadmin", new Command_IsAdmin());
-			CustomCommandManager::fetchInstance().AddCommand("!adminonly", new Command_AdminOnly());		
+			if (true) {
+				CustomCommandManager::fetchInstance().AddCommand("!pmdseries", new Command_PMDSeries());
+			}
+			//inactive commands belong below, they should not be loaded
+			else {
+				CustomCommandManager::fetchInstance().AddCommand("!time", new Command_Time());
+				CustomCommandManager::fetchInstance().AddCommand("!isadmin", new Command_IsAdmin());
+				CustomCommandManager::fetchInstance().AddCommand("!adminonly", new Command_AdminOnly());
+			}
+					
 		}
 
 	private:

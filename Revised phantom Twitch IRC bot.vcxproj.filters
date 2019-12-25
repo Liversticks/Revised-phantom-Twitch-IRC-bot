@@ -131,5 +131,8 @@
     <ClInclude Include="TwitchIRC\TwitchIRC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_pmdseries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
