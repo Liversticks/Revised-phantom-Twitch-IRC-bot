@@ -422,3 +422,210 @@ reat, and Happy Holidays!...
 [12/25/19 13:00:52]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
 [12/25/19 13:03:23]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
 [12/25/19 13:03:23]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:11:40]: {C++} Establishing TwitchIRC Instance
+[12/25/19 15:11:41]: {C++} Establishing TwitchIRC Login Token
+[12/25/19 15:11:41]: {C++} Attempting to send command 'PASS oauth:7w7e2dttozjw0vlnpq4771vdpe9rev'.
+[12/25/19 15:11:41]: {C++} Attempting to send command 'NICK liversticksbot'.
+[12/25/19 15:11:41]: {C++} Attempting to send command 'USER liversticksbot'.
+[12/25/19 15:11:41]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[12/25/19 15:11:41]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[12/25/19 15:11:41]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[12/25/19 15:11:41]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[12/25/19 15:11:41]: {C++} Attempting to send command 'JOIN #liversticks'.
+[12/25/19 15:11:41]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[12/25/19 15:11:41]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[12/25/19 15:11:41]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 15:11:41]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+art of something great, and Happy Holidays!'.
+[12/25/19 15:11:41]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+sticksbot.tmi.twitch.tv 353 liversticksbot = #liversticks :liversticksbot:liversticksbot.tmi.twitch.tv 366 liversticksbot #liversticks :End of /NAMES list@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[12/25/19 15:11:41]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:11:41]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 15:11:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:15:41]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 15:15:41]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:15:52]: {Twitch} Recieved PING request, responding...
+[12/25/19 15:15:52]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:15:52]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:18:41]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 15:18:41]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:18:41]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:18:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 15:19:41]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 15:19:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:20:03]: {Twitch} Recieved PING request, responding...
+[12/25/19 15:20:03]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:20:03]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:23:41]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 15:23:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:24:51]: {Twitch} Recieved PING request, responding...
+[12/25/19 15:24:51]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:24:51]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:25:41]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 15:25:41]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:25:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:25:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 15:27:41]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 15:27:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:29:41]: {Twitch} Recieved PING request, responding...
+[12/25/19 15:29:41]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:29:41]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:31:41]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 15:31:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:32:41]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 15:32:41]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:32:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:32:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 15:34:38]: {Twitch} Recieved PING request, responding...
+[12/25/19 15:34:38]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:34:38]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:35:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 15:35:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:39:14]: {Twitch} Recieved PING request, responding...
+[12/25/19 15:39:14]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:39:15]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:39:41]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 15:39:41]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:39:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 15:39:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:39:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:39:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 15:43:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 15:43:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:44:07]: {Twitch} Recieved PING request, responding...
+[12/25/19 15:44:07]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:44:07]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:46:41]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 15:46:41]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:46:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:46:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 15:47:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 15:47:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:48:24]: {Twitch} Recieved PING request, responding...
+[12/25/19 15:48:24]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:48:24]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:51:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 15:51:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:53:00]: {Twitch} Recieved PING request, responding...
+[12/25/19 15:53:00]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:53:00]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:53:42]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 15:53:42]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:53:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 15:53:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 15:55:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 15:55:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 15:57:46]: {Twitch} Recieved PING request, responding...
+[12/25/19 15:57:46]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:57:46]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 15:59:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 15:59:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:00:42]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 16:00:42]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:00:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:00:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 16:02:36]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:02:36]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:02:36]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:03:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:03:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:07:25]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:07:25]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:07:25]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:07:42]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 16:07:42]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:07:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:07:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:07:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:07:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 16:11:25]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:11:25]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:11:25]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:11:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:11:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:14:42]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 16:14:42]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:14:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:14:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 16:15:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:15:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:16:09]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:16:09]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:16:09]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:19:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:19:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:20:55]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:20:55]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:20:55]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:21:42]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 16:21:42]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:21:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:21:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 16:23:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:23:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:25:27]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:25:27]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:25:27]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:27:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:27:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:28:42]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 16:28:42]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:28:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:28:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 16:30:03]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:30:03]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:30:03]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:31:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:31:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:34:26]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:34:26]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:34:26]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:35:42]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 16:35:42]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:35:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:35:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:35:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:39:24]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:39:24]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:39:24]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:39:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:39:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:42:42]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 16:42:42]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:42:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:42:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 16:43:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:43:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:43:43]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:43:43]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:43:43]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:47:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:47:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:48:28]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:48:28]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:48:28]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:49:42]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 16:49:42]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:49:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:49:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 16:51:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:51:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:53:17]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:53:17]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:53:17]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:55:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:55:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/25/19 16:55:56]: {Chat} liversticks: !pmdseries
+
+[12/25/19 16:55:56]: {C++} Added command 'PRIVMSG #liversticks :The PMD Series Race will be on January 18-19, 2020. Super, Sky, Gates, and BRT will be run, in that order. More details available at https://pastebin.com/NGA2CF0S'.
+[12/25/19 16:55:57]: {C++} Attempting to send command 'PRIVMSG #liversticks :The PMD Series Race will be on January 18-19, 2020. Super, Sky, Gates, and BRT will be run, in that order. More details available at https://pastebin.com/NGA2CF0S'.
+[12/25/19 16:55:57]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 16:56:42]: {Twitch} Sending Message This is the start of something great, and Happy Holidays!...
+[12/25/19 16:56:42]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:56:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/25/19 16:56:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/25/19 16:57:32]: {Twitch} Recieved PING request, responding...
+[12/25/19 16:57:32]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:57:32]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[12/25/19 16:59:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/25/19 16:59:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
