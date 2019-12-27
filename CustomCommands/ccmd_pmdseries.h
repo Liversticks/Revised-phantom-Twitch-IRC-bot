@@ -20,7 +20,7 @@ class Command_PMDSeries : public CustomCommand {
 		}
 
 		virtual void Fire(string input) {
-			string response = Lib::formatChatMessage("The PMD Series Race will be on January 18-19, 2020. Super, Sky, Gates, and BRT will be run, in that order. More details available at https://pastebin.com/NGA2CF0S");
+			string response = Lib::formatChatMessage("The PMD Series Race will be on January 18-19, 2020. Super, Sky, Gates, and BRT will be run, in that order. More details available at https://pastebin.com/NGA2CF0S. Personally, I am likely to take a break between Sky and Gates, for my own sanity.");
 			TwitchCommandLimit::fetchInstance().AddCommand(response);
 		}
 

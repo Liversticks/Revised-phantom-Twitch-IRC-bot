@@ -17,6 +17,7 @@
 
 #include "CustomCommands/ccmd_pmdseries.h"
 #include "CustomCommands/ccmd_dadjoke.h"
+#include "CustomCommands/ccmd_secret.h"
 
 /*
 ChatCommandDecs Class
@@ -45,6 +46,7 @@ class ChatCommandDecs {
 			if (true) {
 				CustomCommandManager::fetchInstance().AddCommand("!pmdseries", new Command_PMDSeries());
 				CustomCommandManager::fetchInstance().AddCommand("!dadjoke", new Command_DadJoke());
+				CustomCommandManager::fetchInstance().AddCommand("!secret", new Command_Secret());
 			}
 			//inactive commands belong below, they should not be loaded
 			else {
