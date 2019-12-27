@@ -17,8 +17,8 @@
 //Interval in which to ping the server to keep the connection alive, by default it's 4 minutes (240000MS)
 #define PING_INTERVAL 240000
 
-//Interval in which recurring chat (bot) messages are send out - 7 minutes (420000MS)
-#define COMMANDS_INTERVAL 420000
+//Interval in which recurring chat (bot) messages are send out - 9 minutes (630000MS)
+#define COMMANDS_INTERVAL 630000
 
 /*
 TwitchIRC Class

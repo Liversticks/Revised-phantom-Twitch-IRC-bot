@@ -134,5 +134,8 @@
     <ClInclude Include="CustomCommands\ccmd_pmdseries.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_dadjoke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -163,6 +163,7 @@
   <ItemGroup>
     <ClInclude Include="chatCommandDefinitions.h" />
     <ClInclude Include="CustomCommands\ccmd_adminonly.h" />
+    <ClInclude Include="CustomCommands\ccmd_dadjoke.h" />
     <ClInclude Include="CustomCommands\ccmd_isadmin.h" />
     <ClInclude Include="CustomCommands\ccmd_pmdseries.h" />
     <ClInclude Include="CustomCommands\ccmd_time.h" />

@@ -629,3 +629,92 @@ sticksbot.tmi.twitch.tv 353 liversticksbot = #liversticks :liversticksbot:livers
 [12/25/19 16:57:32]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
 [12/25/19 16:59:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
 [12/25/19 16:59:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/26/19 19:14:28]: {C++} Establishing TwitchIRC Instance
+[12/26/19 19:14:29]: {C++} Establishing TwitchIRC Login Token
+[12/26/19 19:14:29]: {C++} Attempting to send command 'PASS oauth:7w7e2dttozjw0vlnpq4771vdpe9rev'.
+[12/26/19 19:14:29]: {C++} Attempting to send command 'NICK liversticksbot'.
+[12/26/19 19:14:29]: {C++} Attempting to send command 'USER liversticksbot'.
+[12/26/19 19:14:29]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[12/26/19 19:14:29]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[12/26/19 19:14:29]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[12/26/19 19:14:29]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[12/26/19 19:14:29]: {C++} Attempting to send command 'JOIN #liversticks'.
+[12/26/19 19:14:29]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[12/26/19 19:14:29]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[12/26/19 19:14:29]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+reat, and Happy Holidays!...
+[12/26/19 19:14:29]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/26/19 19:14:29]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/26/19 19:14:29]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[12/26/19 19:14:29]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/26/19 19:14:29]: {Twitch} Recieved USERSTATE Command: ':liversticksbot.tmi.twitch.tv 353 liversticksbot = #liversticks :liversticksbot:liversticksbot.tmi.twitch.tv 366 liversticksbot #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :wh0misds -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting wh0misds.@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[12/26/19 19:14:29]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/26/19 19:14:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/26/19 19:14:36]: {Chat} liversticks: !dadjoke
+
+[12/26/19 19:16:13]: {C++} Establishing TwitchIRC Instance
+[12/26/19 19:16:14]: {C++} Establishing TwitchIRC Login Token
+[12/26/19 19:16:14]: {C++} Attempting to send command 'PASS oauth:7w7e2dttozjw0vlnpq4771vdpe9rev'.
+[12/26/19 19:16:14]: {C++} Attempting to send command 'NICK liversticksbot'.
+[12/26/19 19:16:14]: {C++} Attempting to send command 'USER liversticksbot'.
+[12/26/19 19:16:14]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[12/26/19 19:16:14]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[12/26/19 19:16:14]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[12/26/19 19:16:14]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[12/26/19 19:16:14]: {C++} Attempting to send command 'JOIN #liversticks'.
+[12/26/19 19:16:14]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[12/26/19 19:16:14]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[12/26/19 19:16:14]: {Twitch} Recieved USERSTATE Command: ':liversticksbot!liversticksbot@liversticksbot.tmi.twitch.tv JOIN #liversticks:liversticksbot.tmi.twitch.tv 353 liversticksbot = #liversticks :liversticksbot:liversticksbot.tmi.twitch.tv 366 liversticksbot #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :wh0misds -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting wh0misds.@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[12/26/19119:16:14]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+reat, and Happy Holidays!...
+t Now Connected to channel...'.
+[12/26/19 19:16:14]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/26/19 19:16:15]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/26/19 19:16:15]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/26/19 19:16:15]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/26/19 19:16:18]: {Chat} liversticks: !dadjoke
+
+[12/26/19 19:16:18]: {C++} Added command 'PRIVMSG #liversticks :Did you get a haircut? No, I got all of them cut!'.
+[12/26/19 19:16:18]: {C++} Attempting to send command 'PRIVMSG #liversticks :Did you get a haircut? No, I got all of them cut!'.
+[12/26/19 19:16:18]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/26/19 19:16:24]: {Chat} liversticks: !dadjoke
+
+[12/26/19 19:16:24]: {C++} Added command 'PRIVMSG #liversticks :Want to hear a construction joke? Too bad, I'm still working on it.'.
+[12/26/19 19:16:24]: {C++} Attempting to send command 'PRIVMSG #liversticks :Want to hear a construction joke? Too bad, I'm still working on it.'.
+[12/26/19 19:16:25]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/26/19 19:16:27]: {Chat} liversticks: !dadjoke
+
+[12/26/19 19:16:27]: {C++} Added command 'PRIVMSG #liversticks :I wasn't happy with the velcro I bought. It was a total rip-off.'.
+[12/26/19 19:16:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :I wasn't happy with the velcro I bought. It was a total rip-off.'.
+[12/26/19 19:16:28]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/26/19 19:16:30]: {Chat} liversticks: !dadjoke
+
+[12/26/19 19:16:30]: {C++} Added command 'PRIVMSG #liversticks :The best dam special episode is Bidoof's Wish, obviously.'.
+[12/26/19 19:16:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :The best dam special episode is Bidoof's Wish, obviously.'.
+[12/26/19 19:16:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/26/19 19:16:34]: {Chat} liversticks: !dadjoke
+
+[12/26/19 19:16:34]: {C++} Added command 'PRIVMSG #liversticks :I don't have any puns about paper. They're all so tearable.'.
+[12/26/19 19:16:34]: {C++} Attempting to send command 'PRIVMSG #liversticks :I don't have any puns about paper. They're all so tearable.'.
+[12/26/19 19:16:34]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/26/19 19:16:37]: {Chat} liversticks: !dadjoke
+
+[12/26/19 19:16:37]: {C++} Added command 'PRIVMSG #liversticks :I don't have any puns about paper. They're all so tearable.'.
+[12/26/19 19:16:37]: {C++} Attempting to send command 'PRIVMSG #liversticks :I don't have any puns about paper. They're all so tearable.'.
+[12/26/19 19:16:37]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/26/19 19:16:39]: {Chat} liversticks: !dadjoke
+
+[12/26/19 19:16:39]: {C++} Added command 'PRIVMSG #liversticks :Where were the first French fries cooked? Not in France, I've been told, but in Greece.'.
+[12/26/19 19:16:40]: {C++} Attempting to send command 'PRIVMSG #liversticks :Where were the first French fries cooked? Not in France, I've been told, but in Greece.'.
+[12/26/19 19:16:40]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/26/19 19:16:42]: {Chat} liversticks: !dadjoke
+
+[12/26/19 19:16:42]: {C++} Added command 'PRIVMSG #liversticks :A tuna wrap walks into a bar. It left because the bartender said they didn't serve food there.'.
+[12/26/19 19:16:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :A tuna wrap walks into a bar. It left because the bartender said they didn't serve food there.'.
+[12/26/19 19:16:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/26/19 19:16:47]: {Chat} liversticks: !dadjoke
+
+[12/26/19 19:16:47]: {C++} Added command 'PRIVMSG #liversticks :I've been reading this book about black holes all day. It has really sucked me in.'.
+[12/26/19 19:16:47]: {C++} Attempting to send command 'PRIVMSG #liversticks :I've been reading this book about black holes all day. It has really sucked me in.'.
+[12/26/19 19:16:47]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.

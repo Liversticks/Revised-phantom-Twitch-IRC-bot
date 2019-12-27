@@ -25,6 +25,7 @@
 #include <atomic>
 #include <thread>
 #include <chrono>
+#include <random>
 
 #include "Platform/platform.h"
 
