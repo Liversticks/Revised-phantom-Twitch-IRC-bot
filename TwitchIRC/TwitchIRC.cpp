@@ -11,7 +11,7 @@
 **/
 
 TwitchIRC::TwitchIRC(UFC32 nick, UFC32 usr, UFC32 pass, UFC32 addr, U32 port, UFC32 channel) :
-	_connectedChannel(channel), serverAddr(), serverPort(0), _socketObj(NULL), autoping_thread(NULL) {
+	_connectedChannel(channel), serverAddr(), serverPort(0), _socketObj(NULL), autoping_thread(NULL), commands_thread(NULL) {
     cout << "IRCClient: Establishing" << endl;
     Lib::writeToLog("PhantomBotLog.txt", "{C++} Establishing TwitchIRC Instance");
     //Create the buffer
