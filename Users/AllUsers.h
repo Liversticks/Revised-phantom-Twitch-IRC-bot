@@ -23,14 +23,22 @@ public:
 
 	~AllUsers();
 
+	//adds a new user to the system with a score of 0 (making sure that the user is not in the system already)
+	bool addToDictionary(string name);
+
+	//overloaded addToDictionary for use with file loading
 	bool addToDictionary(string name, unsigned int score);
 
-	bool isInDictionary(string check);
+	//returns -1 if the user is not in the dictionary and the index otherwise
+	int isInDictionary(string check);
 
+	//returns score if user is in the system, 0 otherwise
 	unsigned int whatsMyScore(string name);
 
+	//called when the bot loads
 	bool loadScores(string filename);
 
+	//called every time scores are updated (after events)
 	bool saveScores(string filename);
 
 };
