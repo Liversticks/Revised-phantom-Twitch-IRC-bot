@@ -11,7 +11,8 @@ Uses a dictionary to store user data and info
 //makes use of a dictionary structure (vector of pairs) to store all users and their associated scores
 
 //file format:
-//each line contains a username, whitespace, then a password
+//first line contains the number of users in the file
+//each line contains a username, whitespace, then that user's score
 
 class AllUsers {
 private:
@@ -40,6 +41,8 @@ public:
 
 	//called every time scores are updated (after events)
 	bool saveScores(string filename);
+
+	//to add: some sorting algorithm which puts more frequent users near the front of the vector
 
 };
 
