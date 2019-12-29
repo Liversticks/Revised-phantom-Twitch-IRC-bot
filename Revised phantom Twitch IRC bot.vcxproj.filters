@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{1bf3c20c-4aa1-4a93-949c-38e9826b506c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Windows">
+      <UniqueIdentifier>{919b5353-560d-4a65-8155-7ecf35ca3b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Twitch">
+      <UniqueIdentifier>{b343966c-a3fc-41e6-bc97-af54742261c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{2a581f63-baa3-4156-bf08-e93d606a1a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{07531f90-fbb0-4b7c-a64a-e622b783df58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Twitch">
+      <UniqueIdentifier>{e446c1aa-83f7-4ccf-8750-30067e09facd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PhantomBot.cpp">
@@ -24,99 +42,45 @@
     <ClCompile Include="Lib\lib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Platform\platformTime.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Platform\Windows\windowsSocket.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Platform\Windows\windowsTime.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TwitchCommands\TwitchPing.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TwitchCommands\TwitchPrivMsg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TwitchCommands\TwitchUserState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="TwitchIRC\Admin.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TwitchIRC\TwitchCommandLimit.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TwitchIRC\TwitchIRC.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Users\AllUsers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Minigames\Exploration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\Windows\windowsSocket.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\Windows\windowsTime.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\platformTime.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="TwitchIRC\TwitchCommandLimit.cpp">
+      <Filter>Source Files\Twitch</Filter>
+    </ClCompile>
+    <ClCompile Include="TwitchIRC\TwitchIRC.cpp">
+      <Filter>Source Files\Twitch</Filter>
+    </ClCompile>
+    <ClCompile Include="TwitchCommands\TwitchPing.cpp">
+      <Filter>Source Files\Twitch</Filter>
+    </ClCompile>
+    <ClCompile Include="TwitchCommands\TwitchPrivMsg.cpp">
+      <Filter>Source Files\Twitch</Filter>
+    </ClCompile>
+    <ClCompile Include="TwitchCommands\TwitchUserState.cpp">
+      <Filter>Source Files\Twitch</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="chatCommandDefinitions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="PhantomBot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CustomCommands\ccmd_adminonly.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CustomCommands\ccmd_isadmin.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CustomCommands\ccmd_time.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CustomCommands\CustomCommands.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lib\exception.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lib\lib.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Lib\list.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lib\mSingleton.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform\platform.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform\platformNetwork.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform\platformTime.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform\platformTypes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform\Windows\load_winh.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform\Windows\loadWindows.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform\Windows\platformWindows.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform\Windows\windowsSocket.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform\Windows\windowsTime.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TwitchCommands\TwitchCommandProcess.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TwitchAPI\FollowersCheck.h">
@@ -128,23 +92,83 @@
     <ClInclude Include="TwitchIRC\Admin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TwitchIRC\TwitchCommandLimit.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TwitchIRC\TwitchIRC.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CustomCommands\ccmd_pmdseries.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CustomCommands\ccmd_dadjoke.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CustomCommands\ccmd_secret.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Users\AllUsers.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Minigames\Exploration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_adminonly.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_dadjoke.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_isadmin.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_pmdseries.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_secret.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_time.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCommands\CustomCommands.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="chatCommandDefinitions.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Windows\loadWindows.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Windows\platformWindows.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\platform.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\platformNetwork.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\platformTime.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\platformTypes.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="TwitchIRC\TwitchCommandLimit.h">
+      <Filter>Header Files\Twitch</Filter>
+    </ClInclude>
+    <ClInclude Include="TwitchCommands\TwitchCommandProcess.h">
+      <Filter>Header Files\Twitch</Filter>
+    </ClInclude>
+    <ClInclude Include="TwitchIRC\TwitchIRC.h">
+      <Filter>Header Files\Twitch</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Windows\windowsSocket.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Windows\windowsTime.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Windows\load_winh.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\exception.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\lib.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\mSingleton.h">
+      <Filter>Header Files\Utility</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="CustomCommands\CustomCommandManager.cpp" />
     <ClCompile Include="Lib\lib.cpp" />
+    <ClCompile Include="Minigames\Exploration.cpp" />
     <ClCompile Include="PhantomBot.cpp" />
     <ClCompile Include="Platform\platformTime.cpp" />
     <ClCompile Include="Platform\Windows\windowsSocket.cpp" />
@@ -175,6 +176,7 @@
     <ClInclude Include="Lib\lib.h" />
     <ClInclude Include="Lib\list.h" />
     <ClInclude Include="Lib\mSingleton.h" />
+    <ClInclude Include="Minigames\Exploration.h" />
     <ClInclude Include="PhantomBot.h" />
     <ClInclude Include="Platform\platform.h" />
     <ClInclude Include="Platform\platformNetwork.h" />

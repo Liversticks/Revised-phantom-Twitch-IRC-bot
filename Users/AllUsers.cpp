@@ -46,7 +46,7 @@ unsigned int AllUsers::whatsMyScore(string name) {
 }
 
 bool AllUsers::loadScores(string filename) {
-	ifstream f(filename.c_str);
+	ifstream f(filename.c_str());
 	string username;
 	unsigned int userScore;
 	int size;
@@ -68,5 +68,6 @@ bool AllUsers::saveScores(string filename) {
 		f << dictionary.at(i).first << " " << dictionary.at(i).second << endl;
 	}
 	f.close();
+	return true;
 }
 
