@@ -51,6 +51,9 @@
     <ClCompile Include="TwitchIRC\TwitchIRC.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Users\AllUsers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chatCommandDefinitions.h">
@@ -135,6 +138,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CustomCommands\ccmd_dadjoke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_secret.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Users\AllUsers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

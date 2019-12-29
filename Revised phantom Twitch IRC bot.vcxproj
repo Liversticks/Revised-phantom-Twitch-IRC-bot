@@ -159,6 +159,7 @@
     <ClCompile Include="TwitchIRC\Admin.cpp" />
     <ClCompile Include="TwitchIRC\TwitchCommandLimit.cpp" />
     <ClCompile Include="TwitchIRC\TwitchIRC.cpp" />
+    <ClCompile Include="Users\AllUsers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chatCommandDefinitions.h" />
@@ -166,6 +167,7 @@
     <ClInclude Include="CustomCommands\ccmd_dadjoke.h" />
     <ClInclude Include="CustomCommands\ccmd_isadmin.h" />
     <ClInclude Include="CustomCommands\ccmd_pmdseries.h" />
+    <ClInclude Include="CustomCommands\ccmd_secret.h" />
     <ClInclude Include="CustomCommands\ccmd_time.h" />
     <ClInclude Include="CustomCommands\CustomCommands.h" />
     <ClInclude Include="include.h" />
@@ -189,6 +191,7 @@
     <ClInclude Include="TwitchIRC\Admin.h" />
     <ClInclude Include="TwitchIRC\TwitchCommandLimit.h" />
     <ClInclude Include="TwitchIRC\TwitchIRC.h" />
+    <ClInclude Include="Users\AllUsers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
