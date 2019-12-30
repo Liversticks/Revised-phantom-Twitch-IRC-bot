@@ -71,3 +71,20 @@ bool AllUsers::saveScores(string filename) {
 	return true;
 }
 
+bool AllUsers::updateScore(string name, unsigned int newScore) {
+	int a = isInDictionary(name);
+	if (a >= 0 && a < dictionary.size()) {
+		dictionary.at(a).second = newScore;
+	}
+	else {
+		return false;
+	}
+	return true;
+}
+
+bool AllUsers::sortByScore() {
+	//conduct quick sort on the dictionary
+	//select a pivot index
+	
+}
+

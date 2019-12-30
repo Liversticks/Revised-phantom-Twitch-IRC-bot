@@ -42,8 +42,11 @@ public:
 	//called every time scores are updated (after events)
 	bool saveScores(string filename);
 
-	//to add: some sorting algorithm which puts more frequent users near the front of the vector
+	//update a user's score
+	bool updateScore(string name, unsigned int newScore);
 
+	//sorts the dictionary to put higher-score individuals near the start
+	bool sortByScore();
 };
 
 #endif // !ALLUSERS_H
