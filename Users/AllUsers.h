@@ -43,8 +43,7 @@ public:
 	//update a user's score
 	bool updateScore(string name, unsigned int newScore);
 
-	//helper function for sortByScore
-	bool comparison(pair<string, unsigned int>& a, pair<string, unsigned int>& b);
+	
 
 	//sorts the dictionary to put higher-score individuals near the start
 	bool sortByScore();

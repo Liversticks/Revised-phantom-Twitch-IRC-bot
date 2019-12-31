@@ -39,3 +39,23 @@
 [12/30/19 17:00:32]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
 [12/30/19 17:00:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
 [12/30/19 17:00:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/30/19 18:16:27]: {C++} Establishing TwitchIRC Instance
+[12/30/19 18:16:28]: {C++} Establishing TwitchIRC Login Token
+[12/30/19 18:16:28]: {C++} Attempting to send command 'PASS oauth:7w7e2dttozjw0vlnpq4771vdpe9rev'.
+[12/30/19 18:16:28]: {C++} Attempting to send command 'NICK liversticksbot'.
+[12/30/19 18:16:28]: {C++} Attempting to send command 'USER liversticksbot'.
+[12/30/19 18:16:28]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[12/30/19 18:16:28]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[12/30/19 18:16:28]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[12/30/19 18:16:28]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[12/30/19 18:16:28]: {C++} Attempting to send command 'JOIN #liversticks'.
+[12/30/19 18:16:28]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[12/30/19 18:16:28]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[12/30/19 18:16:28]: {Twitch} Recieved USERSTATE Command: ':liversticksbot!liversticksbot@liversticksbot.tmi.twitch.tv JOIN #liversticks:liversticksbot.tmi.twitch.tv 353 liversticksbot = #liversticks :liversticksbot:liversticksbot.tmi.twitch.tv 366 liversticksbot #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :wh0misds -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting wh0misds.@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[12/30/19 18:16:28]: {C++} Added command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/30/19 18:16:28]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[12/30/19 18:16:28]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[12/30/19 18:16:28]: {C++} Attempting to send command 'PRIVMSG #liversticks :This is the start of something great, and Happy Holidays!'.
+[12/30/19 18:16:28]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[12/30/19 18:16:28]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[12/30/19 18:16:28]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
