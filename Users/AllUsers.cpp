@@ -82,7 +82,7 @@ bool AllUsers::updateScore(string name, unsigned int newScore) {
 	return true;
 }
 
-bool AllUsers::comparison(pair<string, unsigned int>& a, pair<string, unsigned int>& b) {
+bool AllUsers::comparison(pair<string, unsigned int> const &a, pair<string, unsigned int> const &b) {
 	return a.second > b.second;
 }
 
