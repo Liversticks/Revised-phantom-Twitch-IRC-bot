@@ -14,13 +14,6 @@ AllUsers::~AllUsers() {
 
 }
 
-bool AllUsers::addToDictionary(string name) {
-	//assume that isInDictionary was done beforehand
-	pair <string, unsigned int> newUser(name, 0);
-	dictionary.push_back(newUser);
-	return true;
-}
-
 bool AllUsers::addToDictionary(string name, unsigned int score) {
 	pair<string, unsigned int> newUser(name, score);
 	dictionary.push_back(newUser);
@@ -82,12 +75,12 @@ bool AllUsers::updateScore(string name, unsigned int newScore) {
 	return true;
 }
 
-bool AllUsers::comparison(pair<string, unsigned int> const &a, pair<string, unsigned int> const &b) {
+bool AllUsers::comparison(pair<string, unsigned int> &a, pair<string, unsigned int> &b) {
 	return a.second > b.second;
 }
 
 bool AllUsers::sortByScore() {
-	std::sort(dictionary.begin(), dictionary.end(), comparison);
+	std::sort(dictionary.begin(), dictionary.end(), &comparison);
 	return true;
 }
 

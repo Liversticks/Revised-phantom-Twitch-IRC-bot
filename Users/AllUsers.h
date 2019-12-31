@@ -24,10 +24,8 @@ public:
 
 	~AllUsers();
 
-	//adds a new user to the system with a score of 0 (making sure that the user is not in the system already)
-	bool addToDictionary(string name);
-
-	//overloaded addToDictionary for use with file loading
+	
+	//assumes that the user is not already in the system
 	bool addToDictionary(string name, unsigned int score);
 
 	//returns -1 if the user is not in the dictionary and the index otherwise
@@ -46,7 +44,7 @@ public:
 	bool updateScore(string name, unsigned int newScore);
 
 	//helper function for sortByScore
-	bool comparison(const pair<string, unsigned int>& a, const pair<string, unsigned int>& b);
+	bool comparison(pair<string, unsigned int>& a, pair<string, unsigned int>& b);
 
 	//sorts the dictionary to put higher-score individuals near the start
 	bool sortByScore();
