@@ -170,5 +170,8 @@
     <ClInclude Include="Lib\mSingleton.h">
       <Filter>Header Files\Utility</Filter>
     </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_join.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

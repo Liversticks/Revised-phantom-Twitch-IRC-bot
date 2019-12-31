@@ -74,17 +74,20 @@ bool AllUsers::saveScores(string filename) {
 bool AllUsers::updateScore(string name, unsigned int newScore) {
 	int a = isInDictionary(name);
 	if (a >= 0 && a < dictionary.size()) {
-		dictionary.at(a).second = newScore;
+		dictionary.at(a).second += newScore;
 	}
 	else {
-		return false;
+		addToDictionary(name, newScore);
 	}
 	return true;
 }
 
+bool AllUsers::comparison(pair<string, unsigned int>& a, pair<string, unsigned int>& b) {
+	return a.second > b.second;
+}
+
 bool AllUsers::sortByScore() {
-	//conduct quick sort on the dictionary
-	//select a pivot index
-	
+	std::sort(dictionary.begin(), dictionary.end(), comparison);
+	return true;
 }
 

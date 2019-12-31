@@ -16,15 +16,30 @@ class Exploration {
 
 		//time when game was last concluded (interval between conclusion of game and start of next one)
 
-		//game state - is it running or resting?
+		//game state - is it accepting (true) or resting (false)?
 		bool gameState;
 
 		//attached socket instance
 		Socket* aSocket;
 
 		//stores users participating in the current instance
+		//note that the first explorer is located at index 0
 		vector <string> whoIsPlaying;
 
+		//stores dungeon names
+		vector <string> dungeonNames;
+
+		//for sending messages in chat
+		string chatMessage;
+
+		//dungeon name
+		string whereGo;
+
+		
+		//random number generation seed
+		unsigned seed;
+
+		//needs to contain some way of accessing the time until the game is ready again in seconds
 
 	public:
 
@@ -32,7 +47,7 @@ class Exploration {
 		Exploration();
 
 		//initialize (load) game structure
-		bool prepareGame(string filename);
+		bool prepareGame(string dungeonList, string playerList);
 
 		//check game state
 		bool inGame();
@@ -52,11 +67,14 @@ class Exploration {
 		//clean up current game instance
 		bool cleanupGame();
 
-		//update dictionary
-		bool updateScores();
-
 		//fetch singleton instance
 		static Exploration& fetchInstance();
+
+		//game function, run within a separate thread
+		void theGame();
+
+		//seeds the seed based on system time
+		void seedRNG();
 
 
 };
