@@ -5,7 +5,7 @@
 #include "../Minigames/Exploration.h"
 
 class Command_Join : public CustomCommand {
-
+public:
 	Command_Join() : CustomCommand() {
 
 	}
@@ -16,7 +16,9 @@ class Command_Join : public CustomCommand {
 
 	virtual void Fire(string input) {
 		if (Exploration::fetchInstance().inGame()) {
-
+			string username, message;
+			Lib::stripMessage(input, username, message);
+			Exploration::fetchInstance().addPlayingUser(username);
 		}
 		else {
 			string chatMessage = Lib::formatChatMessage("It is necessary to rest and get stocked up between expeditions. Please wait " + "seconds until the next party leaves.");
