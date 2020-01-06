@@ -21,7 +21,7 @@ public:
 			Exploration::fetchInstance().addPlayingUser(username);
 		}
 		else {
-			string chatMessage = Lib::formatChatMessage("It is necessary to rest and get stocked up between expeditions. Please wait " + "seconds until the next party leaves.");
+			string chatMessage = Lib::formatChatMessage("It is necessary to rest and get stocked up between expeditions. Please wait " /*+ "seconds until the next party leaves."*/);
 			TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
 		}
 	}

@@ -197,7 +197,7 @@ bool TwitchIRC::fetchServerMessage() {
 }
 
 void TwitchIRC::streamUpdates() {
-    string recurMessage("This is the start of something great, and Happy Holidays!");
+    string recurMessage("Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?");
     //recurMessage += CustomCommandManager::fetchInstance().listCommands();
     while (SocketActive()) {
         SendChatMessage(recurMessage.c_str());
