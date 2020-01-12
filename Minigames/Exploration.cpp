@@ -6,16 +6,18 @@ Oliver X. (Liversticks)
 
 #include "Exploration.h"
 
-Exploration::Exploration(): gameObject(), gameThread(NULL), gameHasBegun(false), readyToAccept(false), aSocket(NULL), chatMessage(""), whereGo("")  {
+Exploration::Exploration(): gameObject(), gameThread(NULL), gameHasBegun(false), readyToAccept(false), aSocket(NULL), chatMessage(""), whereGo(""), playerList(""), dungeonList("")  {
 	lastGameFinish = chrono::system_clock::now();
 }
 
-bool Exploration::setSocket(Socket* a) {
+bool Exploration::setSocketAndFiles(Socket* a, string dungeons, string players) {
 	aSocket = a;
+	dungeonList = dungeons;
+	playerList = players;
 	return true;
 }
 
-bool Exploration::prepareGame(string dungeonList, string playerList) {
+bool Exploration::prepareGame() {
 	ifstream f(dungeonList.c_str());
 	string input;
 	while (!f.eof()) {
@@ -24,8 +26,6 @@ bool Exploration::prepareGame(string dungeonList, string playerList) {
 	}
 	f.close();
 	gameObject.loadScores(playerList);
-	//seed RNG
-	seedRNG();
 	//set up theGame thread
 	gameThread = new thread(&Exploration::theGame, this);
 	return true;
@@ -41,8 +41,15 @@ bool Exploration::inAccept() {
 
 void Exploration::addPlayingUser(string username) {
 	if (whoIsPlaying.empty()) {
-		chatMessage = Lib::formatChatMessage(username + "calls the Society of Explorers to seek treasure in " + whereGo + "! Type !join to join the exploration party!");
+		chatMessage = Lib::formatChatMessage(username + " calls the Society of Explorers to seek treasure in " + whereGo + "! Type !join to join the exploration party!");
 		TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
+	}
+	//check to make sure usernames are not already in whoIsPlaying
+	//decision: iterate through the vector, given that not too many users will be supported (at most 1000, very unlikely to be greater)
+	for (int i = 0; i < whoIsPlaying.size(); i++) {
+		if (whoIsPlaying.at(i) == username) {
+			return;
+		}
 	}
 	whoIsPlaying.push_back(username);
 }
@@ -50,9 +57,9 @@ void Exploration::addPlayingUser(string username) {
 bool Exploration::awardPoints() {
 	//iterate all members of whoIsPlaying and update their scores in gameObject
 	//concurrently, update the chat message
-	chatMessage = "After a long, hard day in the" + whereGo + ", here are the explorers' spoils: ";
+	chatMessage = "After a long, hard day in the " + whereGo + ", here are the explorers' spoils: ";
 	normal_distribution<double> distribution(50, 10);
-	mt19937 generator(seed);
+	mt19937 generator(chrono::system_clock::now().time_since_epoch().count());
 	int temp;
 	while (!whoIsPlaying.empty()) {
 		temp = (int)distribution(generator);
@@ -65,6 +72,7 @@ bool Exploration::awardPoints() {
 	}
 	chatMessage = Lib::formatChatMessage(chatMessage);
 	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
+	gameObject.saveScores(playerList);
 	return true;
 }
 
@@ -75,13 +83,9 @@ Exploration& Exploration::fetchInstance() {
 	return *(managedSingleton<Exploration>::instance());
 }
 
-void Exploration::seedRNG() {
-	seed = chrono::system_clock::now().time_since_epoch().count();
-}
-
 bool Exploration::setupGame() {
 	//generate random dungeon
-	mt19937 rng(seed);
+	mt19937 rng(chrono::system_clock::now().time_since_epoch().count());
 	//dungeonNames contains at least one element, else will crash
 	whereGo = dungeonNames.at(rng() % dungeonNames.size());
 
@@ -99,7 +103,7 @@ void Exploration::flavourText() {
 	chatMessage = Lib::formatChatMessage("All prepared and well-fed, the exploration party heads into the " + whereGo + ", not knowing what to expect.");
 	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
 	
-	mt19937 rng(seed);
+	mt19937 rng(chrono::system_clock::now().time_since_epoch().count());
 	switch (rng()%25) {
 		case 0:
 			chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a Monster House! Fighting valiantly, the explorers defeat the horde and secure a vast trove of loot!");
@@ -127,10 +131,11 @@ void Exploration::flavourText() {
 }
 
 int Exploration::nextGameIn() {
-	chrono::system_clock::time_point timeNow = chrono::system_clock::now();
-	chrono::system_clock::duration passed(chrono::duration<int>(1));
-	passed = timeNow - lastGameFinish;
-	return passed.count();
+	time_t presentTime = chrono::system_clock::to_time_t(chrono::system_clock::now());
+	time_t gameEndTime = chrono::system_clock::to_time_t(lastGameFinish);
+	//find the amount of time elapsed between timeNow and lastGameFinish
+	//convert to time_t
+	return gameEndTime + 240 - presentTime;
 }
 
 void Exploration::theGame() {
@@ -174,5 +179,6 @@ void Exploration::theGame() {
 
 		
 	}
+	gameThread->join();
 
 }

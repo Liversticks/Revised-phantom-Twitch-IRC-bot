@@ -6,6 +6,7 @@
 
 #include "include.h"
 #include "TwitchIRC/TwitchIRC.h"
+#include "Minigames/Exploration.h"
 
 #ifndef PHANTOM_BOT_H
 #define PHANTOM_BOT_H
@@ -25,6 +26,8 @@ class PhantomBot {
 		bool wantsQuit;
 
 		TwitchIRC *irc;
+		Exploration *myMinigame;
+		
 };
 
 #endif //PHANTOM_BOT_H

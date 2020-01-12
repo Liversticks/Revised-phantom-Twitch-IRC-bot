@@ -14,6 +14,7 @@
 #include "../CustomCommands/CustomCommands.h"
 #include "../chatCommandDefinitions.h"
 
+
 //Interval in which to ping the server to keep the connection alive, by default it's 4 minutes (240000MS)
 #define PING_INTERVAL 240000
 
@@ -51,6 +52,9 @@ class TwitchIRC {
 
          //sends a default message to chat every interval (not necessarily the same as AutoPing)
          void streamUpdates();
+
+         //fetches socket for minigame
+         Socket* fetchSocket();
 
      private:
          /* Private Class Methods */

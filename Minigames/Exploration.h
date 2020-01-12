@@ -3,92 +3,94 @@ Exploration.h
 Exploration minigame for stream chat
 Oliver X. (Liversticks)
 */
+#ifndef EXPLORATION_H
+#define EXPLORATION_H
 
 #include "../Users/AllUsers.h"
 
 class Exploration {
-	private:
-		//dictionary object
-		AllUsers gameObject;
+private:
+	//dictionary object
+	AllUsers gameObject;
 
-		//thread which runs the game
-		thread* gameThread;
+	//thread which runs the game
+	thread* gameThread;
 
-		//time when game was last concluded (interval between conclusion of game and start of next one)
+	//time when game was last concluded (interval between conclusion of game and start of next one)
 
-		//game state - has the game begun yet? set to true after accepting is closed
-		atomic<bool> gameHasBegun;
+	//game state - has the game begun yet? set to true after accepting is closed
+	atomic<bool> gameHasBegun;
 
-		//first accepting state - has a user issued a call to explore yet?
-		atomic<bool> readyToAccept;
+	//first accepting state - has a user issued a call to explore yet?
+	atomic<bool> readyToAccept;
 
-		//attached socket instance
-		Socket* aSocket;
+	//attached socket instance
+	Socket* aSocket;
 
-		//stores users participating in the current instance
-		//note that the first explorer is located at index 0
-		vector <string> whoIsPlaying;
+	//stores users participating in the current instance
+	//note that the first explorer is located at index 0
+	vector <string> whoIsPlaying;
 
-		//stores dungeon names
-		vector <string> dungeonNames;
+	//stores dungeon names
+	vector <string> dungeonNames;
 
-		//for sending messages in chat
-		string chatMessage;
+	//for sending messages in chat
+	string chatMessage;
 
-		//dungeon name
-		string whereGo;
+	//dungeon name
+	string whereGo;
 
-		//random number generation seed
-		unsigned seed;
+	//file location of dungeon list
+	string dungeonList;
 
-		//time_point corresponding to when the last game finished
-		chrono::system_clock::time_point lastGameFinish;
+	//file location of player list
+	string playerList;
 
-	public:
+	//time_point corresponding to when the last game finished
+	chrono::system_clock::time_point lastGameFinish;
 
-		//constructor
-		Exploration();
+public:
 
-		//set socket
-		bool setSocket(Socket* a);
+	//constructor
+	Exploration();
 
-		//initialize (load) game structure
-		bool prepareGame(string dungeonList, string playerList);
+	//set details (socket, dungeon names file, player names file)
+	bool setSocketAndFiles(Socket* a, string dungeons, string players);
 
-		//generate random dungeon, send chat message, and set accepting state to true
-		bool setupGame();
+	//initialize (load) game structure
+	bool prepareGame();
 
-		//check game state
-		bool inGame();
+	//generate random dungeon, send chat message, and set accepting state to true
+	bool setupGame();
 
-		//check accepting state
-		bool inAccept();
+	//check game state
+	bool inGame();
 
-		//listen for users who type command
-		void addPlayingUser(string username);
+	//check accepting state
+	bool inAccept();
 
-		//send chat message to indicate cooldown
-		void concludeGame();
+	//listen for users who type command
+	void addPlayingUser(string username);
 
-		//award points to participating users
-		bool awardPoints();
+	//award points to participating users
+	bool awardPoints();
 
-		//clean up current game instance
-		bool cleanupGame();
+	//fetch singleton instance
+	static Exploration& fetchInstance();
 
-		//fetch singleton instance
-		static Exploration& fetchInstance();
+	//game function, run within a separate thread
+	void theGame();
 
-		//game function, run within a separate thread
-		void theGame();
+	//flavour text for the game
+	void flavourText();
 
-		//flavour text for the game
-		void flavourText();
-
-		//seeds the seed based on system time
-		void seedRNG();
-
-		//tells how many seconds until the game is ready again
-		int nextGameIn();
+	//tells how many seconds until the game is ready again
+	int nextGameIn();
 
 };
+
+#endif
+
+
+
+

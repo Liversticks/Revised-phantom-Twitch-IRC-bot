@@ -23,7 +23,7 @@ public:
 				//first user case handled in addPlayingUser
 			}
 			else {
-				string chatMessage = Lib::formatChatMessage("Society rules mandate that you wait " + to_string(Exploration::fetchInstance().nextGameIn()) + "seconds until the next party leaves.");
+				string chatMessage = Lib::formatChatMessage("Society of Explorers rules mandate that you wait " + to_string(Exploration::fetchInstance().nextGameIn()) + " seconds until the next party leaves.");
 				TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
 			}
 		}

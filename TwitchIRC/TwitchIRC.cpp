@@ -207,3 +207,7 @@ void TwitchIRC::streamUpdates() {
     
 
 }
+
+Socket* TwitchIRC::fetchSocket() {
+    return _socketObj;
+}

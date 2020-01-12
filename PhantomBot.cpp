@@ -34,10 +34,17 @@ void PhantomBot::init(vector<string> &conf) {
 	//Initialize IRC Module and Input Module
 	irc = new TwitchIRC(conf[0].c_str(), conf[0].c_str(), conf[4].c_str(), conf[1].c_str(), (U32)atoi(conf[2].c_str()), conf[3].c_str());
 	initialized = true;
+	//initialized minigame
+	myMinigame = new Exploration();
+	myMinigame->fetchInstance().setSocketAndFiles(irc->fetchSocket(), "Minigames/Dungeon Names/Rescue Team.txt", "Users/userdata.txt");
+	
+	//to-do: add the file names for the minigame into botconfig.txt
+	
 	run();
 }
 
 void PhantomBot::run() {
+	myMinigame->fetchInstance().prepareGame();
 	while (irc->SocketActive()) {
 		irc->Update();
 	}
@@ -61,8 +68,8 @@ int main(void) {
 		config.push_back(line);
 		memset(&line[0], 0, sizeof(line));
 	}
-	//Set stuff up...
-	if(config.size() >= 5) {
+	//Set stuff up... requires EXACTLY 5 parameters
+	if(config.size() == 5) {
 		PhantomBot::fetchInstance().init(config);
 	}
 	else {

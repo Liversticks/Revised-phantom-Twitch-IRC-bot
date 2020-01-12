@@ -645,3 +645,259 @@
 [01/11/20 17:45:50]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?'.
 [01/11/20 17:45:50]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
 [01/11/20 17:45:51]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 18:24:51]: {C++} Establishing TwitchIRC Instance
+[01/11/20 18:24:52]: {C++} Establishing TwitchIRC Login Token
+[01/11/20 18:24:52]: {C++} Attempting to send command 'PASS oauth:7w7e2dttozjw0vlnpq4771vdpe9rev'.
+[01/11/20 18:24:52]: {C++} Attempting to send command 'NICK liversticksbot'.
+[01/11/20 18:24:52]: {C++} Attempting to send command 'USER liversticksbot'.
+[01/11/20 18:24:52]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[01/11/20 18:24:52]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[01/11/20 18:24:52]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[01/11/20 18:24:52]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[01/11/20 18:24:52]: {C++} Attempting to send command 'JOIN #liversticks'.
+[01/11/20 18:24:52]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[01/11/20 18:24:52]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[01/11/20 18:24:52]: {Twitch} Sending Message Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?...
+[01/11/20 18:24:52]: {C++} Added command 'PRIVMSG #liversticks :Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?'.
+[01/11/20 18:24:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[01/11/20 18:24:52]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[01/11/20 18:24:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?'.
+[01/11/20 18:24:52]: {C++} Added command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Lapis Cave!'.
+[01/11/20 18:24:52]: {Twitch} Recieved USERSTATE Command: '@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting wh0misds.@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[01/11/20 18:24:52]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+or/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 18:24:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Lapis Cave!'.
+[01/11/20 18:24:53]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 18:25:23]: {C++} Establishing TwitchIRC Instance
+[01/11/20 18:25:23]: {C++} Establishing TwitchIRC Login Token
+[01/11/20 18:25:23]: {C++} Attempting to send command 'PASS oauth:7w7e2dttozjw0vlnpq4771vdpe9rev'.
+[01/11/20 18:25:23]: {C++} Attempting to send command 'NICK liversticksbot'.
+[01/11/20 18:25:23]: {C++} Attempting to send command 'USER liversticksbot'.
+[01/11/20 18:25:23]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[01/11/20 18:25:23]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[01/11/20 18:25:23]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[01/11/20 18:25:23]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[01/11/20 18:25:23]: {C++} Attempting to send command 'JOIN #liversticks'.
+[01/11/20 18:25:23]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[01/11/20 18:25:23]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[01/11/20 18:25:23]: {C++} Added command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Sinister Woods!'.
+[01/11/20 18:25:23]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[01/11/20 18:25:23]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[01/11/20 18:25:23]: {Twitch} Sending Message Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?...
+[01/11/20 18:25:23]: {C++} Added command 'PRIVMSG #liversticks :Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?'.
+[01/11/20 18:25:23]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Sinister Woods!'.
+[01/11/20 18:25:23]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?'.
+[01/11/20 18:25:23]: {Twitch} Recieved USERSTATE Command: ':liversticksbot!liversticksbot@liversticksbot.tmi.twitch.tv JOIN #liversticks:liversticksbot.tmi.twitch.tv 353 liversticksbot = #liversticks :liversticksbot:liversticksbot.tmi.twitch.tv 366 liversticksbot #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :wh0misds -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting wh0misds.@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[01/11/20 18:25:23]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[01/11/20 18:25:23]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 18:25:23]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 18:25:35]: {Chat} liversticks: !join
+
+[01/11/20 18:25:35]: {C++} Added command 'PRIVMSG #liversticks :Society rules mandate that you wait 10seconds until the next party leaves.'.
+[01/11/20 18:25:35]: {C++} Attempting to send command 'PRIVMSG #liversticks :Society rules mandate that you wait 10seconds until the next party leaves.'.
+[01/11/20 18:25:35]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 18:25:47]: {Chat} liversticks: !join
+
+[01/11/20 18:25:47]: {C++} Added command 'PRIVMSG #liversticks :Society rules mandate that you wait 122820410seconds until the next party leaves.'.
+[01/11/20 18:25:47]: {C++} Attempting to send command 'PRIVMSG #liversticks :Society rules mandate that you wait 122820410seconds until the next party leaves.'.
+[01/11/20 18:25:47]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 18:26:09]: {Chat} liversticks: screw overflow xD
+
+[01/11/20 18:26:15]: {Chat} liversticks: !dadjoke
+
+[01/11/20 18:26:15]: {C++} Added command 'PRIVMSG #liversticks :The graveyard must be a really popular place. People are literally dying to get in!'.
+[01/11/20 18:26:15]: {C++} Attempting to send command 'PRIVMSG #liversticks :The graveyard must be a really popular place. People are literally dying to get in!'.
+[01/11/20 18:26:15]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 18:26:19]: {Chat} liversticks: !secret
+
+[01/11/20 18:26:19]: {C++} Added command 'PRIVMSG #liversticks :https://www.youtube.com/watch?v=dQw4w9WgXcQ'.
+[01/11/20 18:26:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :https://www.youtube.com/watch?v=dQw4w9WgXcQ'.
+[01/11/20 18:26:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:21:09]: {C++} Establishing TwitchIRC Instance
+[01/11/20 19:21:09]: {C++} Establishing TwitchIRC Login Token
+[01/11/20 19:21:09]: {C++} Attempting to send command 'PASS oauth:7w7e2dttozjw0vlnpq4771vdpe9rev'.
+[01/11/20 19:21:09]: {C++} Attempting to send command 'NICK liversticksbot'.
+[01/11/20 19:21:09]: {C++} Attempting to send command 'USER liversticksbot'.
+[01/11/20 19:21:09]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[01/11/20 19:21:09]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[01/11/20 19:21:09]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[01/11/20 19:21:09]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[01/11/20 19:21:09]: {C++} Attempting to send command 'JOIN #liversticks'.
+[01/11/20 19:21:09]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[01/11/20 19:21:09]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[01/11/20 19:21:09]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[01/11/20 19:21:09]: {C++} Added command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Howling Forest!'.
+[01/11/20 19:21:09]: {Twitch} Sending Message Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?...
+[01/11/20 19:21:09]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[01/11/20 19:21:09]: {C++} Added command 'PRIVMSG #liversticks :Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?'.
+[01/11/20 19:21:09]: {Twitch} Recieved USERSTATE Command: ':liversticksbot.tmi.twitch.tv 353 liversticksbot = #liversticks :liversticksbot:liversticksbot.tmi.twitch.tv 366 liversticksbot #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :wh0misds -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting wh0misds.@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[01/11/20 19:21:09]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:21:09]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[01/11/20 19:21:09]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Howling Forest!'.
+[01/11/20 19:21:09]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?'.
+[01/11/20 19:21:10]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:21:10]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:21:17]: {Chat} liversticks: !join
+
+[01/11/20 19:21:17]: {C++} Added command 'PRIVMSG #liversticks :liverstickscalls the Society of Explorers to seek treasure in Howling Forest! Type !join to join the exploration party!'.
+[01/11/20 19:21:17]: {C++} Attempting to send command 'PRIVMSG #liversticks :liverstickscalls the Society of Explorers to seek treasure in Howling Forest! Type !join to join the exploration party!'.
+[01/11/20 19:21:18]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:21:31]: {Chat} liversticks: !join
+
+[01/11/20 19:21:33]: {Chat} liversticks: !join
+
+[01/11/20 19:21:34]: {Chat} liversticks: !join
+
+[01/11/20 19:22:17]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into the Howling Forest, not knowing what to expect.'.
+[01/11/20 19:22:17]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party doesn't encounter anything out of the ordinary and the exploration concludes without incident.'.
+[01/11/20 19:22:17]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into the Howling Forest, not knowing what to expect.'.
+[01/11/20 19:22:17]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party doesn't encounter anything out of the ordinary and the exploration concludes without incident.'.
+[01/11/20 19:22:17]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in theHowling Forest, here are the explorers' spoils: liversticks(54), liversticks(25), liversticks(65), liversticks(44)'.
+[01/11/20 19:22:17]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in theHowling Forest, here are the explorers' spoils: liversticks(54), liversticks(25), liversticks(65), liversticks(44)'.
+[01/11/20 19:22:18]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:22:18]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:22:18]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:22:49]: {Chat} liversticks: !join
+
+[01/11/20 19:22:49]: {C++} Added command 'PRIVMSG #liversticks :Society rules mandate that you wait 317589428seconds until the next party leaves.'.
+[01/11/20 19:22:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :Society rules mandate that you wait 317589428seconds until the next party leaves.'.
+[01/11/20 19:22:49]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:40:51]: {C++} Establishing TwitchIRC Instance
+[01/11/20 19:40:51]: {C++} Establishing TwitchIRC Login Token
+[01/11/20 19:40:51]: {C++} Attempting to send command 'PASS oauth:7w7e2dttozjw0vlnpq4771vdpe9rev'.
+[01/11/20 19:40:51]: {C++} Attempting to send command 'NICK liversticksbot'.
+[01/11/20 19:40:51]: {C++} Attempting to send command 'USER liversticksbot'.
+[01/11/20 19:40:51]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[01/11/20 19:40:51]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[01/11/20 19:40:51]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[01/11/20 19:40:51]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[01/11/20 19:40:51]: {C++} Attempting to send command 'JOIN #liversticks'.
+[01/11/20 19:40:51]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[01/11/20 19:40:51]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[01/11/20 19:40:51]: {C++} Added command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Lapis Cave!'.
+[01/11/20 19:40:51]: {Twitch} Sending Message Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?...
+[01/11/20 19:40:51]: {C++} Added command 'PRIVMSG #liversticks :Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?'.
+[01/11/20 19:40:51]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[01/11/20 19:40:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[01/11/20 19:40:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Lapis Cave!'.
+[01/11/20 19:40:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?'.
+[01/11/20 19:40:51]: {Twitch} Recieved USERSTATE Command: ':liversticksbot!liversticksbot@liversticksbot.tmi.twitch.tv JOIN #liversticks:liversticksbot.tmi.twitch.tv 353 liversticksbot = #liversticks :liversticksbot:liversticksbot.tmi.twitch.tv 366 liversticksbot #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :wh0misds -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting wh0misds.@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[01/11/20 19:40:51]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:40:51]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[01/11/20 19:40:51]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:41:01]: {Chat} liversticks: !join
+
+[01/11/20 19:41:01]: {C++} Added command 'PRIVMSG #liversticks :liversticks calls the Society of Explorers to seek treasure in Lapis Cave! Type !join to join the exploration party!'.
+[01/11/20 19:41:02]: {C++} Attempting to send command 'PRIVMSG #liversticks :liversticks calls the Society of Explorers to seek treasure in Lapis Cave! Type !join to join the exploration party!'.
+[01/11/20 19:41:02]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:41:15]: {Chat} liversticks: !join
+
+[01/11/20 19:41:16]: {Chat} liversticks: !join!
+
+[01/11/20 19:41:18]: {Chat} liversticks: !join
+
+[01/11/20 19:41:19]: {Chat} liversticks: !join
+
+[01/11/20 19:42:02]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into the Lapis Cave, not knowing what to expect.'.
+[01/11/20 19:42:02]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party doesn't encounter anything out of the ordinary and the exploration concludes without incident.'.
+[01/11/20 19:42:02]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in the Lapis Cave, here are the explorers' spoils: liversticks(48)'.
+[01/11/20 19:42:02]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into the Lapis Cave, not knowing what to expect.'.
+[01/11/20 19:42:02]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party doesn't encounter anything out of the ordinary and the exploration concludes without incident.'.
+[01/11/20 19:42:02]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in the Lapis Cave, here are the explorers' spoils: liversticks(48)'.
+[01/11/20 19:42:02]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:42:02]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:42:02]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:42:10]: {Chat} liversticks: !join
+
+[01/11/20 19:42:10]: {C++} Added command 'PRIVMSG #liversticks :Society rules mandate that you wait 80302641seconds until the next party leaves.'.
+[01/11/20 19:42:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :Society rules mandate that you wait 80302641seconds until the next party leaves.'.
+[01/11/20 19:42:10]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:53:24]: {C++} Establishing TwitchIRC Instance
+[01/11/20 19:53:25]: {C++} Establishing TwitchIRC Login Token
+[01/11/20 19:53:25]: {C++} Attempting to send command 'PASS oauth:7w7e2dttozjw0vlnpq4771vdpe9rev'.
+[01/11/20 19:53:25]: {C++} Attempting to send command 'NICK liversticksbot'.
+[01/11/20 19:53:25]: {C++} Attempting to send command 'USER liversticksbot'.
+[01/11/20 19:53:26]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[01/11/20 19:53:26]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[01/11/20 19:53:26]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[01/11/20 19:53:26]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[01/11/20 19:53:26]: {C++} Attempting to send command 'JOIN #liversticks'.
+[01/11/20 19:53:26]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[01/11/20 19:53:26]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[01/11/20 19:53:26]: {Twitch} Sending Message Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?...
+[01/11/20 19:53:26]: {C++} Added command 'PRIVMSG #liversticks :Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?'.
+[01/11/20 19:53:26]: {C++} Added command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Stormy Sea!'.
+[01/11/20 19:53:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[01/11/20 19:53:26]: {Twitch} Recieved USERSTATE Command: ':liversticksbot!liversticksbot@liversticksbot.tmi.twitch.tv JOIN #liversticks:liversticksbot.tmi.twitch.tv 353 liversticksbot = #liversticks :liversticksbot:liversticksbot.tmi.twitch.tv 366 liversticksbot #liversticks :End of /NAMES list@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[01/11/20 19:53:26]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! I'm a bot under construction. Currently available commands: !pmdseries !dadjoke. Maybe there are some other secrets out there?'.
+[01/11/20 19:53:26]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Stormy Sea!'.
+[01/11/20 19:53:26]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:53:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[01/11/20 19:53:26]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:53:30]: {Chat} liversticks: !join
+
+[01/11/20 19:53:30]: {C++} Added command 'PRIVMSG #liversticks :liversticks calls the Society of Explorers to seek treasure in Stormy Sea! Type !join to join the exploration party!'.
+[01/11/20 19:53:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :liversticks calls the Society of Explorers to seek treasure in Stormy Sea! Type !join to join the exploration party!'.
+[01/11/20 19:53:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:53:33]: {Chat} liversticks: !join
+
+[01/11/20 19:53:34]: {Chat} liversticks: !join
+
+[01/11/20 19:53:37]: {Chat} liversticks: !dadjoke
+
+[01/11/20 19:53:37]: {C++} Added command 'PRIVMSG #liversticks :To the thieves who stole my calendar: I hope you get six months each.'.
+[01/11/20 19:53:37]: {C++} Attempting to send command 'PRIVMSG #liversticks :To the thieves who stole my calendar: I hope you get six months each.'.
+[01/11/20 19:53:37]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:53:45]: {Chat} liversticks: !secret
+
+[01/11/20 19:53:45]: {C++} Added command 'PRIVMSG #liversticks :https://www.youtube.com/watch?v=EjkGGMxyxiA'.
+[01/11/20 19:53:45]: {C++} Attempting to send command 'PRIVMSG #liversticks :https://www.youtube.com/watch?v=EjkGGMxyxiA'.
+[01/11/20 19:53:45]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:53:46]: {Chat} liversticks: !time
+
+[01/11/20 19:54:30]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into the Stormy Sea, not knowing what to expect.'.
+[01/11/20 19:54:30]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party doesn't encounter anything out of the ordinary and the exploration concludes without incident.'.
+[01/11/20 19:54:30]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in the Stormy Sea, here are the explorers' spoils: liversticks(71)'.
+[01/11/20 19:54:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into the Stormy Sea, not knowing what to expect.'.
+[01/11/20 19:54:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party doesn't encounter anything out of the ordinary and the exploration concludes without incident.'.
+[01/11/20 19:54:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in the Stormy Sea, here are the explorers' spoils: liversticks(71)'.
+[01/11/20 19:54:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:54:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:54:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:54:35]: {Chat} liversticks: !join
+
+[01/11/20 19:54:35]: {C++} Added command 'PRIVMSG #liversticks :Society rules mandate that you wait 235seconds until the next party leaves.'.
+[01/11/20 19:54:35]: {C++} Attempting to send command 'PRIVMSG #liversticks :Society rules mandate that you wait 235seconds until the next party leaves.'.
+[01/11/20 19:54:35]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:56:01]: {Chat} liversticks: !join
+
+[01/11/20 19:56:01]: {C++} Added command 'PRIVMSG #liversticks :Society rules mandate that you wait 149seconds until the next party leaves.'.
+[01/11/20 19:56:01]: {C++} Attempting to send command 'PRIVMSG #liversticks :Society rules mandate that you wait 149seconds until the next party leaves.'.
+[01/11/20 19:56:01]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:57:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[01/11/20 19:57:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[01/11/20 19:58:17]: {Twitch} Recieved PING request, responding...
+[01/11/20 19:58:17]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[01/11/20 19:58:17]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[01/11/20 19:58:30]: {C++} Added command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Stormy Sea!'.
+[01/11/20 19:58:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Stormy Sea!'.
+[01/11/20 19:58:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 19:59:49]: {Chat} liversticks: !join
+
+[01/11/20 19:59:49]: {C++} Added command 'PRIVMSG #liversticks :liversticks calls the Society of Explorers to seek treasure in Stormy Sea! Type !join to join the exploration party!'.
+[01/11/20 19:59:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :liversticks calls the Society of Explorers to seek treasure in Stormy Sea! Type !join to join the exploration party!'.
+[01/11/20 19:59:49]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 20:00:49]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into the Stormy Sea, not knowing what to expect.'.
+[01/11/20 20:00:49]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party doesn't encounter anything out of the ordinary and the exploration concludes without incident.'.
+[01/11/20 20:00:49]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in the Stormy Sea, here are the explorers' spoils: liversticks(71)'.
+[01/11/20 20:00:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into the Stormy Sea, not knowing what to expect.'.
+[01/11/20 20:00:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party doesn't encounter anything out of the ordinary and the exploration concludes without incident.'.
+[01/11/20 20:00:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in the Stormy Sea, here are the explorers' spoils: liversticks(71)'.
+[01/11/20 20:00:49]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 20:00:49]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 20:00:49]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[01/11/20 20:01:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[01/11/20 20:01:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[01/11/20 20:02:34]: {Twitch} Recieved PING request, responding...
+[01/11/20 20:02:34]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[01/11/20 20:02:34]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
