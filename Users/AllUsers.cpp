@@ -56,7 +56,7 @@ bool AllUsers::loadScores(string filename) {
 
 bool AllUsers::saveScores(string filename) {
 	ofstream f(filename.c_str());
-	f << (dictionary.size() + 1) << endl;
+	f << (dictionary.size()) << endl;
 	for (int i = 0; i < dictionary.size(); i++) {
 		f << dictionary.at(i).first << " " << dictionary.at(i).second << endl;
 	}

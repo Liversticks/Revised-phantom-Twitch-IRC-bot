@@ -87,6 +87,9 @@ public:
 	//tells how many seconds until the game is ready again
 	int nextGameIn();
 
+	//returns score of specified user
+	int userScoreIs(string username);
+
 };
 
 #endif

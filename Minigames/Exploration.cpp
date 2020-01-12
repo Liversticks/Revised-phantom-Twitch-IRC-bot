@@ -99,6 +99,11 @@ bool Exploration::setupGame() {
 	return true;
 }
 
+int Exploration::userScoreIs(string username) {
+	return gameObject.whatsMyScore(username);
+}
+
+
 void Exploration::flavourText() {
 	chatMessage = Lib::formatChatMessage("All prepared and well-fed, the exploration party heads into the " + whereGo + ", not knowing what to expect.");
 	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);

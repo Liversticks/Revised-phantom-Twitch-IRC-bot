@@ -1,3 +1,10 @@
+/*
+ccmd_join.h
+!join command for exploration minigame
+Oliver X. (liversticks)
+*/
+
+
 #ifndef CCMD_JOIN_H
 #define CCMD_JOIN_H
 
