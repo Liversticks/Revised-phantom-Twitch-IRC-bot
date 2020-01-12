@@ -6,8 +6,13 @@ Oliver X. (Liversticks)
 
 #include "Exploration.h"
 
-Exploration::Exploration(): gameObject(), gameThread(NULL), gameState(false), aSocket(NULL), chatMessage(""), whereGo("")  {
+Exploration::Exploration(): gameObject(), gameThread(NULL), gameHasBegun(false), readyToAccept(false), aSocket(NULL), chatMessage(""), whereGo("")  {
+	lastGameFinish = chrono::system_clock::now();
+}
 
+bool Exploration::setSocket(Socket* a) {
+	aSocket = a;
+	return true;
 }
 
 bool Exploration::prepareGame(string dungeonList, string playerList) {
@@ -27,18 +32,18 @@ bool Exploration::prepareGame(string dungeonList, string playerList) {
 }
 
 bool Exploration::inGame() {
-	return gameState;
+	return gameHasBegun.load(memory_order_relaxed);
 }
 
-//intended to be called from outside (by a command)
-bool Exploration::startExploration() {
-	if (!inGame()) {
-		//chat message needs to indicate how much time is left on cooldown
-		return false;
-	}
+bool Exploration::inAccept() {
+	return readyToAccept.load(memory_order_relaxed);
 }
 
 void Exploration::addPlayingUser(string username) {
+	if (whoIsPlaying.empty()) {
+		chatMessage = Lib::formatChatMessage(username + "calls the Society of Explorers to seek treasure in " + whereGo + "! Type !join to join the exploration party!");
+		TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
+	}
 	whoIsPlaying.push_back(username);
 }
 
@@ -74,41 +79,97 @@ void Exploration::seedRNG() {
 	seed = chrono::system_clock::now().time_since_epoch().count();
 }
 
+bool Exploration::setupGame() {
+	//generate random dungeon
+	mt19937 rng(seed);
+	//dungeonNames contains at least one element, else will crash
+	whereGo = dungeonNames.at(rng() % dungeonNames.size());
+
+	//send chat message to indicate that the game is ready
+	//may move this to a separate thread
+	chatMessage = Lib::formatChatMessage("Ready to embark on another exploration? Type !join to join the party of explorers headed to " + whereGo + "!");
+	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
+
+	//update the acceptState to true;
+	readyToAccept.store(true, memory_order_relaxed);
+	return true;
+}
+
+void Exploration::flavourText() {
+	chatMessage = Lib::formatChatMessage("All prepared and well-fed, the exploration party heads into the " + whereGo + ", not knowing what to expect.");
+	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
+	
+	mt19937 rng(seed);
+	switch (rng()%25) {
+		case 0:
+			chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a Monster House! Fighting valiantly, the explorers defeat the horde and secure a vast trove of loot!");
+			break;
+		case 1:
+			chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a Golden Chamber! But they have no key... That's alright, the rest of the dungeon had some pretty sweet treasure.");
+			break;
+		case 2: 
+			chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a locked door! They successfully force the door open...but it appears that the treasure has been looted by someone else! Oh well, the rest of the dungeon had some good spoils.");
+			break;
+		case 3:
+			chatMessage = Lib::formatChatMessage("While exploring, the party catches a glimpse of a S-Rank outlaw! However, it disappears into the shadows a second later...");
+			break;
+		case 4:
+			chatMessage = Lib::formatChatMessage("While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.");
+			break;
+		case 5:
+			chatMessage = Lib::formatChatMessage("While exploring, the party discovers some Hidden Stairs! They clean their items and go for a few grab-bags at the Hidden Bazaar.");
+			break;
+		default:
+			chatMessage = Lib::formatChatMessage("While exploring, the party doesn't encounter anything out of the ordinary and the exploration concludes without incident.");
+			break;
+	}
+	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
+}
+
+int Exploration::nextGameIn() {
+	chrono::system_clock::time_point timeNow = chrono::system_clock::now();
+	chrono::system_clock::duration passed(chrono::duration<int>(1));
+	passed = timeNow - lastGameFinish;
+	return passed.count();
+}
+
 void Exploration::theGame() {
 	while (aSocket) {
-		//generate random dungeon
-		mt19937 rng(seed);
-		//dungeonNames contains at least one element, else will crash
-		whereGo = dungeonNames.at(rng() % dungeonNames.size());
-
-		//send chat message to indicate that the game is ready
-		chatMessage = Lib::formatChatMessage("Are you ready to embark on another exploration? Type !join to join the party of explorers headed to " + whereGo + "!");
-		TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
-
-		//update the gameState to true;
-		gameState = true;
-
+		
+		setupGame();
+		
 		//listen for a valid command to begin game
+		//here, !join will add players to whoIsPlaying
+		while (whoIsPlaying.empty()) {
+
+		}		
+
+		//wait a minute or however many seconds for people to !join
+		this_thread::sleep_for(chrono::seconds(60));
+
+		//HANDLED IN CCMD_JOIN_H
+		//call addPlayingUser when a user types the command
 		//send out a chat message to indicate the start of the game
 
 		//when game starts:
+		//ignore commands to join (as !join calls inGame())
+		//turn off accepting state
+		gameHasBegun.store(true, memory_order_relaxed);
+		readyToAccept.store(false, memory_order_relaxed);
 		
+		flavourText();
+		//flavour text here
+		//sleep_for to prevent instantaneous execution
+		//this_thread::sleep_for(chrono::seconds(4));
 		
-		//call addPlayingUser when a user types the command
-		//wait x seconds until the game begins
-
-		//when game begins:
-		//ignore commands to join
-
 		//calculate score for users
 		//display info in chat message (flavor text)
 		awardPoints();
-
 		
-		//update gameState to false;
-		gameState = false;
-
-
+		//update gameHasBegun now that the current game is over;
+		gameHasBegun.store(false, memory_order_relaxed);
+		lastGameFinish = chrono::system_clock::now();
+		this_thread::sleep_for(chrono::seconds(240));
 		//wait for x seconds until the cooldown period is over
 
 		

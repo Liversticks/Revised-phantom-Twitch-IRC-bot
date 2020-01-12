@@ -15,15 +15,19 @@ public:
 	}
 
 	virtual void Fire(string input) {
-		if (Exploration::fetchInstance().inGame()) {
-			string username, message;
-			Lib::stripMessage(input, username, message);
-			Exploration::fetchInstance().addPlayingUser(username);
+		if (!(Exploration::fetchInstance().inGame())) {
+			if (Exploration::fetchInstance().inAccept()) {
+				string username, message;
+				Lib::stripMessage(input, username, message);
+				Exploration::fetchInstance().addPlayingUser(username);
+				//first user case handled in addPlayingUser
+			}
+			else {
+				string chatMessage = Lib::formatChatMessage("Society rules mandate that you wait " + to_string(Exploration::fetchInstance().nextGameIn()) + "seconds until the next party leaves.");
+				TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
+			}
 		}
-		else {
-			string chatMessage = Lib::formatChatMessage("It is necessary to rest and get stocked up between expeditions. Please wait " /*+ "seconds until the next party leaves."*/);
-			TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
-		}
+		//ignore !join if the game has begun
 	}
 };
 

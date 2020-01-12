@@ -16,8 +16,11 @@ class Exploration {
 
 		//time when game was last concluded (interval between conclusion of game and start of next one)
 
-		//game state - is it accepting (true) or resting (false)?
-		bool gameState;
+		//game state - has the game begun yet? set to true after accepting is closed
+		atomic<bool> gameHasBegun;
+
+		//first accepting state - has a user issued a call to explore yet?
+		atomic<bool> readyToAccept;
 
 		//attached socket instance
 		Socket* aSocket;
@@ -35,25 +38,31 @@ class Exploration {
 		//dungeon name
 		string whereGo;
 
-		
 		//random number generation seed
 		unsigned seed;
 
-		//needs to contain some way of accessing the time until the game is ready again in seconds
+		//time_point corresponding to when the last game finished
+		chrono::system_clock::time_point lastGameFinish;
 
 	public:
 
 		//constructor
 		Exploration();
 
+		//set socket
+		bool setSocket(Socket* a);
+
 		//initialize (load) game structure
 		bool prepareGame(string dungeonList, string playerList);
+
+		//generate random dungeon, send chat message, and set accepting state to true
+		bool setupGame();
 
 		//check game state
 		bool inGame();
 
-		//send chat message to indicate exploration start
-		bool startExploration();
+		//check accepting state
+		bool inAccept();
 
 		//listen for users who type command
 		void addPlayingUser(string username);
@@ -73,8 +82,13 @@ class Exploration {
 		//game function, run within a separate thread
 		void theGame();
 
+		//flavour text for the game
+		void flavourText();
+
 		//seeds the seed based on system time
 		void seedRNG();
 
+		//tells how many seconds until the game is ready again
+		int nextGameIn();
 
 };
