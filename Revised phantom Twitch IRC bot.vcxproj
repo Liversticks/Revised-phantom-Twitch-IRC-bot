@@ -169,6 +169,7 @@
     <ClInclude Include="CustomCommands\ccmd_isadmin.h" />
     <ClInclude Include="CustomCommands\ccmd_join.h" />
     <ClInclude Include="CustomCommands\ccmd_pmdseries.h" />
+    <ClInclude Include="CustomCommands\ccmd_rules.h" />
     <ClInclude Include="CustomCommands\ccmd_score.h" />
     <ClInclude Include="CustomCommands\ccmd_secret.h" />
     <ClInclude Include="CustomCommands\ccmd_time.h" />

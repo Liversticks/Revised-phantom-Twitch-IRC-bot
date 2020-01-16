@@ -176,5 +176,8 @@
     <ClInclude Include="CustomCommands\ccmd_score.h">
       <Filter>Header Files\Commands</Filter>
     </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_rules.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

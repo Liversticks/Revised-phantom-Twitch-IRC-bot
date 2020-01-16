@@ -20,6 +20,8 @@
 #include "CustomCommands/ccmd_secret.h"
 #include "CustomCommands/ccmd_join.h"
 #include "CustomCommands/ccmd_score.h"
+#include "CustomCommands/ccmd_rules.h"
+
 
 /*
 ChatCommandDecs Class
@@ -51,6 +53,7 @@ class ChatCommandDecs {
 				CustomCommandManager::fetchInstance().AddCommand("!secret", new Command_Secret());
 				CustomCommandManager::fetchInstance().AddCommand("!join", new Command_Join());
 				CustomCommandManager::fetchInstance().AddCommand("!score", new Command_Score());
+				CustomCommandManager::fetchInstance().AddCommand("!rules", new Command_Rules());
 			}
 			//inactive commands belong below, they should not be loaded
 			else {

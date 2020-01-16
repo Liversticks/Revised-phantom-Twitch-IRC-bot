@@ -72,6 +72,7 @@ bool Exploration::awardPoints() {
 	}
 	chatMessage = Lib::formatChatMessage(chatMessage);
 	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
+	gameObject.sortByScore();
 	gameObject.saveScores(playerList);
 	return true;
 }
