@@ -27,6 +27,8 @@
 #include <chrono>
 #include <random>
 #include <utility>
+#include <map>
+#include <iterator>
 
 #include "Platform/platform.h"
 

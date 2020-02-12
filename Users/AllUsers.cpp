@@ -14,73 +14,53 @@ AllUsers::~AllUsers() {
 
 }
 
+//only called during startup
 bool AllUsers::addToDictionary(string name, unsigned int score) {
-	pair<string, unsigned int> newUser(name, score);
-	dictionary.push_back(newUser);
+	dictionary.insert(pair<string, unsigned int>(name, score));
 	return true;
 }
 
-int AllUsers::isInDictionary(string check) {
-	//check all values of string (dictionary.at(i)).first
-	for (int i = 0; i < dictionary.size(); i++) {
-		if ((dictionary.at(i).first).compare(check) == 0) {
-			return i;
-		}
-	}
-	return -1;
-}
-
 unsigned int AllUsers::whatsMyScore(string name) {
-	int index = isInDictionary(name);
-	if (index != -1) {
-		return dictionary.at(index).second;
+	unsigned int myScore = 0;
+	try {
+		myScore = dictionary.at(name);
 	}
-	return 0;
+	catch (exception & e) {
+		dictionary.insert(pair<string, unsigned int>(name, 0));
+	}
+	return myScore;
 }
 
 bool AllUsers::loadScores(string filename) {
 	ifstream f(filename.c_str());
 	string username;
 	unsigned int userScore;
-	int size;
-	f >> size;
-	for (int i = 0; i < size; i++) {
-		f >> username;
-		f >> userScore;
+	while (f>> username && f >> userScore) {
 		addToDictionary(username, userScore);
 	}
 	return true;
 }
 
 //after every successful exploration, update scores
-
+//change the file format to just contain names/scores in alphabetical order
 bool AllUsers::saveScores(string filename) {
 	ofstream f(filename.c_str());
-	f << (dictionary.size()) << endl;
-	for (int i = 0; i < dictionary.size(); i++) {
-		f << dictionary.at(i).first << " " << dictionary.at(i).second << endl;
+	map<string, unsigned int>::iterator itr;
+	for (itr = dictionary.begin(); itr != dictionary.end(); itr++) {
+		f << itr->first << " " << itr->second << endl;
 	}
 	f.close();
 	return true;
 }
 
 bool AllUsers::updateScore(string name, unsigned int newScore) {
-	int a = isInDictionary(name);
-	if (a >= 0 && a < dictionary.size()) {
-		dictionary.at(a).second += newScore;
+	map<string, unsigned int>::iterator itr = dictionary.find(name);
+	if (itr != dictionary.end()) {
+		itr->second = newScore;
+		return true;
 	}
-	else {
-		addToDictionary(name, newScore);
-	}
+	dictionary.insert(pair<string, unsigned int>(name, newScore));
 	return true;
 }
 
-bool comparison(pair<string, unsigned int> &a, pair<string, unsigned int> &b) {
-	return a.second > b.second;
-}
-
-bool AllUsers::sortByScore() {
-	std::sort(dictionary.begin(), dictionary.end(), &comparison);
-	return true;
-}
 

@@ -16,7 +16,7 @@ Uses a dictionary to store user data and info
 
 class AllUsers {
 private:
-	vector<pair<string, unsigned int>> dictionary;
+	map<string, unsigned int> dictionary;
 
 public:
 
@@ -25,14 +25,12 @@ public:
 	~AllUsers();
 
 	
-	//assumes that the user is not already in the system
-	bool addToDictionary(string name, unsigned int score);
-
-	//returns -1 if the user is not in the dictionary and the index otherwise
-	int isInDictionary(string check);
-
-	//returns score if user is in the system, 0 otherwise
+	//returns score if user is in the system
+	//otherwise, adds the user to the system with a score of 0
 	unsigned int whatsMyScore(string name);
+
+	//called when the bot loads
+	bool addToDictionary(string name, unsigned int score);
 
 	//called when the bot loads
 	bool loadScores(string filename);
@@ -42,9 +40,6 @@ public:
 
 	//update a user's score
 	bool updateScore(string name, unsigned int newScore);
-
-	//sorts the dictionary to put higher-score individuals near the start
-	bool sortByScore();
 };
 
 #endif // !ALLUSERS_H
