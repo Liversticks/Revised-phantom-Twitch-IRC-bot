@@ -173,7 +173,7 @@ bool TwitchIRC::fetchServerMessage() {
                 //trim response based on bytesRead, duh!
                 //cout << response.size() << endl;
                 response.erase(response.begin() + bytesRead, response.end());
-                //cout << response << endl;
+                cout << response << endl;
 
 
 				if (response.size() > 1 && response[response.size() - 2] == '\r' && response[response.size() - 1] == '\n') {
