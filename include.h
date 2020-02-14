@@ -29,6 +29,8 @@
 #include <utility>
 #include <map>
 #include <iterator>
+#include <set>
+#include <mutex>
 
 #include "Platform/platform.h"
 

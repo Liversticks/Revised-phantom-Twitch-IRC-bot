@@ -45,13 +45,12 @@ void Exploration::addPlayingUser(string username) {
 		TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
 	}
 	//check to make sure usernames are not already in whoIsPlaying
-	//decision: iterate through the vector, given that not too many users will be supported (at most 1000, very unlikely to be greater)
-	for (int i = 0; i < whoIsPlaying.size(); i++) {
-		if (whoIsPlaying.at(i) == username) {
-			return;
-		}
-	}
-	whoIsPlaying.push_back(username);
+	//use a set to avoid duplicates
+
+	//to add: way of preventing data races!
+	mtx.lock();
+	whoIsPlaying.insert(username);
+	mtx.unlock();
 }
 
 bool Exploration::awardPoints() {
@@ -60,19 +59,20 @@ bool Exploration::awardPoints() {
 	chatMessage = "After a long, hard day in the " + whereGo + ", here are the explorers' spoils: ";
 	normal_distribution<double> distribution(50, 10);
 	mt19937 generator(chrono::system_clock::now().time_since_epoch().count());
-	int temp;
-	while (!whoIsPlaying.empty()) {
-		temp = (int)distribution(generator);
-		chatMessage = chatMessage + whoIsPlaying.back() + "(" + to_string(temp) + ")";
-		if (whoIsPlaying.size() > 1) {
+	unsigned int temp;
+	int size = whoIsPlaying.size();
+	for (set<string>::iterator itr = whoIsPlaying.begin(); itr != whoIsPlaying.end(); itr++) {
+		temp = (unsigned int)distribution(generator);
+		chatMessage = chatMessage + *itr + "(" + to_string(temp) + ")";
+		if (size > 1) {
 			chatMessage += ", ";
 		}
-		gameObject.updateScore(whoIsPlaying.back(), temp);
-		whoIsPlaying.pop_back();
+		size--;
+		gameObject.updateScore(*itr, temp);
 	}
+	whoIsPlaying.clear();
 	chatMessage = Lib::formatChatMessage(chatMessage);
 	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
-	gameObject.sortByScore();
 	gameObject.saveScores(playerList);
 	return true;
 }
@@ -100,7 +100,7 @@ bool Exploration::setupGame() {
 	return true;
 }
 
-int Exploration::userScoreIs(string username) {
+unsigned int Exploration::userScoreIs(string username) {
 	return gameObject.whatsMyScore(username);
 }
 
@@ -110,7 +110,7 @@ void Exploration::flavourText() {
 	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
 	
 	mt19937 rng(chrono::system_clock::now().time_since_epoch().count());
-	switch (rng()%25) {
+	switch (rng()%15) {
 		case 0:
 			chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a Monster House! Fighting valiantly, the explorers defeat the horde and secure a vast trove of loot!");
 			break;

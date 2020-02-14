@@ -21,7 +21,7 @@
 #include "CustomCommands/ccmd_join.h"
 #include "CustomCommands/ccmd_score.h"
 #include "CustomCommands/ccmd_rules.h"
-
+#include "CustomCommands/ccmd_points.h"
 
 /*
 ChatCommandDecs Class
@@ -48,7 +48,7 @@ class ChatCommandDecs {
 			}
 			initialized = true;
 			if (true) {
-				CustomCommandManager::fetchInstance().AddCommand("!pmdseries", new Command_PMDSeries());
+				CustomCommandManager::fetchInstance().AddCommand("!points", new Command_Points());
 				CustomCommandManager::fetchInstance().AddCommand("!dadjoke", new Command_DadJoke());
 				CustomCommandManager::fetchInstance().AddCommand("!secret", new Command_Secret());
 				CustomCommandManager::fetchInstance().AddCommand("!join", new Command_Join());
@@ -60,6 +60,7 @@ class ChatCommandDecs {
 				CustomCommandManager::fetchInstance().AddCommand("!time", new Command_Time());
 				CustomCommandManager::fetchInstance().AddCommand("!isadmin", new Command_IsAdmin());
 				CustomCommandManager::fetchInstance().AddCommand("!adminonly", new Command_AdminOnly());
+				CustomCommandManager::fetchInstance().AddCommand("!pmdseries", new Command_PMDSeries());
 			}
 					
 		}

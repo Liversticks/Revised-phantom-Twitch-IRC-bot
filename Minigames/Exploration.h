@@ -13,10 +13,15 @@ private:
 	//dictionary object
 	AllUsers gameObject;
 
+	//stores users participating in the current instance
+	set <string> whoIsPlaying;
+
 	//thread which runs the game
 	thread* gameThread;
 
-	//time when game was last concluded (interval between conclusion of game and start of next one)
+	//mutex object to lock thread
+	mutex mtx;
+
 
 	//game state - has the game begun yet? set to true after accepting is closed
 	atomic<bool> gameHasBegun;
@@ -26,10 +31,6 @@ private:
 
 	//attached socket instance
 	Socket* aSocket;
-
-	//stores users participating in the current instance
-	//note that the first explorer is located at index 0
-	vector <string> whoIsPlaying;
 
 	//stores dungeon names
 	vector <string> dungeonNames;
@@ -88,7 +89,7 @@ public:
 	int nextGameIn();
 
 	//returns score of specified user
-	int userScoreIs(string username);
+	unsigned int userScoreIs(string username);
 
 };
 

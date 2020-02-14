@@ -56,7 +56,7 @@ bool AllUsers::saveScores(string filename) {
 bool AllUsers::updateScore(string name, unsigned int newScore) {
 	map<string, unsigned int>::iterator itr = dictionary.find(name);
 	if (itr != dictionary.end()) {
-		itr->second = newScore;
+		itr->second+=newScore;
 		return true;
 	}
 	dictionary.insert(pair<string, unsigned int>(name, newScore));
