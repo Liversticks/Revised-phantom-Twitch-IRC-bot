@@ -63,4 +63,39 @@ bool AllUsers::updateScore(string name, unsigned int newScore) {
 	return true;
 }
 
+bool swapPair(const pair<string, unsigned int>& a, const pair<string, unsigned int>& b) {
+	return a.second > b.second;
+}
 
+void AllUsers::top15Scores() {
+	//linear search
+	//assume that the vector is already sorted
+	//if the last element is greater than the target new element, skip
+	//else, push_back, sort, and remove the last element from the vector
+
+	//if there are less than 15 elements in the target vector, add and sort
+	//else, add/sort only if the element if bigger than the smallest element
+	unsigned int tempscore;
+	for (map<string, unsigned int>::iterator itr = dictionary.begin(); itr != dictionary.end(); itr++) {		
+		tempscore = itr->second;
+		if (topScorers.size() == 0) {
+			topScorers.push_back(pair<string, unsigned int>(itr->first, itr->second));
+		}
+		else if (topScorers.size() < 15 || tempscore > topScorers.back().second) { 
+			topScorers.push_back(pair<string, unsigned int>(itr->first, itr->second));
+			sort(topScorers.begin(), topScorers.end(), swapPair);
+			if (topScorers.size() > 15) {
+				topScorers.pop_back();
+			}
+		}
+	}
+}
+
+int AllUsers::sizeOfTopScore() {
+	return topScorers.size();
+}
+
+vector<pair<string, unsigned int>>& AllUsers::returnVector() {
+	vector<pair<string, unsigned int>>& myVector = topScorers;
+	return myVector;
+}

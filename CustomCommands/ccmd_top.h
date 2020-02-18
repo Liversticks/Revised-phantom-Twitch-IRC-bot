@@ -23,11 +23,12 @@ class Command_Top : public CustomCommand {
 		virtual void Fire(string input) {
 			string topList = "The top scorers are: ";
 			int sizeOfList = 15;
+			vector<pair<string, unsigned int>> listOfTop = Exploration::fetchInstance().top15Vector();
 			if (Exploration::fetchInstance().topScoreSize() < 15) {
 				sizeOfList = Exploration::fetchInstance().topScoreSize();
 			}
 			for (int i = 0; i < sizeOfList; i++) {
-				topList += "(" + to_string(i+1) + ") " + "name" + ": " + "score";
+				topList += "(" + to_string(i + 1) + ") " + listOfTop.at(i).first + ": " + to_string(listOfTop.at(i).second);
 				if (i < sizeOfList - 1) {
 					topList += ", ";
 				}

@@ -17,6 +17,9 @@ Uses a dictionary to store user data and info
 class AllUsers {
 private:
 	map<string, unsigned int> dictionary;
+	
+	//list of top (at most 15) scorers, arranged from greatest to least
+	vector<pair<string, unsigned int>> topScorers;
 
 public:
 
@@ -40,6 +43,15 @@ public:
 
 	//update a user's score
 	bool updateScore(string name, unsigned int newScore);
+
+	//top 15 function
+	void top15Scores();
+
+	//size of topScore container
+	int sizeOfTopScore();
+	
+	//returns a reference to the top 15 vector
+	vector<pair<string, unsigned int>>& returnVector();
 };
 
 #endif // !ALLUSERS_H

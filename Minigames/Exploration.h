@@ -22,7 +22,6 @@ private:
 	//mutex object to lock thread
 	mutex mtx;
 
-
 	//game state - has the game begun yet? set to true after accepting is closed
 	atomic<bool> gameHasBegun;
 
@@ -53,19 +52,16 @@ private:
 	//scaling factor for scoring
 	double scoreFactor;
 
-	//initialize (load) game structure
-	bool prepareGame();
-
-	//set details (socket, dungeon names file, player names file)
-	bool setSocketAndFiles(Socket* a, string dungeons, string players);
-
-	//list of top (at most 15) scorers, arranged from greatest to least
-	vector<int> topScorers;
-
 public:
 
 	//constructor
 	Exploration();
+
+	//set details (socket, dungeon names file, player names file)
+	bool setSocketAndFiles(Socket* a, string dungeons, string players);
+
+	//initialize (load) game structure, called from main bot
+	bool prepareGame();
 
 	//generate random dungeon, send chat message, and set accepting state to true
 	bool setupGame();
@@ -99,6 +95,12 @@ public:
 
 	//returns size of topScorers container
 	int topScoreSize();
+
+	//linear search for top scorers
+	void fillTopScore();
+
+	//returns a reference to the topScorers vector in the gameObject
+	vector<pair<string, unsigned int>>& top15Vector();
 
 };
 

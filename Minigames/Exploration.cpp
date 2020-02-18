@@ -28,6 +28,7 @@ bool Exploration::prepareGame() {
 	}
 	f.close();
 	gameObject.loadScores(playerList);
+	gameObject.top15Scores();
 	//set up theGame thread
 	gameThread = new thread(&Exploration::theGame, this);
 	return true;
@@ -168,10 +169,6 @@ void Exploration::theGame() {
 		//wait a minute or however many seconds for people to !join
 		this_thread::sleep_for(chrono::seconds(60));
 
-		//HANDLED IN CCMD_JOIN_H
-		//call addPlayingUser when a user types the command
-		//send out a chat message to indicate the start of the game
-
 		//when game starts:
 		//ignore commands to join (as !join calls inGame())
 		//turn off accepting state
@@ -181,30 +178,30 @@ void Exploration::theGame() {
 		flavourText();
 		//flavour text here and set scale factor for scoring
 		
-		
 		//calculate score for users
 		//display info in chat message (flavor text)
 		awardPoints();
+		gameObject.top15Scores();
 		
 		//update gameHasBegun now that the current game is over;
 		gameHasBegun.store(false, memory_order_relaxed);
 		lastGameFinish = chrono::system_clock::now();
-		//change to affect cooldown
-		this_thread::sleep_for(chrono::seconds(GAME_COOLDOWN));
 		//wait for x seconds until the cooldown period is over
-
+		this_thread::sleep_for(chrono::seconds(GAME_COOLDOWN));
 		
 	}
 	gameThread->join();
-
-
-	
 }
 
 int Exploration::topScoreSize() {
-	return topScorers.size();
+	return gameObject.sizeOfTopScore();
 }
 
 void Exploration::fillTopScore() {
+	//call function in AllUsers
+	gameObject.top15Scores();
+}
 
+vector<pair<string, unsigned int>>& Exploration::top15Vector() {
+	return gameObject.returnVector();
 }
