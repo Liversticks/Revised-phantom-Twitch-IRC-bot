@@ -22,6 +22,7 @@
 #include "CustomCommands/ccmd_score.h"
 #include "CustomCommands/ccmd_rules.h"
 #include "CustomCommands/ccmd_points.h"
+#include "CustomCommands/ccmd_top.h"
 
 /*
 ChatCommandDecs Class
@@ -54,6 +55,7 @@ class ChatCommandDecs {
 				CustomCommandManager::fetchInstance().AddCommand("!join", new Command_Join());
 				CustomCommandManager::fetchInstance().AddCommand("!score", new Command_Score());
 				CustomCommandManager::fetchInstance().AddCommand("!rules", new Command_Rules());
+				CustomCommandManager::fetchInstance().AddCommand("!top", new Command_Top());
 			}
 			//inactive commands belong below, they should not be loaded
 			else {
