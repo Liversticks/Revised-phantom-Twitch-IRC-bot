@@ -50,16 +50,22 @@ private:
 	//time_point corresponding to when the last game finished
 	chrono::system_clock::time_point lastGameFinish;
 
-public:
+	//scaling factor for scoring
+	double scoreFactor;
 
-	//constructor
-	Exploration();
+	//initialize (load) game structure
+	bool prepareGame();
 
 	//set details (socket, dungeon names file, player names file)
 	bool setSocketAndFiles(Socket* a, string dungeons, string players);
 
-	//initialize (load) game structure
-	bool prepareGame();
+	//list of top (at most 15) scorers, arranged from greatest to least
+	vector<int> topScorers;
+
+public:
+
+	//constructor
+	Exploration();
 
 	//generate random dungeon, send chat message, and set accepting state to true
 	bool setupGame();
@@ -90,6 +96,9 @@ public:
 
 	//returns score of specified user
 	unsigned int userScoreIs(string username);
+
+	//returns size of topScorers container
+	int topScoreSize();
 
 };
 

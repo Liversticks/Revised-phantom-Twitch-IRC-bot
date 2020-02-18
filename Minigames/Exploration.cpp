@@ -6,7 +6,9 @@ Oliver X. (Liversticks)
 
 #include "Exploration.h"
 
-Exploration::Exploration(): gameObject(), gameThread(NULL), gameHasBegun(false), readyToAccept(false), aSocket(NULL), chatMessage(""), whereGo(""), playerList(""), dungeonList("")  {
+#define GAME_COOLDOWN 30
+
+Exploration::Exploration(): gameObject(), gameThread(NULL), gameHasBegun(false), readyToAccept(false), aSocket(NULL), chatMessage(""), whereGo(""), playerList(""), dungeonList(""), scoreFactor(1)  {
 	lastGameFinish = chrono::system_clock::now();
 }
 
@@ -57,7 +59,11 @@ bool Exploration::awardPoints() {
 	//iterate all members of whoIsPlaying and update their scores in gameObject
 	//concurrently, update the chat message
 	chatMessage = "After a long, hard day in the " + whereGo + ", here are the explorers' spoils: ";
-	normal_distribution<double> distribution(50, 10);
+
+	//the mean of the score distribution should reflect the number of players and the special event, if any
+	//the variance of the score distribution should be fairly tight
+
+	normal_distribution<double> distribution((scoreFactor * 30 * (log(whoIsPlaying.size())+1)), (whoIsPlaying.size())/(scoreFactor + 1));
 	mt19937 generator(chrono::system_clock::now().time_since_epoch().count());
 	unsigned int temp;
 	int size = whoIsPlaying.size();
@@ -113,12 +119,15 @@ void Exploration::flavourText() {
 	switch (rng()%15) {
 		case 0:
 			chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a Monster House! Fighting valiantly, the explorers defeat the horde and secure a vast trove of loot!");
+			scoreFactor = 2;
 			break;
 		case 1:
 			chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a Golden Chamber! But they have no key... That's alright, the rest of the dungeon had some pretty sweet treasure.");
+			scoreFactor = 1.5;
 			break;
 		case 2: 
 			chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a locked door! They successfully force the door open...but it appears that the treasure has been looted by someone else! Oh well, the rest of the dungeon had some good spoils.");
+			scoreFactor = 1.2;
 			break;
 		case 3:
 			chatMessage = Lib::formatChatMessage("While exploring, the party catches a glimpse of a S-Rank outlaw! However, it disappears into the shadows a second later...");
@@ -128,6 +137,7 @@ void Exploration::flavourText() {
 			break;
 		case 5:
 			chatMessage = Lib::formatChatMessage("While exploring, the party discovers some Hidden Stairs! They clean their items and go for a few grab-bags at the Hidden Bazaar.");
+			scoreFactor = 1.25;
 			break;
 		default:
 			chatMessage = Lib::formatChatMessage("While exploring, the party doesn't encounter anything out of the ordinary and the exploration concludes without incident.");
@@ -141,7 +151,7 @@ int Exploration::nextGameIn() {
 	time_t gameEndTime = chrono::system_clock::to_time_t(lastGameFinish);
 	//find the amount of time elapsed between timeNow and lastGameFinish
 	//convert to time_t
-	return gameEndTime + 240 - presentTime;
+	return gameEndTime + GAME_COOLDOWN - presentTime;
 }
 
 void Exploration::theGame() {
@@ -169,9 +179,8 @@ void Exploration::theGame() {
 		readyToAccept.store(false, memory_order_relaxed);
 		
 		flavourText();
-		//flavour text here
-		//sleep_for to prevent instantaneous execution
-		//this_thread::sleep_for(chrono::seconds(4));
+		//flavour text here and set scale factor for scoring
+		
 		
 		//calculate score for users
 		//display info in chat message (flavor text)
@@ -180,11 +189,22 @@ void Exploration::theGame() {
 		//update gameHasBegun now that the current game is over;
 		gameHasBegun.store(false, memory_order_relaxed);
 		lastGameFinish = chrono::system_clock::now();
-		this_thread::sleep_for(chrono::seconds(240));
+		//change to affect cooldown
+		this_thread::sleep_for(chrono::seconds(GAME_COOLDOWN));
 		//wait for x seconds until the cooldown period is over
 
 		
 	}
 	gameThread->join();
+
+
+	
+}
+
+int Exploration::topScoreSize() {
+	return topScorers.size();
+}
+
+void Exploration::fillTopScore() {
 
 }
