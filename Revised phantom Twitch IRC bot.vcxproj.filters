@@ -185,5 +185,11 @@
     <ClInclude Include="CustomCommands\ccmd_top.h">
       <Filter>Header Files\Commands</Filter>
     </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_discord.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_help.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
