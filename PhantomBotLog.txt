@@ -1047,3 +1047,304 @@ SERSTATE #liversticks'.
 [02/18/20 19:12:59]: {Twitch} Recieved PING request, responding...
 [02/18/20 19:12:59]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
 [02/18/20 19:12:59]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 21:30:46]: {C++} Establishing TwitchIRC Instance
+[02/19/20 21:30:51]: {C++} Establishing TwitchIRC Login Token
+[02/19/20 21:30:51]: {C++} Attempting to send command 'PASS oauth:7w7e2dttozjw0vlnpq4771vdpe9rev'.
+[02/19/20 21:30:51]: {C++} Attempting to send command 'NICK liversticksbot'.
+[02/19/20 21:30:51]: {C++} Attempting to send command 'USER liversticksbot'.
+[02/19/20 21:30:51]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[02/19/20 21:30:51]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[02/19/20 21:30:51]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[02/19/20 21:30:51]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[02/19/20 21:30:51]: {C++} Attempting to send command 'JOIN #liversticks'.
+[02/19/20 21:30:51]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[02/19/20 21:30:51]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[02/19/20 21:30:51]: {C++} Added command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to[02/19/20 21:30:51]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 21:30:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[02/19/20 21:30:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Far-off Sea!'.
+[02/19/20 21:30:51]: {Twitch} Recieved USERSTATE Command: ':liversticksbot!liversticksbot@liversticksbot.tmi.twitch.tv JOIN #liversticks:liversticksbot.tmi.twitch.tv 353 liversticksbot = #liversticks :liversticksbot:liversticksbot.tmi.twitch.tv 366 liversticksbot #liversticks :End of /NAMES list@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[02/19/20 21:30:51]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 21:30:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 21:30:59]: {Chat} liversticks: !top
+
+[02/19/20 21:30:59]: {C++} Added command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 757, (2) multitester0002: 392, (3) multitester0001: 346'.
+[02/19/20 21:30:59]: {C++} Attempting to send command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 757, (2) multitester0002: 392, (3) multitester0001: 346'.
+[02/19/20 21:31:00]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 21:33:32]: {C++} Establishing TwitchIRC Instance
+[02/19/20 21:33:32]: {C++} Establishing TwitchIRC Login Token
+[02/19/20 21:33:32]: {C++} Attempting to send command 'PASS oauth:7w7e2dttozjw0vlnpq4771vdpe9rev'.
+[02/19/20 21:33:32]: {C++} Attempting to send command 'NICK liversticksbot'.
+[02/19/20 21:33:32]: {C++} Attempting to send command 'USER liversticksbot'.
+[02/19/20 21:33:32]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[02/19/20 21:33:32]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[02/19/20 21:33:32]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[02/19/20 21:33:32]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[02/19/20 21:33:32]: {C++} Attempting to send command 'JOIN #liversticks'.
+[02/19/20 21:33:32]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[02/19/20 21:33:32]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[02/19/20 21:33:32]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+ Stormy Sea!'.
+[02/19/20 21:33:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+his bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 21:33:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+ersticksbot.tmi.twitch.tv 366 liversticksbot #liversticks :End of /NAMES list@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[02/19/20 21:33:34]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to embark on another exploration? Type !join to join the party of explorers headed to Stormy Sea!'.
+[02/19/20 21:33:34]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 21:33:34]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 21:33:35]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 21:33:36]: {Chat} liversticks: !top
+
+[02/19/20 21:33:36]: {C++} Added command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 757'.
+[02/19/20 21:33:37]: {C++} Attempting to send command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 757'.
+[02/19/20 21:33:37]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 21:37:32]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 21:37:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 21:38:14]: {Twitch} Recieved PING request, responding...
+[02/19/20 21:38:14]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 21:38:14]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 21:41:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 21:41:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 21:42:35]: {Twitch} Recieved PING request, responding...
+[02/19/20 21:42:35]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 21:42:35]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 21:44:03]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 21:44:03]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 21:44:03]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 21:44:03]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 21:45:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 21:45:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 21:47:22]: {Twitch} Recieved PING request, responding...
+[02/19/20 21:47:22]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 21:47:22]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 21:49:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 21:49:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 21:52:14]: {Twitch} Recieved PING request, responding...
+[02/19/20 21:52:14]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 21:52:14]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 21:53:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 21:53:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 21:54:33]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 21:54:33]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 21:54:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 21:54:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 21:56:51]: {Twitch} Recieved PING request, responding...
+[02/19/20 21:56:51]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 21:56:51]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 21:57:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 21:57:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:01:32]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:01:32]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:01:32]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:01:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:01:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:05:03]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 22:05:03]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 22:05:03]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 22:05:03]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 22:05:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:05:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:06:18]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:06:18]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:06:18]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:09:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:09:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:10:57]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:10:57]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:10:57]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:13:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:13:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:15:08]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:15:08]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:15:08]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:15:33]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 22:15:33]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 22:15:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 22:15:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 22:17:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:17:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:19:13]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:19:13]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:19:13]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:21:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:21:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:23:20]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:23:20]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:23:21]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:25:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:25:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:26:03]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 22:26:03]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 22:26:03]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 22:26:03]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 22:27:40]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:27:40]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:27:40]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:29:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:29:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:31:43]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:31:43]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:31:43]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:33:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:33:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:36:05]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:36:05]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:36:05]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:36:33]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 22:36:33]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 22:36:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 22:36:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 22:37:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:37:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:40:43]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:40:43]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:40:43]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:41:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:41:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:44:51]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:44:51]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:44:51]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:45:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:45:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:47:03]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 22:47:03]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 22:47:03]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 22:47:03]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 22:49:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:49:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:49:44]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:49:44]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:49:44]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:53:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 22:53:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:54:02]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:54:02]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:54:03]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:57:33]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 22:57:33]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 22:57:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 22:57:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 22:57:33]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 22:58:26]: {Twitch} Recieved PING request, responding...
+[02/19/20 22:58:26]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 22:58:26]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:01:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:01:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:03:13]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:03:13]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:03:13]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:05:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:05:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:07:51]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:07:51]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:07:51]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:08:03]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 23:08:03]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 23:08:03]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 23:08:03]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 23:09:33]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:09:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:12:31]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:12:31]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:12:31]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:13:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:13:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:17:02]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:17:02]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:17:02]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:17:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:17:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:18:33]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 23:18:33]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 23:18:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 23:18:34]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 23:21:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:21:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:21:53]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:21:53]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:21:53]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:25:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:25:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:26:37]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:26:37]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:26:37]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:29:03]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 23:29:03]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 23:29:04]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 23:29:04]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 23:29:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:29:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:30:43]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:30:43]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:30:43]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:33:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:33:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:34:47]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:34:47]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:34:47]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:37:24]: {Chat} コラッタ: pog
+
+[02/19/20 23:37:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:37:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:39:18]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:39:18]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:39:18]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:39:34]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 23:39:34]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 23:39:34]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 23:39:34]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 23:41:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:41:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:43:35]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:43:35]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:43:35]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:45:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:45:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:47:50]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:47:50]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:47:50]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:49:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:49:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:50:04]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/19/20 23:50:04]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 23:50:04]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/19/20 23:50:04]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/19/20 23:52:46]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:52:46]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:52:47]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:53:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:53:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:57:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/19/20 23:57:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/19/20 23:57:40]: {Twitch} Recieved PING request, responding...
+[02/19/20 23:57:40]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/19/20 23:57:40]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/20/20 00:00:34]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/20/20 00:00:34]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/20/20 00:00:34]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/20/20 00:00:34]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/20/20 00:01:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/20/20 00:01:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/20/20 00:02:27]: {Twitch} Recieved PING request, responding...
+[02/20/20 00:02:27]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/20/20 00:02:27]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/20/20 00:05:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/20/20 00:05:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/20/20 00:06:39]: {Twitch} Recieved PING request, responding...
+[02/20/20 00:06:39]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/20/20 00:06:39]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/20/20 00:09:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/20/20 00:09:35]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/20/20 00:11:04]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[02/20/20 00:11:04]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/20/20 00:11:04]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[02/20/20 00:11:04]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=liversticksbot;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[02/20/20 00:11:23]: {Twitch} Recieved PING request, responding...
+[02/20/20 00:11:23]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/20/20 00:11:23]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[02/20/20 00:11:45]: {Chat} liversticks: rip the run, that's it from me tonight
+
+[02/20/20 00:13:34]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[02/20/20 00:13:34]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[02/20/20 00:16:01]: {Twitch} Recieved PING request, responding...
+[02/20/20 00:16:01]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[02/20/20 00:16:01]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
