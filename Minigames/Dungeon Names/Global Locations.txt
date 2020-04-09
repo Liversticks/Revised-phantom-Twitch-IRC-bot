@@ -1,0 +1,373 @@
+Tiny Woods
+Thunderwave Cave
+Mt. Steel
+Sinister Woods
+Silent Chasm
+Mt. Thunder
+Great Canyon
+Lapis Cave
+Mt. Blaze
+Frosty Forest
+Mt. Freeze
+Uproar Forest
+Magma Cavern
+Sky Tower
+Luminous Cave
+Stormy Sea
+Buried Relic
+Southern Cavern
+Wyvern Hill
+Howling Forest
+Solar Cave
+Fiery Field
+Lightning Field
+Northwind Field
+Mt. Faraway
+Northern Range
+Pitfall Valley
+Wish Cave
+Murky Cave
+Western Cave
+Silver Trench
+Meteor Cave
+Darknight Relic
+Grand Sea
+Waterfall Pond
+Unown Relic
+Joyous Tower
+Far-off Sea
+Purity Forest
+Oddity Cave
+Remains Island
+Marvelous Sea
+Fantasy Strait
+Pokemon Square
+Thunder Crag
+Ravaged Field
+Magnetic Quarry
+Tadpole Pond
+Aged Chamber A-N
+Aged Chamber O-?
+Ancient Relic
+Shallow Beach
+Ice Floe Beach
+Scorched Plains
+Crater
+Volcanic Pit
+Rub-a-Dub River
+Bountiful Sea
+Serene Sea
+Deepsea Current
+Turtleshell Pond
+Final Island
+Withering Desert
+Mt. Green
+Mt. Cleft
+Mt. Moonview
+Rainbow Peak
+Mt. Discipline
+Darkness Ridge
+Jungle
+Mystic Lake
+Waterfall Lake
+Stratos Lookout
+Legendary Island
+Echo Cave
+Cryptic Cave
+Dragon Cave
+Boulder Cave
+Enclosed Island
+Mushroom Forest
+Healing Forest
+Evolution Forest
+Secretive Forest
+Gourd Swamp
+Poison Swamp
+Decrepit Lab
+Power Plant
+Stump Forest
+Flyaway Forest
+Overgrown Forest
+Vibrant Forest
+Treasure Sea
+Deepsea Floor
+Seafloor Cave
+Southern Island
+Wild Plains
+Safari
+Beau Plains
+Sky-Blue Plains
+Sacred Field
+Frigid Cavern
+Beach Cave
+Drenched Bluff
+Mt. Bristle
+Waterfall Cave
+Apple Woods
+Craggy Coast
+Mt. Horn
+Foggy Forest
+Steam Cave
+Amp Plains
+Northern Desert
+Quicksand Cave
+Crystal Cave
+Crystal Crossing
+Chasm Cave
+Dark Hill
+Sealed Ruin
+Dusk Forest
+Treeshroud Forest
+Brine Cave
+Hidden Land
+Temporal Tower
+Mystifying Forest
+Blizzard Island
+Crevice Cave
+Surrounded Sea
+Miracle Sea
+Aegis Cave
+Mt. Travail
+Spacial Rift
+Dark Crater
+Concealed Ruins
+Marine Resort
+Bottomless Sea
+Shimmer Desert
+Mt. Avalanche
+Giant Volcano
+World Abyss
+Sky Stairway
+Mystery Jungle
+Serenity River
+Landslide Cave
+Lush Prairie
+Tiny Meadow
+Labyrinth Cave
+Oran Forest
+Lake Afar
+Happy Outlook
+Mt. Mistral
+Shimmer Hill
+Lost Wilderness
+Midnight Forest
+Zero Isle North
+Zero Isle South
+Zero Isle West
+Zero Isle East
+Sky Peak
+Star Cave
+Zero Isle Center
+Destiny Tower
+Oblivion Forest
+Treacherous Waters
+Southeastern Islands
+Inferno Cave
+Treasure Town
+Shaymin Village
+Hidden Shopkeeper Village
+Hot Spring
+Luminous Spring
+Star Cave
+Murky Forest
+Eastern Cave
+Fortune Ravine
+Spring Cave
+Southern Jungle
+Boulder Quarry
+Limestone Cavern
+Barren Valley
+Dark Wasteland
+Spacial Cliffs
+Dark Ice Mountain
+Icicle Forest
+Vast Ice Mountain
+Little Plains
+Mt. Clear
+Challenge River
+Trial Forest
+Guiding Sea
+Secret Bazaar
+Ragged Mountain
+Stony Cave
+Hazy Pass
+Stompstump Peak
+Desolate Canyon
+Forest Grotto
+Mountain Pass
+Inflora Forest
+Breezy Meadow
+Tempting Path
+Crags of Lament
+Telluric Path
+Great Glacier
+Glacial Underpass
+Glacier Palace
+Redland Reaches
+Eastern Savanna
+Kilionea Road
+Forest of Shadows
+Daybreak Ridge
+Ochre Quarry
+Withered Savanna
+Holehills
+Scorching Desert
+Tyrian Maze
+Glacier Palace Eastern Spire
+Glacier Palace Western Spire
+Glacier Palace Great Spire
+Grove of Whispers
+Freezing Pillar
+Windy Shoreline
+Canyon Foot
+Worldcore
+Miragesands
+Silent Tundra
+Dreamy Island
+Moonlit Forest
+Rusty Mountain
+Jaws of the Abyss
+Smoking Mountain
+Cape at the Edge
+Slumbering Cave
+Path of No Return
+Treasure Trove
+Buried Ruins
+Eternal Ruins
+Seasound Ruins
+Hoarfrost Tower
+Ivory Peak
+Obsidian Edge
+Turbulent Tor
+Post Town
+Pokemon Paradise
+Uncharted Road
+Gilded Hall
+Open Pass
+Lush Forest
+Foreboding Forest
+Drilbur Coal Mine
+School Forest
+Glittering Mountain
+Nectar Meadow
+Poliwrath River
+Ancient Barrow
+Sheer Mountain Range
+Gentle Slope Cave
+Showdown Mountain
+Revelation Mountain
+Abyssal Badlands
+Cave of the Deep
+Calm Craggy Area
+Reverse Mountain
+Purifying Cave
+Cave of Training
+Leafy Highlands
+Headwater Hollow
+Longfield Cave
+Sunbathed Garden
+Serpentine Mountain Trail
+Electric Wasteland
+Waterfall Basin Grotto
+Bustling Valley
+Pledge Hill
+Rolling Pass
+Maze Meadow
+Thrash Dungeon
+Uprise Range
+Stone Field
+Odd Field
+Peewee Meadow
+Mystical Forest
+Submerged Cave
+Prehistoric Ruins
+Spring of Resolve
+Rough Tunnel
+Mysterious Plains
+Small Sand Dune
+Berry Forest
+Super Apple Forest
+Elegant Gorge
+Moonlit Cave
+Frosty Tree Steps
+World Tree
+Ghost Island
+Yellow Point
+Red Point
+Distress Mountain
+Forest of Bounty
+Thorny Shadow Path
+Deep Ocean Tunnel
+Temple Remains
+Sacred Ruins
+Hidden Cave
+Heart Lake
+Path of Fallen Leaves
+Sunny Spot Hill
+Friendly Meadow
+Abundant Pass
+Stealth Cavern
+Crystalline Maze
+Little Canyon
+Spiral Vortex
+Giant Stone Meadow
+Fresh Meadow
+Blue Point
+Triangle Temple
+Sky Ruins
+Dragon Gate
+Magma Chamber
+Zero Isle
+Freedom Coast
+Lake of Enlightenment
+Aurora's Edge
+Midnight Sun Gorge
+Forest of Fairies
+Flagstone Cave
+Frozen Mountain
+Pumpkaboo Forest
+Frozen Falls
+Gooey Bog
+Buried Ruins
+Clear Lake
+Island of Isolation
+Meteorite Crater
+Cape of Wonders
+Sand Dune of Spirits
+Apex Mountain
+Stone Tree Mountain
+Yellow Sand Labyrinth
+Valley of Strong Winds
+Hall of Magic
+Thirsty Desert
+Secret Quarry
+Holey Meadow
+Snowy Cave
+Sandy Cave
+Jewel Road
+Fossil Excavation
+Isle of Light
+Mysterious Geoglyph
+Golden Suite
+Fire Island Volcano
+Road to Primeval Forest
+Tree of Life: Roots
+Tree of Life: Trunk
+Tree of Life
+Prism Bridge
+Sea Shrine
+Altar of Ice
+Ocean Tempest
+Seafloor Ruins
+Island of Storms
+Lake of Mysterious Light
+Guidance Ruins
+Pelipper Dungeon
+Serene Village
+Lively Town
+Baram Town
+Capim Town
+Noe Town
+Sahra Town
+Illusory Grotto
+Mystery House
