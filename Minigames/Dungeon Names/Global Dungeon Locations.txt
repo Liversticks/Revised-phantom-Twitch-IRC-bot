@@ -12,7 +12,6 @@ Mt. Freeze
 Uproar Forest
 Magma Cavern
 Sky Tower
-Luminous Cave
 Stormy Sea
 Buried Relic
 Southern Cavern
@@ -41,64 +40,6 @@ Oddity Cave
 Remains Island
 Marvelous Sea
 Fantasy Strait
-Pokemon Square
-Thunder Crag
-Ravaged Field
-Magnetic Quarry
-Tadpole Pond
-Aged Chamber A-N
-Aged Chamber O-?
-Ancient Relic
-Shallow Beach
-Ice Floe Beach
-Scorched Plains
-Crater
-Volcanic Pit
-Rub-a-Dub River
-Bountiful Sea
-Serene Sea
-Deepsea Current
-Turtleshell Pond
-Final Island
-Withering Desert
-Mt. Green
-Mt. Cleft
-Mt. Moonview
-Rainbow Peak
-Mt. Discipline
-Darkness Ridge
-Jungle
-Mystic Lake
-Waterfall Lake
-Stratos Lookout
-Legendary Island
-Echo Cave
-Cryptic Cave
-Dragon Cave
-Boulder Cave
-Enclosed Island
-Mushroom Forest
-Healing Forest
-Evolution Forest
-Secretive Forest
-Gourd Swamp
-Poison Swamp
-Decrepit Lab
-Power Plant
-Stump Forest
-Flyaway Forest
-Overgrown Forest
-Vibrant Forest
-Treasure Sea
-Deepsea Floor
-Seafloor Cave
-Southern Island
-Wild Plains
-Safari
-Beau Plains
-Sky-Blue Plains
-Sacred Field
-Frigid Cavern
 Beach Cave
 Drenched Bluff
 Mt. Bristle
@@ -163,11 +104,6 @@ Oblivion Forest
 Treacherous Waters
 Southeastern Islands
 Inferno Cave
-Treasure Town
-Shaymin Village
-Hidden Shopkeeper Village
-Hot Spring
-Luminous Spring
 Star Cave
 Murky Forest
 Eastern Cave
@@ -187,7 +123,6 @@ Mt. Clear
 Challenge River
 Trial Forest
 Guiding Sea
-Secret Bazaar
 Ragged Mountain
 Stony Cave
 Hazy Pass
@@ -239,10 +174,6 @@ Hoarfrost Tower
 Ivory Peak
 Obsidian Edge
 Turbulent Tor
-Post Town
-Pokemon Paradise
-Uncharted Road
-Gilded Hall
 Open Pass
 Lush Forest
 Foreboding Forest
@@ -351,9 +282,8 @@ Mysterious Geoglyph
 Golden Suite
 Fire Island Volcano
 Road to Primeval Forest
-Tree of Life: Roots
-Tree of Life: Trunk
-Tree of Life
+Tree of Life Roots
+Tree of Life Trunk
 Prism Bridge
 Sea Shrine
 Altar of Ice
@@ -362,12 +292,3 @@ Seafloor Ruins
 Island of Storms
 Lake of Mysterious Light
 Guidance Ruins
-Pelipper Dungeon
-Serene Village
-Lively Town
-Baram Town
-Capim Town
-Noe Town
-Sahra Town
-Illusory Grotto
-Mystery House
