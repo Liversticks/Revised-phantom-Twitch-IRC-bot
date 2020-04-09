@@ -31,8 +31,8 @@ private:
 	//attached socket instance
 	Socket* aSocket;
 
-	//stores dungeon names
-	vector <string> dungeonNames;
+	//stores place names
+	vector <string> placeNames;
 
 	//for sending messages in chat
 	string chatMessage;
@@ -51,6 +51,9 @@ private:
 
 	//scaling factor for scoring
 	double scoreFactor;
+
+	//anagram
+	string anagram;
 
 public:
 
@@ -101,6 +104,9 @@ public:
 
 	//returns a reference to the topScorers vector in the gameObject
 	vector<pair<string, unsigned int>>& top15Vector();
+
+	//creates an anagram from the placeNames and returns it 
+	string makeAnagram();
 
 };
 

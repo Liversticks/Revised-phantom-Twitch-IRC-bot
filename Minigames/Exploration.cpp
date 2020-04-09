@@ -24,7 +24,7 @@ bool Exploration::prepareGame() {
 	string input;
 	while (!f.eof()) {
 		getline(f, input);
-		dungeonNames.push_back(input);
+		placeNames.push_back(input);
 	}
 	f.close();
 	gameObject.loadScores(playerList);
@@ -93,9 +93,22 @@ Exploration& Exploration::fetchInstance() {
 
 bool Exploration::setupGame() {
 	//generate random dungeon
+
+	//rework random generation:
+	//once the entire place names have been loaded into a vector, shuffle that vector
+	//proceed linearly through vector
+	//if the end of the vector is reached, reshuffle vector
 	mt19937 rng(chrono::system_clock::now().time_since_epoch().count());
 	//dungeonNames contains at least one element, else will crash
-	whereGo = dungeonNames.at(rng() % dungeonNames.size());
+	whereGo = placeNames.at(rng() % placeNames.size());
+
+
+	//different categories of locations
+	//towns - Square, TTown, HS Village, Shaymin Village, Post Town, Paradise, Super towns
+	//Camps or Friend Areas
+	//Dungeons
+	//Illusory Grotto, Mystery House, Uncharted Road, Gilded Hall, Secret Bazaar
+	//Luminous Cave, Luminous Spring, or Tree of Life
 
 	//send chat message to indicate that the game is ready
 	//may move this to a separate thread
