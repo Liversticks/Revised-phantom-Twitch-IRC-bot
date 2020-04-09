@@ -8,28 +8,44 @@ Oliver X. (Liversticks)
 
 #define GAME_COOLDOWN 30
 
-Exploration::Exploration(): gameObject(), gameThread(NULL), gameHasBegun(false), readyToAccept(false), aSocket(NULL), chatMessage(""), whereGo(""), playerList(""), dungeonList(""), scoreFactor(1)  {
+Exploration::Exploration(): gameObject(), gameThread(NULL), gameHasBegun(false), readyToAccept(false), aSocket(NULL), chatMessage(""), whereGo(""), playerList(""), dungeonList(""), townList(""), specialList(""), scoreFactor(1), dungeonCounter(0), placeType(0)  {
 	lastGameFinish = chrono::system_clock::now();
 }
 
-bool Exploration::setSocketAndFiles(Socket* a, string dungeons, string players) {
+bool Exploration::setSocketAndFiles(Socket* a, string dungeons, string towns, string special, string players) {
 	aSocket = a;
 	dungeonList = dungeons;
+	townList = towns; 
+	specialList = special;
 	playerList = players;
 	return true;
 }
 
 bool Exploration::prepareGame() {
+	//load names from filenames
 	ifstream f(dungeonList.c_str());
 	string input;
 	while (!f.eof()) {
 		getline(f, input);
-		placeNames.push_back(input);
+		dungeonNames.push_back(input);
 	}
 	f.close();
+	ifstream g(townList.c_str());
+	while (!g.eof()) {
+		getline(g, input);
+		townNames.push_back(input);
+	}
+	g.close();
+	ifstream h(specialList.c_str());
+	while (!h.eof()) {
+		getline(h, input);
+		specialNames.push_back(input);
+	}
+	h.close();
 	gameObject.loadScores(playerList);
 	gameObject.top15Scores();
 	//set up theGame thread
+	shuffle(dungeonNames.begin(), dungeonNames.end(), mt19937(chrono::system_clock::now().time_since_epoch().count()));
 	gameThread = new thread(&Exploration::theGame, this);
 	return true;
 }
@@ -92,23 +108,41 @@ Exploration& Exploration::fetchInstance() {
 }
 
 bool Exploration::setupGame() {
-	//generate random dungeon
-
-	//rework random generation:
-	//once the entire place names have been loaded into a vector, shuffle that vector
+	//once the entire dungeon names have been loaded into a vector, shuffle that vector
 	//proceed linearly through vector
 	//if the end of the vector is reached, reshuffle vector
+	if (dungeonCounter == dungeonList.size()) {
+		shuffle(dungeonNames.begin(), dungeonNames.end(), mt19937(chrono::system_clock::now().time_since_epoch().count()));
+		dungeonCounter == 0;
+	}
 	mt19937 rng(chrono::system_clock::now().time_since_epoch().count());
-	//dungeonNames contains at least one element, else will crash
-	whereGo = placeNames.at(rng() % placeNames.size());
-
-
+	placeType = 0;
+	switch (rng() % 50) {
+		case 0:
+			placeType = 2;
+			break;
+		case 1:
+		case 2:
+			placeType = 1;
+			break;
+	}
+	if (placeType == 0) {
+		whereGo = dungeonNames.at(dungeonCounter);
+		dungeonCounter++;
+	}
+	//for non-dungeon locations, use random generation to choose an index (as before)
+	else if (placeType == 1) {
+		whereGo = townNames.at(rng() % townNames.size());
+	}
+	else {
+		whereGo = specialNames.at(rng() % specialNames.size());
+	}
+	
 	//different categories of locations
 	//towns - Square, TTown, HS Village, Shaymin Village, Post Town, Paradise, Super towns
-	//Camps or Friend Areas
 	//Dungeons
 	//Illusory Grotto, Mystery House, Uncharted Road, Gilded Hall, Secret Bazaar
-	//Luminous Cave, Luminous Spring, or Tree of Life
+	
 
 	//send chat message to indicate that the game is ready
 	//may move this to a separate thread

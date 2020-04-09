@@ -31,17 +31,29 @@ private:
 	//attached socket instance
 	Socket* aSocket;
 
-	//stores place names
-	vector <string> placeNames;
+	//stores dungeon names
+	vector <string> dungeonNames;
+
+	//stores town names
+	vector <string> townNames;
+
+	//stores special names
+	vector <string> specialNames;
 
 	//for sending messages in chat
 	string chatMessage;
 
-	//dungeon name
+	//dungeon, town, or special name
 	string whereGo;
 
 	//file location of dungeon list
 	string dungeonList;
+
+	//file location of town list
+	string townList;
+
+	//file location of special locations
+	string specialList;
 
 	//file location of player list
 	string playerList;
@@ -52,8 +64,14 @@ private:
 	//scaling factor for scoring
 	double scoreFactor;
 
-	//anagram
+	//anagram - scrambled
 	string anagram;
+
+	//array counter
+	int dungeonCounter;
+
+	//0 == dungeon, 1 == town, 2 == Illusory Grotto/Mystery House/Uncharted Road etc.
+	int placeType;
 
 public:
 
@@ -61,7 +79,7 @@ public:
 	Exploration();
 
 	//set details (socket, dungeon names file, player names file)
-	bool setSocketAndFiles(Socket* a, string dungeons, string players);
+	bool setSocketAndFiles(Socket* a, string dungeons, string towns, string special, string players);
 
 	//initialize (load) game structure, called from main bot
 	bool prepareGame();
