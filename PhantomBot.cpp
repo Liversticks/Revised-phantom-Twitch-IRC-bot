@@ -36,7 +36,7 @@ void PhantomBot::init(vector<string> &conf) {
 	initialized = true;
 	//initialized minigame
 	myMinigame = new Exploration();
-	myMinigame->fetchInstance().setSocketAndFiles(irc->fetchSocket(), "Minigames/Dungeon Names/Rescue Team.txt", "Users/userdata.txt");
+	myMinigame->fetchInstance().setSocketAndFiles(irc->fetchSocket(), "Minigames/Dungeon Names/Global Dungeon Locations.txt", "Minigames/Dungeon Names/Global Town Locations.txt", "Minigames/Dungeon Names/Special Locations.txt", "Users/userdata.txt");
 	
 	//to-do: add the file names for the minigame into botconfig.txt
 	
