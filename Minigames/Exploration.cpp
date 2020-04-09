@@ -148,11 +148,11 @@ void Exploration::flavourText() {
 }
 
 int Exploration::nextGameIn() {
-	time_t presentTime = chrono::system_clock::to_time_t(chrono::system_clock::now());
-	time_t gameEndTime = chrono::system_clock::to_time_t(lastGameFinish);
-	//find the amount of time elapsed between timeNow and lastGameFinish
-	//convert to time_t
-	return gameEndTime + GAME_COOLDOWN - presentTime;
+	//time_t presentTime = chrono::system_clock::to_time_t(chrono::system_clock::now());
+	//time_t gameEndTime = chrono::system_clock::to_time_t(lastGameFinish);
+	//find the amount of time elapsed between timeNow and lastGameFinish as a duration object
+	
+	return GAME_COOLDOWN + (chrono::duration_cast<chrono::duration<double>>(lastGameFinish - chrono::system_clock::now())).count();
 }
 
 void Exploration::theGame() {
