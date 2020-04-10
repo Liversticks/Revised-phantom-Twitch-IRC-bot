@@ -1,0 +1,5 @@
+liversticksbot
+irc.chat.twitch.tv
+6667
+#liversticks
+oauth:7w7e2dttozjw0vlnpq4771vdpe9rev
