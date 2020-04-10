@@ -2,7 +2,6 @@ Pokemon Square
 Treasure Town
 Shaymin Village
 Hidden Shopkeeper Village
-Hot Spring
 Post Town
 Pokemon Paradise
 Serene Village
@@ -11,4 +10,3 @@ Baram Town
 Capim Town
 Noe Town
 Sahra Town
-Pelipper Island
