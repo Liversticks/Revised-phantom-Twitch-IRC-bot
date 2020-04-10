@@ -10,11 +10,23 @@ Oliver X. (Liversticks)
 
 class Exploration {
 private:
+	//for sending messages in chat
+	string chatMessage;
+
 	//dictionary object
 	AllUsers gameObject;
 
-	//stores users participating in the current instance
-	set <string> whoIsPlaying;
+	//file location of dungeon list
+	string dungeonList;
+
+	//file location of town list
+	string townList;
+
+	//file location of special locations
+	string specialList;
+
+	//file location of player list
+	string playerList;
 
 	//thread which runs the game
 	thread* gameThread;
@@ -37,47 +49,44 @@ private:
 	//stores dungeon names
 	vector <string> dungeonNames;
 
+	//array counter for dungeonNames
+	int dungeonCounter;
+
+	//0 == dungeon, 1 == town, 2 == Illusory Grotto/Mystery House/Uncharted Road etc.
+	int placeType;
+
 	//stores town names
 	vector <string> townNames;
 
 	//stores special names
 	vector <string> specialNames;
 
-	//for sending messages in chat
-	string chatMessage;
-
 	//dungeon, town, or special name
 	string whereGo;
-
-	//file location of dungeon list
-	string dungeonList;
-
-	//file location of town list
-	string townList;
-
-	//file location of special locations
-	string specialList;
-
-	//file location of player list
-	string playerList;
-
-	//player which guessed anagram correctly
-	string correctGuesser;
-
-	//time_point corresponding to when the last game finished
-	chrono::system_clock::time_point lastGameFinish;
-
-	//scaling factor for scoring
-	double scoreFactor;
 
 	//anagram - scrambled
 	string anagram;
 
-	//array counter
-	int dungeonCounter;
+	//player which guessed anagram correctly
+	string correctGuesser;
 
-	//0 == dungeon, 1 == town, 2 == Illusory Grotto/Mystery House/Uncharted Road etc.
-	int placeType;
+	//stores users participating in the current instance
+	set <string> whoIsPlaying;
+
+	//scaling factor for scoring
+	double scoreFactor;
+
+	//time_point corresponding to when the last game finished
+	chrono::system_clock::time_point lastGameFinish;
+
+	//flavour text for the game
+	void flavourText();
+
+	//award points to participating users
+	bool awardPoints();
+
+	//creates an anagram from the placeNames and returns it 
+	void makeAnagram();
 
 public:
 
@@ -93,6 +102,12 @@ public:
 	//generate random dungeon, send chat message, and set accepting state to true
 	bool setupGame();
 
+	//game function, run within a separate thread
+	void theGame();
+
+	//fetch singleton instance
+	static Exploration& fetchInstance();
+	
 	//check game state
 	bool inGame();
 
@@ -105,23 +120,17 @@ public:
 	//listen for users who type command
 	void addPlayingUser(string username);
 
-	//award points to participating users
-	bool awardPoints();
-
-	//fetch singleton instance
-	static Exploration& fetchInstance();
+	//tells how many seconds until the game is ready again
+	int nextGameIn();
 
 	//fetch whereGo (for external use)
 	string whereGoFetch();
 
-	//game function, run within a separate thread
-	void theGame();
+	//used by TwitchPrivMsg to pass the player's name back
+	void whoWon(const string winner);
 
-	//flavour text for the game
-	void flavourText();
-
-	//tells how many seconds until the game is ready again
-	int nextGameIn();
+	//used by TwitchPrivMsg to set atomic isAnagram to false
+	void setAnagramFalse();
 
 	//returns score of specified user
 	unsigned int userScoreIs(string username);
@@ -134,15 +143,6 @@ public:
 
 	//returns a reference to the topScorers vector in the gameObject
 	vector<pair<string, unsigned int>>& top15Vector();
-
-	//creates an anagram from the placeNames and returns it 
-	void makeAnagram();
-
-	//used by TwitchPrivMsg to pass the player's name back
-	void whoWon(const string winner);
-
-	//used by TwitchPrivMsg to set atomic isAnagram to false
-	void setAnagramFalse();
 
 };
 

@@ -70,49 +70,45 @@ void Exploration::addPlayingUser(string username) {
 	mtx.unlock();
 }
 
-bool Exploration::awardPoints() {
-	//iterate all members of whoIsPlaying and update their scores in gameObject
-	//concurrently, update the chat message
-	if (placeType == 0) {
-		chatMessage = "After a long, hard day in " + whereGo + ", here are the explorers' spoils: ";
+bool Exploration::setupGame() {
+	//once the entire dungeon names have been loaded into a vector, shuffle that vector
+	//proceed linearly through vector
+	//if the end of the vector is reached, reshuffle vector
+	if (dungeonCounter == dungeonList.size()) {
+		shuffle(dungeonNames.begin(), dungeonNames.end(), mt19937(chrono::system_clock::now().time_since_epoch().count()));
+		dungeonCounter == 0;
 	}
+	mt19937 rng(chrono::system_clock::now().time_since_epoch().count());
+	placeType = 0;
+	switch (rng() % 50) {
+	case 0:
+		placeType = 2;
+		break;
+	case 1:
+	case 2:
+		placeType = 1;
+		break;
+	default:
+		break;
+	}
+	if (placeType == 0) {
+		whereGo = dungeonNames.at(dungeonCounter);
+		dungeonCounter++;
+	}
+	//for non-dungeon locations, use random generation to choose an index (as before)
 	else if (placeType == 1) {
-		chatMessage = "After a long night in " + whereGo + ", here are the explorers' profits: ";
+		whereGo = townNames.at(rng() % townNames.size());
 	}
 	else {
-		chatMessage = "After an exciting journey to the " + whereGo + ", here are the explorers' loot: ";
+		whereGo = specialNames.at(rng() % specialNames.size());
 	}
 
-	//the mean of the score distribution should reflect the number of players and the special event, if any
-	//the variance of the score distribution should be fairly tight
-
-	normal_distribution<double> distribution((scoreFactor * 30 * (log(whoIsPlaying.size())+1)), (whoIsPlaying.size())/(scoreFactor + 1));
-	mt19937 generator(chrono::system_clock::now().time_since_epoch().count());
-	unsigned int temp;
-	int size = whoIsPlaying.size();
-	for (set<string>::iterator itr = whoIsPlaying.begin(); itr != whoIsPlaying.end(); itr++) {
-		temp = (unsigned int)distribution(generator);
-		chatMessage = chatMessage + *itr + "(" + to_string(temp) + ")";
-		if (size > 1) {
-			chatMessage += ", ";
-		}
-		size--;
-		gameObject.updateScore(*itr, temp);
-	}
-	whoIsPlaying.clear();
-	chatMessage = Lib::formatChatMessage(chatMessage);
-	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
-	gameObject.saveScores(playerList);
-	//for the next round
-	scoreFactor = 1;
+	//different categories of locations
+	//towns - Square, TTown, HS Village, Shaymin Village, Post Town, Paradise, Super towns
+	//Dungeons
+	//Illusory Grotto, Mystery House, Uncharted Road, Gilded Hall, Secret Bazaar
+	//cout << whereGo << endl;
 	return true;
-}
-
-Exploration& Exploration::fetchInstance() {
-	if (managedSingleton<Exploration>::instance() == NULL) {
-		managedSingleton<Exploration>::createInstance();
-	}
-	return *(managedSingleton<Exploration>::instance());
 }
 
 void Exploration::makeAnagram() {
@@ -122,14 +118,14 @@ void Exploration::makeAnagram() {
 	for (int i = 0; i < length; i++) {
 		result[i] = tolower(result.at(i));
 	}
-	
+
 	//break down the string into tokens
 	vector<string> tokens;
 	size_t size = result.size() + 1;
 	char* buffer = new char[size];
 	memcpy(buffer, result.c_str(), size);
 	//rsize_t strmax = sizeof(buffer);
-	char*  word = NULL;
+	char* word = NULL;
 	char delim[] = " ";
 	char* next_word = NULL;
 	word = strtok_s(buffer, delim, &next_word);
@@ -162,139 +158,155 @@ void Exploration::makeAnagram() {
 	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
 	chatMessage = Lib::formatChatMessage(to_string(length) + " words: " + resultMessage);
 	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
-	
-
 }
-
-bool Exploration::setupGame() {
-	//once the entire dungeon names have been loaded into a vector, shuffle that vector
-	//proceed linearly through vector
-	//if the end of the vector is reached, reshuffle vector
-	if (dungeonCounter == dungeonList.size()) {
-		shuffle(dungeonNames.begin(), dungeonNames.end(), mt19937(chrono::system_clock::now().time_since_epoch().count()));
-		dungeonCounter == 0;
-	}
-	mt19937 rng(chrono::system_clock::now().time_since_epoch().count());
-	placeType = 0;
-	switch (rng() % 50) {
-		case 0:
-			placeType = 2;
-			break;
-		case 1:
-		case 2:
-			placeType = 1;
-			break;
-		default:
-			break;
-	}
-	if (placeType == 0) {
-		whereGo = dungeonNames.at(dungeonCounter);
-		dungeonCounter++;
-	}
-	//for non-dungeon locations, use random generation to choose an index (as before)
-	else if (placeType == 1) {
-		whereGo = townNames.at(rng() % townNames.size());
-	}
-	else {
-		whereGo = specialNames.at(rng() % specialNames.size());
-	}
-	
-	//different categories of locations
-	//towns - Square, TTown, HS Village, Shaymin Village, Post Town, Paradise, Super towns
-	//Dungeons
-	//Illusory Grotto, Mystery House, Uncharted Road, Gilded Hall, Secret Bazaar
-	//cout << whereGo << endl;
-	return true;
-}
-
-unsigned int Exploration::userScoreIs(string username) {
-	return gameObject.whatsMyScore(username);
-}
-
 
 void Exploration::flavourText() {
 	mt19937 rng(chrono::system_clock::now().time_since_epoch().count());
-	
+
 	if (placeType == 0) {
 		chatMessage = Lib::formatChatMessage("All prepared and well-fed, the exploration party heads into " + whereGo + ", not knowing what to expect.");
 		TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
 		switch (rng() % 12) {
-			case 0:
-				chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a Monster House! Fighting valiantly, the explorers defeat the horde!");
-				scoreFactor = 1.5;
-				break;
-			case 1:
-			case 2:
-				chatMessage = Lib::formatChatMessage("While exploring, the party ambushes a S-Rank outlaw about to perform a nefarious deed! They calmly escort the crook to justice!");
-				scoreFactor = 1.5;
-				break;
-			case 3:
-			case 4:
-				chatMessage = Lib::formatChatMessage("While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.");
-				break;
-			default:
-				chatMessage = Lib::formatChatMessage("While exploring, the party doesn't encounter anything out of the ordinary and the exploration concludes without incident.");
-				break;
+		case 0:
+			chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a Monster House! Fighting valiantly, the explorers defeat the horde!");
+			scoreFactor = 1.5;
+			break;
+		case 1:
+		case 2:
+			chatMessage = Lib::formatChatMessage("While exploring, the party ambushes a S-Rank outlaw about to perform a nefarious deed! They calmly escort the crook to justice!");
+			scoreFactor = 1.5;
+			break;
+		case 3:
+		case 4:
+			chatMessage = Lib::formatChatMessage("While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.");
+			break;
+		default:
+			chatMessage = Lib::formatChatMessage("While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.");
+			break;
 		}
 	}
 	else if (placeType == 1) {
 		chatMessage = Lib::formatChatMessage("With cargoes of treasure and ample Poke, the exploration party heads to " + whereGo + " to restock and replenish resources.");
 		TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
-		switch (rng() % 10) {
-
+		switch (rng() % 8) {
+		case 0:
+			chatMessage = Lib::formatChatMessage("Checking the Kecleon shop, the party discovers that Perfect Apples are now in stock! Everyone rushes madly to solve their Belly problem once and for all!");
+			scoreFactor = 1.25;
+			break;
+		case 1:
+			chatMessage = Lib::formatChatMessage("At an inn, the party provides some food for a hungry travelling Pokemon, who leaves gifts for the group the next morning as thanks!");
+			scoreFactor = 1.1;
+			break;
+		default:
+			chatMessage = Lib::formatChatMessage("In town, the party sells surplus treasure, acquires some shiny new equipment, and eats well in preparation for the next adventure.");
+			break;
 		}
 	}
 	else {
 		//second character is unique
 		char key = whereGo[1];
 		switch (key) {
-			case 'e':
-				//Secret Bazaar
-				chatMessage = Lib::formatChatMessage("While exploring, the party discovers some Hidden Stairs! They clean their items and get some grab-bags at the Secret Bazaar.");
-				scoreFactor = 2;
-				break;
-			case 'n':
-				//Uncharted Road
-				chatMessage = Lib::formatChatMessage("While exploring, the mysteriosity spikes! All of a sudden, everyone finds themselves in a strange new dungeon with sparkling tiles everywhere!");
-				scoreFactor = 2;
-				break;
-			case 'i':
-				//Gilded Hall
-				chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a Gilded Hall! It's so shiny that everyone almost missed the treasure: a great cache of Gold Bars!");
-				scoreFactor = 6;
-				break;
-			case 'l':
-				//Illusory Grotto
-				chatMessage = Lib::formatChatMessage("While exploring, the party notices the copious amounts of healing items and Revives lying around. It seems like an illusory grotto no one has ever encountered before!");
-				scoreFactor = 3;
-				break;
-			case 'y':
-				//Mystery House
-				chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a locked door! They successfully force the door open... There's a trove of treasure and a Riolu!");
-				scoreFactor = 5;
-				break;
-			case 'o':
-				//Golden Chamber
-				chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a Golden Chamber! Unlocking it reveals exclusive items for everyone!");
-				scoreFactor = 4;
-				break;
-			default:
-				//idk, how'd you get here?
-				chatMessage = Lib::formatChatMessage("While exploring, the party successfully skips a cutscene! Wait, this is supposed to be a debug line! Let the bot developer know that something broke ;(");
-				scoreFactor = 100;
-				break;
+		case 'e':
+			//Secret Bazaar
+			chatMessage = Lib::formatChatMessage("While exploring, the party discovers some Hidden Stairs! They clean their items and get some grab-bags at the Secret Bazaar.");
+			scoreFactor = 2;
+			break;
+		case 'n':
+			//Uncharted Road
+			chatMessage = Lib::formatChatMessage("While exploring, the mysteriosity spikes! All of a sudden, everyone finds themselves in a strange new dungeon with sparkling tiles everywhere!");
+			scoreFactor = 2;
+			break;
+		case 'i':
+			//Gilded Hall
+			chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a Gilded Hall! It's so shiny that everyone almost missed the treasure: a great cache of Gold Bars!");
+			scoreFactor = 6;
+			break;
+		case 'l':
+			//Illusory Grotto
+			chatMessage = Lib::formatChatMessage("While exploring, the party notices the copious amounts of healing items and Revives lying around. It seems like an illusory grotto no one has ever encountered before!");
+			scoreFactor = 3;
+			break;
+		case 'y':
+			//Mystery House
+			chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a locked door! They successfully force the door open... There's a trove of treasure and a Riolu!");
+			scoreFactor = 5;
+			break;
+		case 'o':
+			//Golden Chamber
+			chatMessage = Lib::formatChatMessage("While exploring, the party chances upon a Golden Chamber! Unlocking it reveals exclusive items for everyone!");
+			scoreFactor = 4;
+			break;
+		default:
+			//idk, how'd you get here?
+			chatMessage = Lib::formatChatMessage("While exploring, the party successfully skips a cutscene! Wait, this is supposed to be a debug line! Let the bot developer know that something broke ;(");
+			scoreFactor = 100;
+			break;
 		}
-		
+
 	}
-	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);	
+	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
+}
+
+bool Exploration::awardPoints() {
+	//iterate all members of whoIsPlaying and update their scores in gameObject
+	//concurrently, update the chat message
+	if (placeType == 0) {
+		chatMessage = "After a long, hard day in " + whereGo + ", here are the explorers' spoils: ";
+	}
+	else if (placeType == 1) {
+		chatMessage = "After a long night in " + whereGo + ", here are the explorers' profits: ";
+	}
+	else {
+		chatMessage = "After an exciting journey to the " + whereGo + ", here are the explorers' loot: ";
+	}
+
+	//the mean of the score distribution should reflect the number of players and the special event, if any
+	//the variance of the score distribution should be fairly tight
+
+	normal_distribution<double> distribution((scoreFactor * 30 * (log(whoIsPlaying.size()) + 1)), (whoIsPlaying.size()) / (scoreFactor + 1));
+	mt19937 generator(chrono::system_clock::now().time_since_epoch().count());
+	unsigned int temp;
+	int size = whoIsPlaying.size();
+	for (set<string>::iterator itr = whoIsPlaying.begin(); itr != whoIsPlaying.end(); itr++) {
+		temp = (unsigned int)distribution(generator);
+		chatMessage = chatMessage + *itr + "(" + to_string(temp) + ")";
+		if (size > 1) {
+			chatMessage += ", ";
+		}
+		size--;
+		gameObject.updateScore(*itr, temp);
+	}
+	whoIsPlaying.clear();
+	chatMessage = Lib::formatChatMessage(chatMessage);
+	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
+	gameObject.saveScores(playerList);
+	//for the next round
+	scoreFactor = 1;
+	return true;
+}
+
+Exploration& Exploration::fetchInstance() {
+	if (managedSingleton<Exploration>::instance() == NULL) {
+		managedSingleton<Exploration>::createInstance();
+	}
+	return *(managedSingleton<Exploration>::instance());
 }
 
 int Exploration::nextGameIn() {
-	//time_t presentTime = chrono::system_clock::to_time_t(chrono::system_clock::now());
-	//time_t gameEndTime = chrono::system_clock::to_time_t(lastGameFinish);
 	//find the amount of time elapsed between timeNow and lastGameFinish as a duration object
-	
 	return GAME_COOLDOWN + (chrono::duration_cast<chrono::duration<double>>(lastGameFinish - chrono::system_clock::now())).count();
+}
+
+string Exploration::whereGoFetch() {
+	return whereGo;
+}
+
+void Exploration::whoWon(const string winner) {
+	correctGuesser = winner;
+}
+
+void Exploration::setAnagramFalse() {
+	parseAnagram.store(false, memory_order_relaxed);
 }
 
 void Exploration::theGame() {
@@ -346,22 +358,19 @@ void Exploration::theGame() {
 
 		//when game starts:
 		//ignore commands to join (as !join calls inGame())
-		//turn off accepting state
 		gameHasBegun.store(true, memory_order_relaxed);
 		readyToAccept.store(false, memory_order_relaxed);
 		
 		flavourText();
 		//flavour text here and set scale factor for scoring
 		
-		//calculate score for users
-		//display info in chat message (flavor text)
+		//calculate score for users and display info in chat message (flavor text)
 		awardPoints();
 		gameObject.top15Scores();
 		
-		//update gameHasBegun now that the current game is over;
+		//update gameHasBegun now that the current game is over and wait for cooldown
 		gameHasBegun.store(false, memory_order_relaxed);
 		lastGameFinish = chrono::system_clock::now();
-		//wait for x seconds until the cooldown period is over
 		this_thread::sleep_for(chrono::seconds(GAME_COOLDOWN));
 		
 	}
@@ -377,18 +386,10 @@ void Exploration::fillTopScore() {
 	gameObject.top15Scores();
 }
 
+unsigned int Exploration::userScoreIs(string username) {
+	return gameObject.whatsMyScore(username);
+}
+
 vector<pair<string, unsigned int>>& Exploration::top15Vector() {
 	return gameObject.returnVector();
-}
-
-string Exploration::whereGoFetch() {
-	return whereGo;
-}
-
-void Exploration::whoWon(const string winner) {
-	correctGuesser = winner;
-}
-
-void Exploration::setAnagramFalse() {
-	parseAnagram.store(false, memory_order_relaxed);
 }
