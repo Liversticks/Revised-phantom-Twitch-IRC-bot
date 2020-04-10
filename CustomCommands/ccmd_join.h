@@ -30,7 +30,7 @@ public:
 				Exploration::fetchInstance().addPlayingUser(username);
 			}
 			else {
-				string chatMessage = Lib::formatChatMessage("Society of Explorers rules mandate that you wait " + to_string(Exploration::fetchInstance().nextGameIn()) + " seconds until the next party leaves.");
+				string chatMessage = Lib::formatChatMessage("Society of Explorers rules mandate that you can only join expeditions after successfully unscrambling the destination.");
 				TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
 			}
 		}

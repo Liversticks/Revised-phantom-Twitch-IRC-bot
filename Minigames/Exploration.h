@@ -28,6 +28,9 @@ private:
 	//first accepting state - has a user issued a call to explore yet?
 	atomic<bool> readyToAccept;
 
+	//whether incoming messages need to be parsed for anagram matching
+	atomic<bool> parseAnagram;
+
 	//attached socket instance
 	Socket* aSocket;
 
@@ -57,6 +60,9 @@ private:
 
 	//file location of player list
 	string playerList;
+
+	//player which guessed anagram correctly
+	string correctGuesser;
 
 	//time_point corresponding to when the last game finished
 	chrono::system_clock::time_point lastGameFinish;
@@ -93,6 +99,9 @@ public:
 	//check accepting state
 	bool inAccept();
 
+	//check anagram state
+	bool inAnagram();
+
 	//listen for users who type command
 	void addPlayingUser(string username);
 
@@ -101,6 +110,9 @@ public:
 
 	//fetch singleton instance
 	static Exploration& fetchInstance();
+
+	//fetch whereGo (for external use)
+	string whereGoFetch();
 
 	//game function, run within a separate thread
 	void theGame();
@@ -124,7 +136,13 @@ public:
 	vector<pair<string, unsigned int>>& top15Vector();
 
 	//creates an anagram from the placeNames and returns it 
-	string makeAnagram();
+	void makeAnagram();
+
+	//used by TwitchPrivMsg to pass the player's name back
+	void whoWon(const string winner);
+
+	//used by TwitchPrivMsg to set atomic isAnagram to false
+	void setAnagramFalse();
 
 };
 

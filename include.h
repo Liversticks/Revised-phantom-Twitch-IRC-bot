@@ -13,6 +13,7 @@
 #include <stdarg.h>
 #include <math.h>
 #include <float.h>
+#include <cstring>
 #include <string>
 #include <algorithm>
 #include <iostream>
@@ -31,6 +32,7 @@
 #include <iterator>
 #include <set>
 #include <mutex>
+#include <cctype>
 
 #include "Platform/platform.h"
 
