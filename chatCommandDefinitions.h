@@ -25,6 +25,7 @@
 #include "CustomCommands/ccmd_top.h"
 #include "CustomCommands/ccmd_discord.h"
 #include "CustomCommands/ccmd_help.h"
+#include "CustomCommands/ccmd_hint.h"
 
 /*
 ChatCommandDecs Class
@@ -60,6 +61,7 @@ class ChatCommandDecs {
 				CustomCommandManager::fetchInstance().AddCommand("!top", new Command_Top());
 				CustomCommandManager::fetchInstance().AddCommand("!discord", new Command_Discord());
 				CustomCommandManager::fetchInstance().AddCommand("!help", new Command_Help());
+				CustomCommandManager::fetchInstance().AddCommand("!hint", new Command_Hint());
 			}
 			//inactive commands belong below, they should not be loaded
 			else {
