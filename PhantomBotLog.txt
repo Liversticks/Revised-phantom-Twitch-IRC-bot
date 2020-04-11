@@ -3535,3 +3535,118 @@ knowing what to expect.'.
 [04/10/20 21:40:47]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
 [04/10/20 21:40:47]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
 [04/10/20 21:40:47]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:42:47]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 21:42:47]: {C++} Added command 'PRIVMSG #liversticks :2 words: ecnoa eesttmp '.
+[04/10/20 21:42:47]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 21:42:47]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: ecnoa eesttmp '.
+[04/10/20 21:42:47]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:42:47]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:42:58]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 21:42:58]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 21:43:19]: {Twitch} Recieved PING request, responding...
+[04/10/20 21:43:19]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 21:43:19]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 21:43:39]: {Chat} liversticks: ocean tempestt
+
+[04/10/20 21:43:39]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Ocean Tempest! Type !join to join the expedition party!'.
+[04/10/20 21:43:39]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Ocean Tempest! Type !join to join the expedition party!'.
+[04/10/20 21:43:39]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:51:22]: {C++} Establishing TwitchIRC Instance
+[04/10/20 21:51:23]: {C++} Establishing TwitchIRC Login Token
+[04/10/20 21:51:23]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/10/20 21:51:23]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/10/20 21:51:23]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/10/20 21:51:23]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/10/20 21:51:23]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/10/20 21:51:23]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/10/20 21:51:23]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/10/20 21:51:23]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/10/20 21:51:23]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[04/10/20 21:51:23]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[04/10/20 21:51:23]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 21:51:23]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 21:51:23]: {Twitch} Recieved USERSTATE Command: ':tmi.twitch.tv CAP * ACK :twitch.tv/commands:tmi.twitch.tv CAP * ACK :twitch.tv/membership:tmi.twitch.tv CAP * ACK :twitch.tv/tags:livernexus!livernexus@livernexus.tmi.twitch.tv JOIN #liversticks:livernexus.tmi.twitch.tv 353 livernexus = #liversticks :livernexus:livernexus.tmi.twitch.tv 366 livernexus #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :reallyreallylongathon -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting ReallyReallyLongAThon.@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[04/10/20 21:51:23]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 21:51:23]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 21:51:23]: {C++} Added command 'PRIVMSG #liversticks :2 words: kdsu tfsroe '.
+[04/10/20 21:51:23]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 21:51:23]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[04/10/20 21:51:24]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 21:51:24]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:51:24]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 21:51:24]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:51:24]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: kdsu tfsroe '.
+[04/10/20 21:51:24]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:51:24]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:51:30]: {Chat} liversticks: dusk forest1
+
+[04/10/20 21:51:31]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Dusk Forest! Type !join to join the expedition party!'.
+[04/10/20 21:51:31]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Dusk Forest! Type !join to join the expedition party!'.
+[04/10/20 21:51:32]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:52:51]: {C++} Establishing TwitchIRC Instance
+[04/10/20 21:52:51]: {C++} Establishing TwitchIRC Login Token
+[04/10/20 21:52:51]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/10/20 21:52:51]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/10/20 21:52:51]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/10/20 21:52:51]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/10/20 21:52:51]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/10/20 21:52:51]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/10/20 21:52:51]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/10/20 21:52:51]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/10/20 21:52:51]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[04/10/20 21:52:51]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[04/10/20 21:52:51]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 21:52:51]: {C++} Added command 'PRIVMSG #liversticks :2 words: usdcikqan vace '.
+[04/10/20 21:52:51]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 21:52:51]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 21:52:51]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 21:52:51]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 21:52:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[04/10/20 21:52:52]: {Twitch} Recieved USERSTATE Command: ':livernexus!livernexus@livernexus.tmi.twitch.tv JOIN #liversticks:livernexus.tmi.twitch.tv 353 livernexus = #liversticks :livernexus:livernexus.tmi.twitch.tv 366 livernexus #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :reallyreallylongathon -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting ReallyReallyLongAThon.@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[04/10/20 21:52:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 21:52:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: usdcikqan vace '.
+[04/10/20 21:52:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 21:52:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:52:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:52:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:52:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:53:00]: {Chat} liversticks: quicksand cave1
+
+[04/10/20 21:53:06]: {Chat} liversticks: quicksand cave122452wertsd
+
+[04/10/20 21:53:12]: {Chat} liversticks: quicksand cave
+
+[04/10/20 21:53:13]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Quicksand Cave! Type !join to join the expedition party!'.
+[04/10/20 21:53:13]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Quicksand Cave! Type !join to join the expedition party!'.
+[04/10/20 21:53:14]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:53:30]: {C++} Establishing TwitchIRC Instance
+[04/10/20 21:53:30]: {C++} Establishing TwitchIRC Login Token
+[04/10/20 21:53:30]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/10/20 21:53:30]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/10/20 21:53:30]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/10/20 21:53:30]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/10/20 21:53:30]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/10/20 21:53:30]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/10/20 21:53:30]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/10/20 21:53:30]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/10/20 21:53:30]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[04/10/20 21:53:30]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[04/10/20 21:53:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[04/10/20 21:53:30]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 21:53:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 21:53:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 21:53:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 21:53:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 21:53:30]: {C++} Added command 'PRIVMSG #liversticks :2 words: sytemsoriu sinalp '.
+[04/10/20 21:53:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 21:53:31]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: sytemsoriu sinalp '.
+[04/10/20 21:53:31]: {Twitch} Recieved USERSTATE Command: ':livernexus!livernexus@livernexus.tmi.twitch.tv JOIN #liversticks:livernexus.tmi.twitch.tv 353 livernexus = #liversticks :livernexus:livernexus.tmi.twitch.tv 366 livernexus #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :reallyreallylongathon -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting ReallyReallyLongAThon.@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[04/10/20 21:53:31]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:53:31]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 21:53:31]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:53:31]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 21:53:42]: {Chat} liversticks: mysterious plains
+
+[04/10/20 21:53:43]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Mysterious Plains! Type !join to join the expedition party!'.
+[04/10/20 21:53:43]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Mysterious Plains! Type !join to join the expedition party!'.
+[04/10/20 21:53:43]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.

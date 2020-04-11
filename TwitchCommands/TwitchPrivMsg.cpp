@@ -23,15 +23,14 @@ bool TwitchPrivMsg::Process(const string incoming) {
             message[i] = tolower(message.at(i));
         }
         bool localbool = true;
-        bool rangeCheck = true;
         string correctAns = Exploration::fetchInstance().whereGoFetch();
         int ansLength = correctAns.length();
         
-
-        for (int i = 0; i < ansLength; i++) {
+        int i;
+        for (i = 0; i < ansLength; i++) {
             correctAns[i] = tolower(correctAns.at(i));
             try {
-                rangeCheck = (correctAns[i] == message.at(i));
+                message.at(i);
             }
             catch (exception& e) {
                 goto ENDLOOP;
@@ -42,7 +41,12 @@ bool TwitchPrivMsg::Process(const string incoming) {
         }
         //cout << message << "a" << endl;
         //cout << correctAns << "a" << endl;
-        //correct answer
+        //verify that the response is not too long
+        
+        if (isgraph(message.at(i))) {
+            localbool = false;
+        }
+        
         
         
         if (localbool) {
