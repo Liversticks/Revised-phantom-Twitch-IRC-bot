@@ -23,10 +23,19 @@ bool TwitchPrivMsg::Process(const string incoming) {
             message[i] = tolower(message.at(i));
         }
         bool localbool = true;
+        bool rangeCheck = true;
         string correctAns = Exploration::fetchInstance().whereGoFetch();
         int ansLength = correctAns.length();
+        
+
         for (int i = 0; i < ansLength; i++) {
             correctAns[i] = tolower(correctAns.at(i));
+            try {
+                rangeCheck = (correctAns[i] == message.at(i));
+            }
+            catch (exception& e) {
+                goto ENDLOOP;
+            }
             if (correctAns[i] != message[i]) {
                 localbool = false;
             }
@@ -52,7 +61,7 @@ bool TwitchPrivMsg::Process(const string incoming) {
 		
     }
 	*/
-    CustomCommandManager::fetchInstance().Process(incoming);
+    ENDLOOP: CustomCommandManager::fetchInstance().Process(incoming);
 
 	return true;
 }
