@@ -2000,3 +2000,1220 @@ his bot will be great again. Try !join to explore and gain points or !help for a
 [04/09/20 20:02:43]: {Twitch} Recieved PING request, responding...
 [04/09/20 20:02:43]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
 [04/09/20 20:02:44]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:09:31]: {C++} Establishing TwitchIRC Instance
+[04/10/20 16:09:32]: {C++} Establishing TwitchIRC Login Token
+[04/10/20 16:09:32]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/10/20 16:09:32]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/10/20 16:09:32]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/10/20 16:09:32]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/10/20 16:09:32]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/10/20 16:09:32]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/10/20 16:09:32]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/10/20 16:09:32]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/10/20 16:09:32]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[04/10/20 16:09:32]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[04/10/20 16:09:32]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:09:32]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:09:32]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 16:09:32]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:09:32]: {C++} Added command 'PRIVMSG #liversticks :2 words: rohec ryuarq '.
+[04/10/20 16:09:32]: {Twitch} Recieved USERSTATE Command: ':livernexus!livernexus@livernexus.tmi.twitch.tv JOIN #liversticks:livernexus.tmi.twitch.tv 353 livernexus = #liversticks :livernexus:livernexus.tmi.twitch.tv 366 livernexus #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :reallyreallylongathon -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting ReallyReallyLongAThon.@badge-info=;badges=;color=;display-name=livernexus;emote-sets=0;mod=0;subscriber=0;user-type= :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[04/10/20 16:09:32]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:09:32]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[04/10/20 16:09:32]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:09:32]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:09:32]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: rohec ryuarq '.
+[04/10/20 16:09:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=;color=;display-name=livernexus;emote-sets=0;mod=0;subscriber=0;user-type= :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:10:49]: {C++} Establishing TwitchIRC Instance
+[04/10/20 16:10:50]: {C++} Establishing TwitchIRC Login Token
+[04/10/20 16:10:50]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/10/20 16:10:50]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/10/20 16:10:50]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/10/20 16:10:50]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/10/20 16:10:50]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/10/20 16:10:50]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/10/20 16:10:50]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/10/20 16:10:50]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/10/20 16:10:50]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[04/10/20 16:10:50]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[04/10/20 16:10:50]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:10:50]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[04/10/20 16:10:50]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 16:10:50]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:10:50]: {C++} Added command 'PRIVMSG #liversticks :2 words: kale faar '.
+[04/10/20 16:10:50]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:10:50]: {Twitch} Recieved USERSTATE Command: ':livernexus!livernexus@livernexus.tmi.twitch.tv JOIN #liversticks:livernexus.tmi.twitch.tv 353 livernexus = #liversticks :livernexus:livernexus.tmi.twitch.tv 366 livernexus #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :reallyreallylongathon -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting ReallyReallyLongAThon.@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[04/10/20 16:10:50]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:10:50]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:10:50]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: kale faar '.
+[04/10/20 16:10:50]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:10:50]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:10:50]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:10:50]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:10:57]: {Chat} liversticks: lake afar
+
+[04/10/20 16:10:58]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore?  is leading a group headed to Lake Afar! Type !join to join the expedition party!'.
+[04/10/20 16:10:58]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore?  is leading a group headed to Lake Afar! Type !join to join the expedition party!'.
+[04/10/20 16:10:58]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:11:36]: {Chat} liversticks: !join
+
+[04/10/20 16:12:29]: {C++} Establishing TwitchIRC Instance
+[04/10/20 16:12:30]: {C++} Establishing TwitchIRC Login Token
+[04/10/20 16:12:30]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/10/20 16:12:30]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/10/20 16:12:30]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/10/20 16:12:30]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/10/20 16:12:30]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/10/20 16:12:30]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/10/20 16:12:30]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/10/20 16:12:30]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/10/20 16:12:30]: {Twitch} Sending Message (Enhanced Phantom) LiversticksBot Now Connected to channel......
+[04/10/20 16:12:30]: {C++} Added command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[04/10/20 16:12:30]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:12:30]: {C++} Added command 'PRIVMSG #liversticks :2 words: mt. arismtl '.
+[04/10/20 16:12:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 16:12:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:12:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:12:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :(Enhanced Phantom) LiversticksBot Now Connected to channel...'.
+[04/10/20 16:12:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:12:30]: {Twitch} Recieved USERSTATE Command: ':livernexus!livernexus@livernexus.tmi.twitch.tv JOIN #liversticks:livernexus.tmi.twitch.tv 353 livernexus = #liversticks :livernexus:livernexus.tmi.twitch.tv 366 livernexus #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :reallyreallylongathon -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting ReallyReallyLongAThon.@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[04/10/20 16:12:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: mt. arismtl '.
+[04/10/20 16:12:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:12:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:12:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:12:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:12:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:12:36]: {Chat} liversticks: Mt. Mistral
+
+[04/10/20 16:12:38]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Mt. Mistral! Type !join to join the expedition party!'.
+[04/10/20 16:12:38]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Mt. Mistral! Type !join to join the expedition party!'.
+[04/10/20 16:12:38]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:12:45]: {Chat} liversticks: !join
+
+[04/10/20 16:13:53]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Mt. Mistral, not knowing what to expect.'.
+[04/10/20 16:13:53]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party ambushes a S-Rank outlaw about to perform a nefarious deed! They calmly escort the crook to justice!'.
+[04/10/20 16:13:53]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Mt. Mistral, here are the explorers' spoils: liversticks(45)'.
+[04/10/20 16:13:53]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Mt. Mistral, not knowing what to expect.'.
+[04/10/20 16:13:53]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party ambushes a S-Rank outlaw about to perform a nefarious deed! They calmly escort the crook to justice!'.
+[04/10/20 16:13:53]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Mt. Mistral, here are the explorers' spoils: liversticks(45)'.
+[04/10/20 16:13:53]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:13:54]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:13:54]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:14:02]: {Chat} liversticks: !join
+
+[04/10/20 16:14:02]: {C++} Added command 'PRIVMSG #liversticks :Society of Explorers rules mandate that you can only join expeditions after successfully unscrambling the destination.'.
+[04/10/20 16:14:02]: {C++} Attempting to send command 'PRIVMSG #liversticks :Society of Explorers rules mandate that you can only join expeditions after successfully unscrambling the destination.'.
+[04/10/20 16:14:03]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:14:09]: {Chat} liversticks: !hint
+
+[04/10/20 16:14:09]: {C++} Added command 'PRIVMSG #liversticks :Need a Wonder Map or Expedition Gadget? Check out https://bulbapedia.bulbagarden.net/wiki/Category:Pok%C3%A9mon_Mystery_Dungeon and find the locations for each game.'.
+[04/10/20 16:14:09]: {C++} Attempting to send command 'PRIVMSG #liversticks :Need a Wonder Map or Expedition Gadget? Check out https://bulbapedia.bulbagarden.net/wiki/Category:Pok%C3%A9mon_Mystery_Dungeon and find the locations for each game.'.
+[04/10/20 16:14:09]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:14:22]: {Chat} liversticks: !top
+
+[04/10/20 16:14:22]: {C++} Added command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 1029, (2) liversticks: 941'.
+[04/10/20 16:14:22]: {C++} Attempting to send command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 1029, (2) liversticks: 941'.
+[04/10/20 16:14:22]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:15:53]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:15:53]: {C++} Added command 'PRIVMSG #liversticks :2 words: ngiudgi sae '.
+[04/10/20 16:15:53]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:15:53]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: ngiudgi sae '.
+[04/10/20 16:15:53]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:15:53]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:16:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:16:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:16:50]: {Twitch} Recieved PING request, responding...
+[04/10/20 16:16:50]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:16:50]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:20:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:20:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:21:19]: {Twitch} Recieved PING request, responding...
+[04/10/20 16:21:19]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:21:19]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:23:00]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 16:23:00]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:23:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:23:00]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:24:11]: {Chat} liversticks: Guiding Sea
+
+[04/10/20 16:24:13]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Guiding Sea! Type !join to join the expedition party!'.
+[04/10/20 16:24:13]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Guiding Sea! Type !join to join the expedition party!'.
+[04/10/20 16:24:13]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:24:19]: {Chat} liversticks: !join
+
+[04/10/20 16:24:24]: {Chat} liversticks: !top
+
+[04/10/20 16:24:24]: {C++} Added command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 1029, (2) liversticks: 941'.
+[04/10/20 16:24:24]: {C++} Attempting to send command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 1029, (2) liversticks: 941'.
+[04/10/20 16:24:24]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:24:28]: {Chat} liversticks: !score
+
+[04/10/20 16:24:28]: {C++} Added command 'PRIVMSG #liversticks :The score of liversticks is 1072'.
+[04/10/20 16:24:28]: {C++} Attempting to send command 'PRIVMSG #liversticks :The score of liversticks is 1072'.
+[04/10/20 16:24:28]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:24:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:24:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:25:28]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Guiding Sea, not knowing what to expect.'.
+[04/10/20 16:25:28]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 16:25:28]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Guiding Sea, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 16:25:28]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Guiding Sea, not knowing what to expect.'.
+[04/10/20 16:25:28]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 16:25:28]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Guiding Sea, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 16:25:28]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:25:29]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:25:29]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:25:36]: {Twitch} Recieved PING request, responding...
+[04/10/20 16:25:36]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:25:36]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:25:45]: {Chat} liversticks: !score
+
+[04/10/20 16:25:45]: {C++} Added command 'PRIVMSG #liversticks :The score of liversticks is 1102'.
+[04/10/20 16:25:45]: {C++} Attempting to send command 'PRIVMSG #liversticks :The score of liversticks is 1102'.
+[04/10/20 16:25:45]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:27:28]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:27:28]: {C++} Added command 'PRIVMSG #liversticks :2 words: eewlj arod '.
+[04/10/20 16:27:28]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:27:28]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: eewlj arod '.
+[04/10/20 16:27:28]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:27:28]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:27:35]: {Chat} liversticks: jewel road
+
+[04/10/20 16:27:36]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Jewel Road! Type !join to join the expedition party!'.
+[04/10/20 16:27:36]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Jewel Road! Type !join to join the expedition party!'.
+[04/10/20 16:27:36]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:27:53]: {Chat} liversticks: !join
+
+[04/10/20 16:27:55]: {Chat} liversticks: !help
+
+[04/10/20 16:27:55]: {C++} Added command 'PRIVMSG #liversticks :Here are some valid commands: !dadjoke, !discord, !join, !hint, !points, !rules, !score, !top. New commands are added when I feel like developing this bot.'.
+[04/10/20 16:27:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :Here are some valid commands: !dadjoke, !discord, !join, !hint, !points, !rules, !score, !top. New commands are added when I feel like developing this bot.'.
+[04/10/20 16:27:56]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:27:59]: {Chat} liversticks: !dadjoke
+
+[04/10/20 16:27:59]: {C++} Added command 'PRIVMSG #liversticks :I don't have any puns about paper. They're all so tearable.'.
+[04/10/20 16:27:59]: {C++} Attempting to send command 'PRIVMSG #liversticks :I don't have any puns about paper. They're all so tearable.'.
+[04/10/20 16:27:59]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:28:12]: {Chat} liversticks: !rules
+
+[04/10/20 16:28:12]: {C++} Added command 'PRIVMSG #liversticks :Please follow the Twitch Community Standards, available here: https://www.twitch.tv/p/legal/community-guidelines/. In addition, please be respectful of other users in chat.'.
+[04/10/20 16:28:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :Please follow the Twitch Community Standards, available here: https://www.twitch.tv/p/legal/community-guidelines/. In addition, please be respectful of other users in chat.'.
+[04/10/20 16:28:12]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:28:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:28:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:28:49]: {Chat} liversticks: !points
+
+[04/10/20 16:28:49]: {C++} Added command 'PRIVMSG #liversticks :liversticks: You have 1142 points.'.
+[04/10/20 16:28:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :liversticks: You have 1142 points.'.
+[04/10/20 16:28:49]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:28:51]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Jewel Road, not knowing what to expect.'.
+[04/10/20 16:28:51]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 16:28:51]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Jewel Road, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 16:28:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Jewel Road, not knowing what to expect.'.
+[04/10/20 16:28:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 16:28:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Jewel Road, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 16:28:51]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:28:51]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:28:52]: {Chat} liversticks: !score
+
+[04/10/20 16:28:52]: {C++} Added command 'PRIVMSG #liversticks :The score of liversticks is 1172'.
+[04/10/20 16:28:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :The score of liversticks is 1172'.
+[04/10/20 16:28:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:28:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:28:56]: {Chat} liversticks: !points
+
+[04/10/20 16:28:56]: {C++} Added command 'PRIVMSG #liversticks :liversticks: You have 1172 points.'.
+[04/10/20 16:28:56]: {C++} Attempting to send command 'PRIVMSG #liversticks :liversticks: You have 1172 points.'.
+[04/10/20 16:28:56]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:30:35]: {Twitch} Recieved PING request, responding...
+[04/10/20 16:30:35]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:30:35]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:30:51]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:30:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:30:51]: {C++} Added command 'PRIVMSG #liversticks :2 words: krmuy vaec '.
+[04/10/20 16:30:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: krmuy vaec '.
+[04/10/20 16:30:51]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:30:51]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:31:28]: {Chat} liversticks: murky cave
+
+[04/10/20 16:31:29]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Murky Cave! Type !join to join the expedition party!'.
+[04/10/20 16:31:29]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Murky Cave! Type !join to join the expedition party!'.
+[04/10/20 16:31:29]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:32:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:32:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:32:44]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Murky Cave, not knowing what to expect.'.
+[04/10/20 16:32:44]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 16:32:44]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Murky Cave, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 16:32:44]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Murky Cave, not knowing what to expect.'.
+[04/10/20 16:32:44]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 16:32:44]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Murky Cave, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 16:32:44]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:32:44]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:32:45]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:33:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 16:33:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:33:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:33:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:34:44]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:34:44]: {C++} Added command 'PRIVMSG #liversticks :2 words: fligneold acve '.
+[04/10/20 16:34:44]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:34:44]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: fligneold acve '.
+[04/10/20 16:34:44]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:34:44]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:35:14]: {Twitch} Recieved PING request, responding...
+[04/10/20 16:35:14]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:35:14]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:35:40]: {Chat} liversticks: longfield cave
+
+[04/10/20 16:35:40]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Longfield Cave! Type !join to join the expedition party!'.
+[04/10/20 16:35:40]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Longfield Cave! Type !join to join the expedition party!'.
+[04/10/20 16:35:40]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:36:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:36:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:36:55]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Longfield Cave, not knowing what to expect.'.
+[04/10/20 16:36:55]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 16:36:55]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Longfield Cave, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 16:36:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Longfield Cave, not knowing what to expect.'.
+[04/10/20 16:36:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 16:36:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Longfield Cave, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 16:36:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:36:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:36:56]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:38:55]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:38:55]: {C++} Added command 'PRIVMSG #liversticks :1 words: recwolodr '.
+[04/10/20 16:38:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 16:38:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :1 words: recwolodr '.
+[04/10/20 16:38:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:38:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:39:53]: {Twitch} Recieved PING request, responding...
+[04/10/20 16:39:53]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:39:53]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:40:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:40:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:44:00]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 16:44:00]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:44:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:44:00]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:44:27]: {Twitch} Recieved PING request, responding...
+[04/10/20 16:44:27]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:44:27]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:44:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:44:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:48:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:48:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:48:59]: {Twitch} Recieved PING request, responding...
+[04/10/20 16:48:59]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:48:59]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:52:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:52:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:53:28]: {Twitch} Recieved PING request, responding...
+[04/10/20 16:53:28]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:53:28]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:54:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 16:54:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:54:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 16:54:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 16:56:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 16:56:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 16:57:43]: {Twitch} Recieved PING request, responding...
+[04/10/20 16:57:43]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 16:57:44]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:00:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:00:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:02:14]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:02:14]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:02:14]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:04:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:04:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:05:00]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 17:05:00]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 17:05:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 17:05:00]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:06:15]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:06:15]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:06:15]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:08:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:08:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:10:52]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:10:52]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:10:52]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:12:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:12:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:14:58]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:14:58]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:14:58]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:15:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 17:15:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 17:15:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 17:15:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:16:10]: {Chat} liversticks: worldcore
+
+[04/10/20 17:16:12]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Worldcore! Type !join to join the expedition party!'.
+[04/10/20 17:16:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Worldcore! Type !join to join the expedition party!'.
+[04/10/20 17:16:12]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:16:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:16:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:17:27]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Worldcore, not knowing what to expect.'.
+[04/10/20 17:17:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Worldcore, not knowing what to expect.'.
+[04/10/20 17:17:27]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:17:27]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Worldcore, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 17:17:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:17:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Worldcore, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 17:17:27]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:17:27]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:17:27]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:19:27]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:19:27]: {C++} Added command 'PRIVMSG #liversticks :2 words: rngad aes '.
+[04/10/20 17:19:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:19:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: rngad aes '.
+[04/10/20 17:19:27]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:19:27]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:19:32]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:19:32]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:19:32]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:19:59]: {Chat} liversticks: grand sea
+
+[04/10/20 17:20:01]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Grand Sea! Type !join to join the expedition party!'.
+[04/10/20 17:20:01]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Grand Sea! Type !join to join the expedition party!'.
+[04/10/20 17:20:01]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:20:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:20:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:21:16]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Grand Sea, not knowing what to expect.'.
+[04/10/20 17:21:16]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 17:21:16]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Grand Sea, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 17:21:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Grand Sea, not knowing what to expect.'.
+[04/10/20 17:21:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 17:21:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Grand Sea, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 17:21:16]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:21:16]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:21:16]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:23:16]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:23:16]: {C++} Added command 'PRIVMSG #liversticks :2 words: yrsut tonanuim '.
+[04/10/20 17:23:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:23:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: yrsut tonanuim '.
+[04/10/20 17:23:16]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:23:16]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:23:41]: {Chat} liversticks: rusty mountain
+
+[04/10/20 17:23:42]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Rusty Mountain! Type !join to join the expedition party!'.
+[04/10/20 17:23:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Rusty Mountain! Type !join to join the expedition party!'.
+[04/10/20 17:23:42]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:23:57]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:23:57]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:23:57]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:24:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:24:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:24:57]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Rusty Mountain, not knowing what to expect.'.
+[04/10/20 17:24:57]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 17:24:57]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Rusty Mountain, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 17:24:57]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Rusty Mountain, not knowing what to expect.'.
+[04/10/20 17:24:57]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 17:24:57]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Rusty Mountain, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 17:24:57]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:24:57]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:24:57]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:26:00]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 17:26:00]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 17:26:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 17:26:00]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:26:57]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:26:57]: {C++} Added command 'PRIVMSG #liversticks :2 words: adlese niru '.
+[04/10/20 17:26:57]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:26:57]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: adlese niru '.
+[04/10/20 17:26:57]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:26:57]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:27:16]: {Chat} liversticks: sealed ruin
+
+[04/10/20 17:27:17]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Sealed Ruin! Type !join to join the expedition party!'.
+[04/10/20 17:27:17]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Sealed Ruin! Type !join to join the expedition party!'.
+[04/10/20 17:27:17]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:28:13]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:28:13]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:28:13]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:28:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:28:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:28:32]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Sealed Ruin, not knowing what to expect.'.
+[04/10/20 17:28:32]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:28:32]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Sealed Ruin, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 17:28:32]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Sealed Ruin, not knowing what to expect.'.
+[04/10/20 17:28:32]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:28:32]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Sealed Ruin, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 17:28:32]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:28:32]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:28:32]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:30:32]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:30:32]: {C++} Added command 'PRIVMSG #liversticks :4 words: thap of on etrnru '.
+[04/10/20 17:30:32]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:30:32]: {C++} Attempting to send command 'PRIVMSG #liversticks :4 words: thap of on etrnru '.
+[04/10/20 17:30:32]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:30:32]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:30:40]: {Chat} liversticks: path of no return
+
+[04/10/20 17:30:40]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Path of No Return! Type !join to join the expedition party!'.
+[04/10/20 17:30:40]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Path of No Return! Type !join to join the expedition party!'.
+[04/10/20 17:30:40]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:31:55]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Path of No Return, not knowing what to expect.'.
+[04/10/20 17:31:55]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:31:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Path of No Return, not knowing what to expect.'.
+[04/10/20 17:31:55]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Path of No Return, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 17:31:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:31:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Path of No Return, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 17:31:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:31:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:31:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:32:25]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:32:25]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:32:25]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:32:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:32:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:33:55]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:33:55]: {C++} Added command 'PRIVMSG #liversticks :2 words: hsrtah dnenguo '.
+[04/10/20 17:33:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:33:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: hsrtah dnenguo '.
+[04/10/20 17:33:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:33:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:36:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 17:36:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 17:36:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 17:36:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:36:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:36:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:36:36]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:36:36]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:36:36]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:38:04]: {Chat} liversticks: thrash dungeon
+
+[04/10/20 17:38:05]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Thrash Dungeon! Type !join to join the expedition party!'.
+[04/10/20 17:38:05]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Thrash Dungeon! Type !join to join the expedition party!'.
+[04/10/20 17:38:05]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:39:20]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Thrash Dungeon, not knowing what to expect.'.
+[04/10/20 17:39:20]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:39:20]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Thrash Dungeon, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 17:39:20]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Thrash Dungeon, not knowing what to expect.'.
+[04/10/20 17:39:20]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:39:20]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Thrash Dungeon, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 17:39:20]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:39:20]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:39:20]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:40:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:40:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:41:20]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:41:20]: {C++} Added command 'PRIVMSG #liversticks :2 words: .mt aehlcvaan '.
+[04/10/20 17:41:20]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:41:20]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: .mt aehlcvaan '.
+[04/10/20 17:41:20]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:41:20]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:41:31]: {Chat} liversticks: Mt. Avalanche
+
+[04/10/20 17:41:32]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:41:32]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:41:32]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:41:32]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Mt. Avalanche! Type !join to join the expedition party!'.
+[04/10/20 17:41:32]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Mt. Avalanche! Type !join to join the expedition party!'.
+[04/10/20 17:41:32]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:42:47]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Mt. Avalanche, not knowing what to expect.'.
+[04/10/20 17:42:47]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:42:47]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Mt. Avalanche, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 17:42:47]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Mt. Avalanche, not knowing what to expect.'.
+[04/10/20 17:42:47]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:42:47]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Mt. Avalanche, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 17:42:47]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:42:47]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:42:47]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:44:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:44:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:44:47]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:44:47]: {C++} Added command 'PRIVMSG #liversticks :2 words: etrag nnoacy '.
+[04/10/20 17:44:47]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:44:47]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: etrag nnoacy '.
+[04/10/20 17:44:47]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:44:47]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:44:55]: {Chat} liversticks: great canyon
+
+[04/10/20 17:44:55]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Great Canyon! Type !join to join the expedition party!'.
+[04/10/20 17:44:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Great Canyon! Type !join to join the expedition party!'.
+[04/10/20 17:44:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:46:03]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:46:03]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:46:03]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:46:10]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Great Canyon, not knowing what to expect.'.
+[04/10/20 17:46:10]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 17:46:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Great Canyon, not knowing what to expect.'.
+[04/10/20 17:46:10]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Great Canyon, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 17:46:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 17:46:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Great Canyon, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 17:46:10]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:46:10]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:46:11]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:47:00]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 17:47:00]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 17:47:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 17:47:00]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:48:10]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:48:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:48:10]: {C++} Added command 'PRIVMSG #liversticks :2 words: ysk urnsi '.
+[04/10/20 17:48:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: ysk urnsi '.
+[04/10/20 17:48:10]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:48:10]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:48:27]: {Chat} liversticks: sky ruins
+
+[04/10/20 17:48:28]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Sky Ruins! Type !join to join the expedition party!'.
+[04/10/20 17:48:28]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Sky Ruins! Type !join to join the expedition party!'.
+[04/10/20 17:48:28]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:48:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:48:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:49:43]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Sky Ruins, not knowing what to expect.'.
+[04/10/20 17:49:43]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:49:43]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Sky Ruins, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 17:49:43]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Sky Ruins, not knowing what to expect.'.
+[04/10/20 17:49:43]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:49:43]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Sky Ruins, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 17:49:43]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:49:44]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:49:44]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:50:08]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:50:08]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:50:08]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:51:43]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:51:43]: {C++} Added command 'PRIVMSG #liversticks :2 words: ecdaeconl sinru '.
+[04/10/20 17:51:43]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 17:51:43]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: ecdaeconl sinru '.
+[04/10/20 17:51:43]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:51:44]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:52:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:52:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:55:00]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:55:00]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:55:00]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:56:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 17:56:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 17:56:57]: {Chat} liversticks: concealed ruins
+
+[04/10/20 17:56:57]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Concealed Ruins! Type !join to join the expedition party!'.
+[04/10/20 17:56:57]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Concealed Ruins! Type !join to join the expedition party!'.
+[04/10/20 17:56:58]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:57:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 17:57:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 17:57:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 17:57:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:58:12]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Concealed Ruins, not knowing what to expect.'.
+[04/10/20 17:58:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Concealed Ruins, not knowing what to expect.'.
+[04/10/20 17:58:12]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:58:12]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Concealed Ruins, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 17:58:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 17:58:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Concealed Ruins, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 17:58:13]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:58:13]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:58:13]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 17:59:10]: {Twitch} Recieved PING request, responding...
+[04/10/20 17:59:10]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 17:59:10]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:00:12]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:00:12]: {C++} Added command 'PRIVMSG #liversticks :2 words: ielvreatno onnuiatm '.
+[04/10/20 18:00:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:00:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: ielvreatno onnuiatm '.
+[04/10/20 18:00:13]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:00:13]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:00:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:00:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:00:31]: {Chat} liversticks: revelation mountain
+
+[04/10/20 18:00:33]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Revelation Mountain! Type !join to join the expedition party!'.
+[04/10/20 18:00:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Revelation Mountain! Type !join to join the expedition party!'.
+[04/10/20 18:00:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:01:48]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Revelation Mountain, not knowing what to expect.'.
+[04/10/20 18:01:48]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 18:01:48]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Revelation Mountain, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 18:01:48]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Revelation Mountain, not knowing what to expect.'.
+[04/10/20 18:01:48]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 18:01:48]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Revelation Mountain, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 18:01:48]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:01:48]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:01:48]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:03:48]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:03:48]: {C++} Added command 'PRIVMSG #liversticks :2 words: frfao-f eas '.
+[04/10/20 18:03:48]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:03:48]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: frfao-f eas '.
+[04/10/20 18:03:48]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:03:48]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:03:54]: {Chat} liversticks: far-off sea
+
+[04/10/20 18:03:56]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Far-off Sea! Type !join to join the expedition party!'.
+[04/10/20 18:03:56]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Far-off Sea! Type !join to join the expedition party!'.
+[04/10/20 18:03:56]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:04:09]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:04:09]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:04:09]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:04:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:04:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:04:52]: {Chat} liversticks: !points
+
+[04/10/20 18:04:52]: {C++} Added command 'PRIVMSG #liversticks :liversticks: You have 2226 points.'.
+[04/10/20 18:04:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :liversticks: You have 2226 points.'.
+[04/10/20 18:04:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:05:11]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Far-off Sea, not knowing what to expect.'.
+[04/10/20 18:05:11]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 18:05:11]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Far-off Sea, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 18:05:11]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Far-off Sea, not knowing what to expect.'.
+[04/10/20 18:05:11]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 18:05:11]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Far-off Sea, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 18:05:11]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:05:11]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:05:11]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:07:11]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:07:11]: {C++} Added command 'PRIVMSG #liversticks :2 words: feriy ldife '.
+[04/10/20 18:07:11]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:07:11]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: feriy ldife '.
+[04/10/20 18:07:11]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:07:11]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:07:38]: {Chat} liversticks: fiery field
+
+[04/10/20 18:07:39]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Fiery Field! Type !join to join the expedition party!'.
+[04/10/20 18:07:39]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Fiery Field! Type !join to join the expedition party!'.
+[04/10/20 18:07:39]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:08:00]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 18:08:00]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 18:08:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 18:08:00]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:08:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:08:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:08:52]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:08:52]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:08:52]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:08:54]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Fiery Field, not knowing what to expect.'.
+[04/10/20 18:08:54]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party ambushes a S-Rank outlaw about to perform a nefarious deed! They calmly escort the crook to justice!'.
+[04/10/20 18:08:54]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Fiery Field, here are the explorers' spoils: liversticks(45)'.
+[04/10/20 18:08:54]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Fiery Field, not knowing what to expect.'.
+[04/10/20 18:08:54]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party ambushes a S-Rank outlaw about to perform a nefarious deed! They calmly escort the crook to justice!'.
+[04/10/20 18:08:54]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Fiery Field, here are the explorers' spoils: liversticks(45)'.
+[04/10/20 18:08:54]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:08:54]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:08:54]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:10:54]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:10:54]: {C++} Added command 'PRIVMSG #liversticks :2 words: canrte eaowdm '.
+[04/10/20 18:10:54]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:10:54]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: canrte eaowdm '.
+[04/10/20 18:10:54]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:10:54]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:11:09]: {Chat} liversticks: nectar meadow
+
+[04/10/20 18:11:10]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Nectar Meadow! Type !join to join the expedition party!'.
+[04/10/20 18:11:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Nectar Meadow! Type !join to join the expedition party!'.
+[04/10/20 18:11:10]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:12:25]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Nectar Meadow, not knowing what to expect.'.
+[04/10/20 18:12:25]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party ambushes a S-Rank outlaw about to perform a nefarious deed! They calmly escort the crook to justice!'.
+[04/10/20 18:12:25]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Nectar Meadow, here are the explorers' spoils: liversticks(44)'.
+[04/10/20 18:12:25]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Nectar Meadow, not knowing what to expect.'.
+[04/10/20 18:12:25]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party ambushes a S-Rank outlaw about to perform a nefarious deed! They calmly escort the crook to justice!'.
+[04/10/20 18:12:25]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Nectar Meadow, here are the explorers' spoils: liversticks(44)'.
+[04/10/20 18:12:25]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:12:25]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:12:25]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:12:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:12:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:13:04]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:13:04]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:13:04]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:14:25]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:14:25]: {C++} Added command 'PRIVMSG #liversticks :2 words: kdra lilh '.
+[04/10/20 18:14:25]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:14:25]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: kdra lilh '.
+[04/10/20 18:14:25]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:14:25]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:14:35]: {Chat} liversticks: dank hill
+
+[04/10/20 18:14:38]: {Chat} liversticks: dark hill
+
+[04/10/20 18:14:39]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Dark Hill! Type !join to join the expedition party!'.
+[04/10/20 18:14:39]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Dark Hill! Type !join to join the expedition party!'.
+[04/10/20 18:14:39]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:15:54]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Dark Hill, not knowing what to expect.'.
+[04/10/20 18:15:54]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 18:15:54]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Dark Hill, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 18:15:54]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Dark Hill, not knowing what to expect.'.
+[04/10/20 18:15:54]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 18:15:54]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Dark Hill, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 18:15:54]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:15:54]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:15:54]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:16:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:16:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:17:33]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:17:33]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:17:33]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:17:54]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:17:54]: {C++} Added command 'PRIVMSG #liversticks :2 words: hyelo doewam '.
+[04/10/20 18:17:54]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:17:54]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: hyelo doewam '.
+[04/10/20 18:17:54]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:17:54]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:18:11]: {Chat} liversticks: holey meadow
+
+[04/10/20 18:18:12]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Holey Meadow! Type !join to join the expedition party!'.
+[04/10/20 18:18:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Holey Meadow! Type !join to join the expedition party!'.
+[04/10/20 18:18:12]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:18:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 18:18:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 18:18:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 18:18:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:19:27]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Holey Meadow, not knowing what to expect.'.
+[04/10/20 18:19:27]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 18:19:27]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Holey Meadow, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 18:19:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Holey Meadow, not knowing what to expect.'.
+[04/10/20 18:19:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 18:19:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Holey Meadow, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 18:19:27]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:19:27]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:19:27]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:20:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:20:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:21:27]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:21:27]: {C++} Added command 'PRIVMSG #liversticks :2 words: lshteat reancv '.
+[04/10/20 18:21:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:21:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lshteat reancv '.
+[04/10/20 18:21:27]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:21:27]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:22:24]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:22:24]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:22:25]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:23:59]: {Chat} liversticks: stealth cavern
+
+[04/10/20 18:24:01]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Stealth Cavern! Type !join to join the expedition party!'.
+[04/10/20 18:24:01]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Stealth Cavern! Type !join to join the expedition party!'.
+[04/10/20 18:24:01]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:24:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:24:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:25:16]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Stealth Cavern, not knowing what to expect.'.
+[04/10/20 18:25:16]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 18:25:16]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Stealth Cavern, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 18:25:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Stealth Cavern, not knowing what to expect.'.
+[04/10/20 18:25:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 18:25:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Stealth Cavern, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 18:25:16]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:25:16]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:25:16]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:27:08]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:27:08]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:27:08]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:27:16]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:27:16]: {C++} Added command 'PRIVMSG #liversticks :3 words: ngeetl eslop ecav '.
+[04/10/20 18:27:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:27:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :3 words: ngeetl eslop ecav '.
+[04/10/20 18:27:16]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:27:16]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:28:02]: {Chat} liversticks: gentle slope cave
+
+[04/10/20 18:28:04]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Gentle Slope Cave! Type !join to join the expedition party!'.
+[04/10/20 18:28:04]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Gentle Slope Cave! Type !join to join the expedition party!'.
+[04/10/20 18:28:04]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:28:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:28:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:29:00]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 18:29:00]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 18:29:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 18:29:00]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:29:19]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Gentle Slope Cave, not knowing what to expect.'.
+[04/10/20 18:29:19]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 18:29:19]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Gentle Slope Cave, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 18:29:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Gentle Slope Cave, not knowing what to expect.'.
+[04/10/20 18:29:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 18:29:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Gentle Slope Cave, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 18:29:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:29:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:29:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:31:11]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:31:11]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:31:11]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:31:19]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:31:19]: {C++} Added command 'PRIVMSG #liversticks :2 words: sitnle nurtda '.
+[04/10/20 18:31:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:31:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: sitnle nurtda '.
+[04/10/20 18:31:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:31:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:32:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:32:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:35:14]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:35:14]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:35:14]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:36:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:36:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:37:57]: {Chat} liversticks: silent tundra
+
+[04/10/20 18:37:57]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Silent Tundra! Type !join to join the expedition party!'.
+[04/10/20 18:37:57]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Silent Tundra! Type !join to join the expedition party!'.
+[04/10/20 18:37:57]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:39:12]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Silent Tundra, not knowing what to expect.'.
+[04/10/20 18:39:12]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 18:39:12]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Silent Tundra, here are the explorers' spoils: liversticks(30)'.
+knowing what to expect.'.
+[04/10/20 18:39:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 18:39:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Silent Tundra, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 18:39:12]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:39:12]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:39:12]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:39:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 18:39:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 18:39:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 18:39:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:40:09]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:40:09]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:40:09]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:40:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:40:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:41:12]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:41:12]: {C++} Added command 'PRIVMSG #liversticks :2 words: erofzn llsaf '.
+[04/10/20 18:41:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:41:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: erofzn llsaf '.
+[04/10/20 18:41:12]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:41:12]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:41:33]: {Chat} liversticks: frozen falls
+
+[04/10/20 18:41:34]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Frozen Falls! Type !join to join the expedition party!'.
+[04/10/20 18:41:34]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Frozen Falls! Type !join to join the expedition party!'.
+[04/10/20 18:41:34]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:42:49]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Frozen Falls, not knowing what to expect.'.
+[04/10/20 18:42:49]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 18:42:49]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Frozen Falls, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 18:42:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Frozen Falls, not knowing what to expect.'.
+[04/10/20 18:42:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 18:42:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Frozen Falls, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 18:42:49]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:42:49]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:42:49]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:44:27]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:44:27]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:44:27]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:44:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:44:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:44:49]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:44:49]: {C++} Added command 'PRIVMSG #liversticks :2 words: sywon vace '.
+[04/10/20 18:44:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:44:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: sywon vace '.
+[04/10/20 18:44:49]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:44:49]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:44:57]: {Chat} liversticks: snowy cave
+
+[04/10/20 18:44:59]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Snowy Cave! Type !join to join the expedition party!'.
+[04/10/20 18:44:59]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Snowy Cave! Type !join to join the expedition party!'.
+[04/10/20 18:44:59]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:46:14]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Snowy Cave, not knowing what to expect.'.
+[04/10/20 18:46:14]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party ambushes a S-Rank outlaw about to perform a nefarious deed! They calmly escort the crook to justice!'.
+[04/10/20 18:46:14]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Snowy Cave, here are the explorers' spoils: liversticks(45)'.
+[04/10/20 18:46:14]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Snowy Cave, not knowing what to expect.'.
+[04/10/20 18:46:14]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party ambushes a S-Rank outlaw about to perform a nefarious deed! They calmly escort the crook to justice!'.
+[04/10/20 18:46:14]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Snowy Cave, here are the explorers' spoils: liversticks(45)'.
+[04/10/20 18:46:14]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:46:14]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:46:15]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:48:14]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:48:14]: {C++} Added command 'PRIVMSG #liversticks :4 words: aevc of hte depe '.
+[04/10/20 18:48:14]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:48:14]: {C++} Attempting to send command 'PRIVMSG #liversticks :4 words: aevc of hte depe '.
+[04/10/20 18:48:14]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:48:14]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:48:20]: {Chat} liversticks: cave of the deep
+
+[04/10/20 18:48:20]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Cave of the Deep! Type !join to join the expedition party!'.
+[04/10/20 18:48:20]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Cave of the Deep! Type !join to join the expedition party!'.
+[04/10/20 18:48:20]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:48:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:48:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:48:31]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:48:31]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:48:32]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:49:35]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Cave of the Deep, not knowing what to expect.'.
+[04/10/20 18:49:35]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party ambushes a S-Rank outlaw about to perform a nefarious deed! They calmly escort the crook to justice!'.
+[04/10/20 18:49:35]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Cave of the Deep, here are the explorers' spoils: liversticks(44)'.
+[04/10/20 18:49:35]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Cave of the Deep, not knowing what to expect.'.
+[04/10/20 18:49:35]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party ambushes a S-Rank outlaw about to perform a nefarious deed! They calmly escort the crook to justice!'.
+[04/10/20 18:49:35]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Cave of the Deep, here are the explorers' spoils: liversticks(44)'.
+[04/10/20 18:49:35]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:49:35]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:49:36]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:50:00]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 18:50:00]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 18:50:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 18:50:00]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:51:35]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:51:35]: {C++} Added command 'PRIVMSG #liversticks :2 words: oshwwond nnitouma '.
+[04/10/20 18:51:35]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 18:51:35]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: oshwwond nnitouma '.
+[04/10/20 18:51:35]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:51:35]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 18:52:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:52:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:52:52]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:52:52]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:52:52]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:56:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 18:56:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 18:57:45]: {Twitch} Recieved PING request, responding...
+[04/10/20 18:57:45]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 18:57:45]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:00:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 19:00:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 19:00:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 19:00:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:00:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:00:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:01:56]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:01:56]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:01:56]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:04:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:04:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:06:37]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:06:37]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:06:37]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:06:39]: {Chat} liversticks: showdown mountain
+
+[04/10/20 19:06:39]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Showdown Mountain! Type !join to join the expedition party!'.
+[04/10/20 19:06:40]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Showdown Mountain! Type !join to join the expedition party!'.
+[04/10/20 19:06:40]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:07:54]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Showdown Mountain, not knowing what to expect.'.
+[04/10/20 19:07:54]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 19:07:54]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Showdown Mountain, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 19:07:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Showdown Mountain, not knowing what to expect.'.
+[04/10/20 19:07:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 19:07:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Showdown Mountain, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 19:07:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:07:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:07:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:08:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:08:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:09:54]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:09:54]: {C++} Added command 'PRIVMSG #liversticks :2 words: earmyd sinadl '.
+[04/10/20 19:09:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:09:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: earmyd sinadl '.
+[04/10/20 19:09:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:09:55]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:10:32]: {Chat} liversticks: dreamy island
+
+[04/10/20 19:10:32]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Dreamy Island! Type !join to join the expedition party!'.
+[04/10/20 19:10:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Dreamy Island! Type !join to join the expedition party!'.
+[04/10/20 19:10:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:10:54]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:10:54]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:10:54]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:11:00]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 19:11:00]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 19:11:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 19:11:00]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:11:47]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Dreamy Island, not knowing what to expect.'.
+[04/10/20 19:11:48]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Dreamy Island, not knowing what to expect.'.
+[04/10/20 19:11:48]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 19:11:48]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Dreamy Island, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 19:11:48]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 19:11:48]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Dreamy Island, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 19:11:48]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:11:48]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:11:48]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:12:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:12:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:13:48]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:13:48]: {C++} Added command 'PRIVMSG #liversticks :2 words: rhtea laek '.
+[04/10/20 19:13:48]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:13:48]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: rhtea laek '.
+[04/10/20 19:13:48]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:13:48]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:15:17]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:15:17]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:15:17]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:16:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:16:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:18:18]: {Chat} liversticks: heart lake
+
+[04/10/20 19:18:18]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Heart Lake! Type !join to join the expedition party!'.
+[04/10/20 19:18:18]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Heart Lake! Type !join to join the expedition party!'.
+[04/10/20 19:18:18]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:19:33]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Heart Lake, not knowing what to expect.'.
+[04/10/20 19:19:33]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 19:19:33]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Heart Lake, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 19:19:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Heart Lake, not knowing what to expect.'.
+[04/10/20 19:19:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 19:19:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Heart Lake, here are the explorers' spoils: liversticks(29)'.
+[04/10/20 19:19:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:19:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:19:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:20:00]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:20:00]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:20:00]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:20:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:20:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:21:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 19:21:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 19:21:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 19:21:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:21:33]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:21:33]: {C++} Added command 'PRIVMSG #liversticks :2 words: inamtuno spsa '.
+[04/10/20 19:21:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:21:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: inamtuno spsa '.
+[04/10/20 19:21:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:21:33]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:21:50]: {Chat} liversticks: mountain pass
+
+[04/10/20 19:21:51]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Mountain Pass! Type !join to join the expedition party!'.
+[04/10/20 19:21:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Mountain Pass! Type !join to join the expedition party!'.
+[04/10/20 19:21:51]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:23:06]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Mountain Pass, not knowing what to expect.'.
+[04/10/20 19:23:06]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 19:23:06]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Mountain Pass, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 19:23:06]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Mountain Pass, not knowing what to expect.'.
+[04/10/20 19:23:06]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 19:23:06]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Mountain Pass, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 19:23:06]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:23:06]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:23:06]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:24:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:24:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:24:39]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:24:39]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:24:39]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:25:06]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:25:06]: {C++} Added command 'PRIVMSG #liversticks :2 words: prsail xoetvr '.
+[04/10/20 19:25:06]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:25:06]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: prsail xoetvr '.
+[04/10/20 19:25:06]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:25:06]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:28:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:28:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:29:04]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:29:04]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:29:04]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:31:04]: {Chat} liversticks: spiral vortex
+
+[04/10/20 19:31:04]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Spiral Vortex! Type !join to join the expedition party!'.
+[04/10/20 19:31:04]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Spiral Vortex! Type !join to join the expedition party!'.
+[04/10/20 19:31:04]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:32:00]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 19:32:00]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 19:32:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 19:32:00]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:32:19]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Spiral Vortex, not knowing what to expect.'.
+[04/10/20 19:32:19]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 19:32:19]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Spiral Vortex, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 19:32:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Spiral Vortex, not knowing what to expect.'.
+[04/10/20 19:32:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 19:32:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Spiral Vortex, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 19:32:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:32:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:32:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:32:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:32:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:33:25]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:33:25]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:33:25]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:34:19]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:34:19]: {C++} Added command 'PRIVMSG #liversticks :2 words: tmlepe rmenais '.
+[04/10/20 19:34:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:34:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: tmlepe rmenais '.
+[04/10/20 19:34:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:34:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:34:36]: {Chat} liversticks: temple remains
+
+[04/10/20 19:34:37]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Temple Remains! Type !join to join the expedition party!'.
+[04/10/20 19:34:37]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Temple Remains! Type !join to join the expedition party!'.
+[04/10/20 19:34:37]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:35:52]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Temple Remains, not knowing what to expect.'.
+[04/10/20 19:35:52]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 19:35:52]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Temple Remains, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 19:35:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Temple Remains, not knowing what to expect.'.
+[04/10/20 19:35:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party wanders into a mysterious room filled with gadgets. After fiddling with all of them, the floor collapses! Luckily, everyone made it out of the pitfall trap without getting hurt.'.
+[04/10/20 19:35:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Temple Remains, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 19:35:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:35:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:35:53]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:36:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:36:31]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:37:52]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:37:52]: {C++} Added command 'PRIVMSG #liversticks :2 words: erhsf awdemo '.
+[04/10/20 19:37:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:37:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: erhsf awdemo '.
+[04/10/20 19:37:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:37:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:38:02]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:38:02]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:38:02]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:40:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:40:31]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:41:26]: {Chat} liversticks: fresh meadwo
+
+[04/10/20 19:41:29]: {Chat} liversticks: fresh meadow
+
+[04/10/20 19:41:30]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Fresh Meadow! Type !join to join the expedition party!'.
+[04/10/20 19:41:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Fresh Meadow! Type !join to join the expedition party!'.
+[04/10/20 19:41:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:42:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 19:42:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 19:42:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 19:42:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:42:43]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:42:43]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:42:43]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:42:45]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Fresh Meadow, not knowing what to expect.'.
+[04/10/20 19:42:45]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 19:42:45]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Fresh Meadow, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 19:42:45]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Fresh Meadow, not knowing what to expect.'.
+[04/10/20 19:42:45]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/10/20 19:42:45]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Fresh Meadow, here are the explorers' spoils: liversticks(30)'.
+[04/10/20 19:42:45]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:42:45]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:42:46]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:44:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:44:31]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:44:45]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:44:45]: {C++} Added command 'PRIVMSG #liversticks :2 words: shcolo fotres '.
+[04/10/20 19:44:45]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/10/20 19:44:45]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: shcolo fotres '.
+[04/10/20 19:44:45]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:44:45]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:46:49]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:46:49]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:46:49]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:48:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:48:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:50:53]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:50:53]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:50:53]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:52:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:52:31]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:53:00]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 19:53:00]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 19:53:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 19:53:00]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 19:55:02]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:55:02]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:55:02]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:56:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 19:56:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 19:59:25]: {Twitch} Recieved PING request, responding...
+[04/10/20 19:59:25]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 19:59:25]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 20:00:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 20:00:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 20:03:30]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 20:03:30]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 20:03:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 20:03:31]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 20:03:38]: {Twitch} Recieved PING request, responding...
+[04/10/20 20:03:38]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 20:03:38]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 20:04:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 20:04:31]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 20:07:50]: {Twitch} Recieved PING request, responding...
+[04/10/20 20:07:50]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 20:07:50]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 20:08:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 20:08:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 20:11:56]: {Twitch} Recieved PING request, responding...
+[04/10/20 20:11:56]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/10/20 20:11:57]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/10/20 20:12:30]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/10/20 20:12:30]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/10/20 20:13:44]: {Chat} liversticks: school forest
+
+[04/10/20 20:13:46]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to School Forest! Type !join to join the expedition party!'.
+[04/10/20 20:13:46]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to School Forest! Type !join to join the expedition party!'.
+[04/10/20 20:13:46]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/10/20 20:14:00]: {Twitch} Sending Message Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance....
+[04/10/20 20:14:00]: {C++} Added command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 20:14:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.'.
+[04/10/20 20:14:01]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.

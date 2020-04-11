@@ -330,7 +330,6 @@ void Exploration::theGame() {
 		//points scale according to the length of the word
 		unsigned int tempScore = 3 * whereGo.length() + 10;
 		gameObject.updateScore(correctGuesser,tempScore);
-		correctGuesser = "";
 		gameObject.saveScores(playerList);
 
 		if (placeType == 0) {
@@ -345,7 +344,7 @@ void Exploration::theGame() {
 		TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
 		//add winner of unscrambling, it's only fair ;)
 		addPlayingUser(correctGuesser);
-		
+		correctGuesser = "";
 		
 		//update the acceptState to true;
 		readyToAccept.store(true, memory_order_relaxed);

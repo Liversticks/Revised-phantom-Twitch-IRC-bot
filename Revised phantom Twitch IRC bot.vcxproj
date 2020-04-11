@@ -168,6 +168,7 @@
     <ClInclude Include="CustomCommands\ccmd_dadjoke.h" />
     <ClInclude Include="CustomCommands\ccmd_discord.h" />
     <ClInclude Include="CustomCommands\ccmd_help.h" />
+    <ClInclude Include="CustomCommands\ccmd_hint.h" />
     <ClInclude Include="CustomCommands\ccmd_isadmin.h" />
     <ClInclude Include="CustomCommands\ccmd_join.h" />
     <ClInclude Include="CustomCommands\ccmd_pmdseries.h" />
