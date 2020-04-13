@@ -313,7 +313,7 @@ void Exploration::theGame() {
 	while (aSocket) {
 		
 		setupGame();
-		
+		this_thread::sleep_for(chrono::seconds(20));
 		makeAnagram();
 		parseAnagram.store(true, memory_order_relaxed);
 

@@ -56,7 +56,7 @@ class ChatCommandDecs {
 				CustomCommandManager::fetchInstance().AddCommand("!dadjoke", new Command_DadJoke());
 				CustomCommandManager::fetchInstance().AddCommand("!secret", new Command_Secret());
 				CustomCommandManager::fetchInstance().AddCommand("!join", new Command_Join());
-				CustomCommandManager::fetchInstance().AddCommand("!score", new Command_Score());
+				
 				CustomCommandManager::fetchInstance().AddCommand("!rules", new Command_Rules());
 				CustomCommandManager::fetchInstance().AddCommand("!top", new Command_Top());
 				CustomCommandManager::fetchInstance().AddCommand("!discord", new Command_Discord());
@@ -65,6 +65,7 @@ class ChatCommandDecs {
 			}
 			//inactive commands belong below, they should not be loaded
 			else {
+				CustomCommandManager::fetchInstance().AddCommand("!score", new Command_Score());
 				CustomCommandManager::fetchInstance().AddCommand("!time", new Command_Time());
 				CustomCommandManager::fetchInstance().AddCommand("!isadmin", new Command_IsAdmin());
 				CustomCommandManager::fetchInstance().AddCommand("!adminonly", new Command_AdminOnly());

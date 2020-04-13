@@ -65,7 +65,7 @@ TwitchIRC::TwitchIRC(UFC32 nick, UFC32 usr, UFC32 pass, UFC32 addr, U32 port, UF
         const string cS = string("JOIN " + string(channel) + "\r\n");
         TwitchCommandLimit::fetchInstance().SendCommand(cS);
         //Send a intro message to init stuff...
-        SendChatMessage("(Enhanced Phantom) LiversticksBot Now Connected to channel...");
+        SendChatMessage("The LiverNexus is booting...");
         //Set up AutoPing command
         autoping_thread = new thread(&TwitchIRC::AutoPing, this);
         //Set up available commands messages
@@ -197,7 +197,7 @@ bool TwitchIRC::fetchServerMessage() {
 }
 
 void TwitchIRC::streamUpdates() {
-    string recurMessage("Hi! One day, this bot will be great again. Try !join to explore and gain points or !help for assistance.");
+    string recurMessage("Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.");
     //recurMessage += CustomCommandManager::fetchInstance().listCommands();
     while (SocketActive()) {
         SendChatMessage(recurMessage.c_str());
