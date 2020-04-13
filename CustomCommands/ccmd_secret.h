@@ -25,19 +25,15 @@ class Command_Secret : public CustomCommand {
 			//find more secrets xD
 			switch (seed() % 25) {
 				case 0:
-				case 1:
-				case 2:
 					link = Lib::formatChatMessage("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 					break;
-				//case 1:
-					//link = Lib::formatChatMessage("https://www.youtube.com/watch?v=EjkGGMxyxiA");
-					//break;
-				case 3:
-				case 4:
+				case 1:
+					link = Lib::formatChatMessage("https://www.youtube.com/watch?v=EjkGGMxyxiA");
+					break;
+				case 2:
 					link = Lib::formatChatMessage("https://www.youtube.com/watch?v=9B8mRKc0GQA");
 					break;
-				case 5:
-				case 6:
+				case 3:
 					link = Lib::formatChatMessage("https://www.youtube.com/watch?v=wZZ7oFKsKzY");
 					break;
 				default:

@@ -20,7 +20,7 @@ class Command_Help : public CustomCommand {
 		}
 
 		virtual void Fire(string input) {
-			string help = Lib::formatChatMessage("MINIGAME: !join - join the expedition after unscrambling your destination. !points - Track your score. !top - Top 15 by score. !hint - Need a Wonder Map? OTHER: !dadjoke - Bad puns incoming. !discord - Join the PMD Discord. !secret - Use at your own risk.");
+			string help = Lib::formatChatMessage("Here are some valid commands: !dadjoke, !discord, !join, !hint, !points, !rules, !score, !top. New commands are added when I feel like developing this bot.");
 			TwitchCommandLimit::fetchInstance().AddCommand(help);
 		}
 };

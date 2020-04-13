@@ -47,7 +47,6 @@ bool Exploration::prepareGame() {
 	//set up theGame thread
 	//cout << "Loaded all data from files." << endl;
 	shuffle(dungeonNames.begin(), dungeonNames.end(), mt19937(chrono::system_clock::now().time_since_epoch().count()));
-	this_thread::sleep_for(chrono::seconds(30));
 	gameThread = new thread(&Exploration::theGame, this);
 	return true;
 }
