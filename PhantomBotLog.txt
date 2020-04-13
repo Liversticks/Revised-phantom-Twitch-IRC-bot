@@ -3708,3 +3708,133 @@ Enhanced Phantom) LiversticksBot Now Connected to channel...'.
 [04/12/20 00:28:51]: {C++} Added command 'PRIVMSG #liversticks :2 words: eatgenl rgoge '.
 [04/12/20 00:28:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
 [04/12/20 00:28:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: eatgenl rgoge '.
+[04/12/20 19:26:49]: {C++} Establishing TwitchIRC Instance
+[04/12/20 19:26:50]: {C++} Establishing TwitchIRC Login Token
+[04/12/20 19:26:50]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/12/20 19:26:50]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/12/20 19:26:50]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/12/20 19:26:50]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/12/20 19:26:50]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/12/20 19:26:50]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/12/20 19:26:50]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/12/20 19:26:50]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/12/20 19:26:50]: {Twitch} Sending Message LiverNexus is starting......
+[04/12/20 19:26:50]: {C++} Added command 'PRIVMSG #liversticks :LiverNexus is starting...'.
+[04/12/20 19:26:50]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/12/20 19:26:50]: {Twitch} Sending Message Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance....
+[04/12/20 19:26:50]: {C++} Added command 'PRIVMSG #liversticks :Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance.'.
+[04/12/20 19:26:50]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/12/20 19:26:50]: {C++} Attempting to send command 'PRIVMSG #liversticks :LiverNexus is starting...'.
+[04/12/20 19:26:50]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance.'.
+[04/12/20 19:27:20]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/12/20 19:27:20]: {C++} Added command 'PRIVMSG #liversticks :2 words: .mt utedrhn '.
+[04/12/20 19:27:20]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/12/20 19:27:20]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: .mt utedrhn '.
+[04/12/20 19:29:46]: {C++} Establishing TwitchIRC Instance
+[04/12/20 19:29:46]: {C++} Establishing TwitchIRC Login Token
+[04/12/20 19:29:46]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/12/20 19:29:46]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/12/20 19:29:46]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/12/20 19:29:46]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/12/20 19:29:46]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/12/20 19:29:46]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/12/20 19:29:46]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/12/20 19:29:46]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/12/20 19:29:46]: {Twitch} Sending Message LiverNexus is starting......
+[04/12/20 19:29:46]: {C++} Added command 'PRIVMSG #liversticks :LiverNexus is starting...'.
+[04/12/20 19:29:46]: {Twitch} Sending Message Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance....
+[04/12/20 19:29:46]: {C++} Added command 'PRIVMSG #liversticks :Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance.'.
+[04/12/20 19:29:46]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/12/20 19:29:46]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/12/20 19:29:46]: {C++} Attempting to send command 'PRIVMSG #liversticks :LiverNexus is starting...'.
+[04/12/20 19:29:46]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance.'.
+[04/12/20 19:30:16]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/12/20 19:30:16]: {C++} Added command 'PRIVMSG #liversticks :2 words: eeasrtru tovre '.
+[04/12/20 19:30:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/12/20 19:30:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: eeasrtru tovre '.
+[04/12/20 23:25:15]: {C++} Establishing TwitchIRC Instance
+[04/12/20 23:25:16]: {C++} Establishing TwitchIRC Login Token
+[04/12/20 23:25:16]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/12/20 23:25:16]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/12/20 23:25:16]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/12/20 23:25:16]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/12/20 23:25:16]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/12/20 23:25:16]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/12/20 23:25:16]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/12/20 23:25:16]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/12/20 23:25:16]: {Twitch} Sending Message LiverNexus is starting......
+[04/12/20 23:25:16]: {C++} Added command 'PRIVMSG #liversticks :LiverNexus is starting...'.
+[04/12/20 23:25:16]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/12/20 23:25:16]: {Twitch} Sending Message Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance....
+[04/12/20 23:25:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :LiverNexus is starting...'.
+[04/12/20 23:25:16]: {C++} Added command 'PRIVMSG #liversticks :Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance.'.
+[04/12/20 23:25:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance.'.
+[04/12/20 23:25:17]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/12/20 23:25:46]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/12/20 23:25:46]: {C++} Added command 'PRIVMSG #liversticks :2 words: gmoknis mnontuai '.
+[04/12/20 23:25:47]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/12/20 23:25:47]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: gmoknis mnontuai '.
+[04/12/20 23:28:06]: {C++} Establishing TwitchIRC Instance
+[04/12/20 23:28:06]: {C++} Establishing TwitchIRC Login Token
+[04/12/20 23:28:06]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/12/20 23:28:06]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/12/20 23:28:06]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/12/20 23:28:06]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/12/20 23:28:06]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/12/20 23:28:06]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/12/20 23:28:06]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/12/20 23:28:06]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/12/20 23:28:06]: {Twitch} Sending Message LiverNexus is starting......
+[04/12/20 23:28:06]: {C++} Added command 'PRIVMSG #liversticks :LiverNexus is starting...'.
+[04/12/20 23:28:06]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/12/20 23:28:06]: {Twitch} Sending Message Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance....
+[04/12/20 23:28:06]: {C++} Added command 'PRIVMSG #liversticks :Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance.'.
+[04/12/20 23:28:06]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/12/20 23:28:06]: {C++} Attempting to send command 'PRIVMSG #liversticks :LiverNexus is starting...'.
+[04/12/20 23:28:06]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance.'.
+[04/12/20 23:29:41]: {C++} Establishing TwitchIRC Instance
+[04/12/20 23:29:41]: {C++} Establishing TwitchIRC Login Token
+[04/12/20 23:29:41]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/12/20 23:29:41]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/12/20 23:29:41]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/12/20 23:29:41]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/12/20 23:29:41]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/12/20 23:29:41]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/12/20 23:29:41]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/12/20 23:29:41]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/12/20 23:29:41]: {Twitch} Sending Message LiverNexus is starting......
+[04/12/20 23:29:41]: {C++} Added command 'PRIVMSG #liversticks :LiverNexus is starting...'.
+[04/12/20 23:29:42]: {Twitch} Sending Message Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance....
+[04/12/20 23:29:42]: {C++} Added command 'PRIVMSG #liversticks :Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance.'.
+[04/12/20 23:29:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/12/20 23:29:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :LiverNexus is starting...'.
+[04/12/20 23:29:42]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance.'.
+[04/12/20 23:29:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/12/20 23:30:12]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/12/20 23:30:12]: {C++} Added command 'PRIVMSG #liversticks :2 words: iieclc rfsteo '.
+[04/12/20 23:30:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/12/20 23:30:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: iieclc rfsteo '.
+[04/12/20 23:33:42]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/12/20 23:33:42]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/12/20 23:35:21]: {C++} Establishing TwitchIRC Instance
+[04/12/20 23:35:29]: {C++} Establishing TwitchIRC Login Token
+[04/12/20 23:35:29]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/12/20 23:35:29]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/12/20 23:35:29]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/12/20 23:35:29]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/12/20 23:35:29]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/12/20 23:35:29]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/12/20 23:35:29]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/12/20 23:35:29]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/12/20 23:35:29]: {Twitch} Sending Message LiverNexus is starting......
+[04/12/20 23:35:29]: {C++} Added command 'PRIVMSG #liversticks :LiverNexus is starting...'.
+[04/12/20 23:35:29]: {Twitch} Sending Message Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance....
+[04/12/20 23:35:29]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/12/20 23:35:29]: {C++} Added command 'PRIVMSG #liversticks :Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance.'.
+[04/12/20 23:35:29]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/12/20 23:35:29]: {C++} Attempting to send command 'PRIVMSG #liversticks :LiverNexus is starting...'.
+[04/12/20 23:35:29]: {C++} Attempting to send command 'PRIVMSG #liversticks :Hi! Welcome to the stream. Play the minigame by unscrambling place names from the Pokemon Mystery Dungeon series and !join for a chance at more points! Use !help for more assistance.'.
+[04/12/20 23:35:59]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/12/20 23:35:59]: {C++} Added command 'PRIVMSG #liversticks :4 words: htap fo naflle seaelv '.
+[04/12/20 23:35:59]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/12/20 23:35:59]: {C++} Attempting to send command 'PRIVMSG #liversticks :4 words: htap fo naflle seaelv '.
