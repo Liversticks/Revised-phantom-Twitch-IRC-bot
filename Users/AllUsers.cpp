@@ -21,14 +21,16 @@ bool AllUsers::addToDictionary(string name, unsigned int score) {
 }
 
 unsigned int AllUsers::whatsMyScore(string name) {
-	unsigned int myScore = 0;
-	try {
-		myScore = dictionary.at(name);
+	map<string, unsigned int>::iterator itr;
+	itr = dictionary.find(name);
+	if (itr != dictionary.end()) {
+		return itr->second;
 	}
-	catch (exception & e) {
+	else {
 		dictionary.insert(pair<string, unsigned int>(name, 0));
+		return 0;
 	}
-	return myScore;
+	
 }
 
 bool AllUsers::loadScores(string filename) {
@@ -70,23 +72,39 @@ bool swapPair(const pair<string, unsigned int>& a, const pair<string, unsigned i
 void AllUsers::top15Scores() {
 	//linear search
 	//assume that the vector is already sorted
+	//do linear search on the vector to check for duplicate string keys. do not insert if 
 	//if the last element is greater than the target new element, skip
 	//else, push_back, sort, and remove the last element from the vector
 
 	//if there are less than 15 elements in the target vector, add and sort
 	//else, add/sort only if the element if bigger than the smallest element
 	unsigned int tempscore;
+	unsigned int topScoreSize;
+	string insertName;
 	for (map<string, unsigned int>::iterator itr = dictionary.begin(); itr != dictionary.end(); itr++) {		
 		tempscore = itr->second;
-		if (topScorers.size() == 0) {
-			topScorers.push_back(pair<string, unsigned int>(itr->first, itr->second));
+		topScoreSize = topScorers.size();
+		insertName = itr->first;
+		if (topScoreSize == 0) {
+			topScorers.push_back(pair<string, unsigned int>(insertName, tempscore));
 		}
-		else if (topScorers.size() < 15 || tempscore > topScorers.back().second) { 
-			topScorers.push_back(pair<string, unsigned int>(itr->first, itr->second));
-			sort(topScorers.begin(), topScorers.end(), swapPair);
-			if (topScorers.size() > 15) {
-				topScorers.pop_back();
+		else if (topScoreSize < 15 || tempscore > topScorers.back().second) { 
+			int i = 0;
+			bool isFound = false;
+			while (!isFound && i < topScoreSize) {
+				cout << topScorers.at(i).first << endl;
+				if (topScorers.at(i).first == insertName) {
+					isFound = true;
+				}
+				i++;
 			}
+			if (!isFound) {
+				topScorers.push_back(pair<string, unsigned int>(itr->first, itr->second));
+				sort(topScorers.begin(), topScorers.end(), swapPair);
+				if (topScorers.size() > 15) {
+					topScorers.pop_back();
+				}
+			}			
 		}
 	}
 }

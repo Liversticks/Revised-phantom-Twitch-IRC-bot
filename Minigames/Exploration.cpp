@@ -65,8 +65,13 @@ bool Exploration::inAnagram() {
 
 void Exploration::addPlayingUser(string username) {
 	//mutex for data races
+	//need to check for unique users
+	set<string>::iterator itr;
 	mtx.lock();
-	whoIsPlaying.insert(username);
+	itr = whoIsPlaying.find(username);
+	if (itr == whoIsPlaying.end()) {
+		whoIsPlaying.insert(username);
+	}	
 	mtx.unlock();
 }
 
