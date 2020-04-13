@@ -98,8 +98,8 @@ void TwitchIRC::Update() {
         	TwitchUserState::fetchInstance().Process(response);         	
         }    
         else {
-        	cout << "Got unknown response: " << response << endl;
-        	Lib::writeToLog("PhantomBotLog.txt", "{Twitch} UIID Response '" + response + "'.");
+        	//cout << "Got unknown response: " << response << endl;
+        	//Lib::writeToLog("PhantomBotLog.txt", "{Twitch} UIID Response '" + response + "'.");
         }
     }
 }
