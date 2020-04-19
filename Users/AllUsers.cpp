@@ -81,30 +81,37 @@ void AllUsers::top15Scores() {
 	unsigned int tempscore;
 	unsigned int topScoreSize;
 	string insertName;
-	for (map<string, unsigned int>::iterator itr = dictionary.begin(); itr != dictionary.end(); itr++) {		
+	int counter = 0;
+	int i;
+	map<string, unsigned int>::iterator itr;
+	for (itr = dictionary.begin(); itr != dictionary.end(); itr++) {		
+		cout << counter << endl;
 		tempscore = itr->second;
 		topScoreSize = topScorers.size();
 		insertName = itr->first;
-		if (topScoreSize == 0) {
-			topScorers.push_back(pair<string, unsigned int>(insertName, tempscore));
-		}
-		else if (topScoreSize < 15 || tempscore > topScorers.back().second) { 
-			int i = 0;
-			bool isFound = false;
-			while (!isFound && i < topScoreSize) {
-				cout << topScorers.at(i).first << endl;
-				if (topScorers.at(i).first == insertName) {
-					isFound = true;
-				}
-				i++;
+
+		//check for membership first
+		bool isFound = false;
+		i = 0;
+		while (!isFound && i < topScoreSize) {
+			cout << topScorers.at(i).first << endl;
+			if (topScorers.at(i).first == insertName) {
+				isFound = true;
 			}
-			if (!isFound) {
-				topScorers.push_back(pair<string, unsigned int>(itr->first, itr->second));
-				sort(topScorers.begin(), topScorers.end(), swapPair);
-				if (topScorers.size() > 15) {
-					topScorers.pop_back();
-				}
-			}			
+			i++;
+			
+		}
+		//update score if necessary
+		if (isFound) {
+			topScorers.at(i - 1).second = tempscore;
+		}
+		//add to back
+		else if (!isFound && (topScoreSize < 15 || tempscore > topScorers.back().second)) {
+			topScorers.push_back(pair<string, unsigned int>(itr->first, itr->second));
+		}
+		sort(topScorers.begin(), topScorers.end(), swapPair);
+		if (topScorers.size() > 15) {
+			topScorers.pop_back();
 		}
 	}
 }

@@ -6,9 +6,10 @@ Oliver X. (Liversticks)
 
 #include "Exploration.h"
 
-#define GAME_COOLDOWN 120
+//in seconds
+#define GAME_COOLDOWN 600
 
-Exploration::Exploration(): gameObject(), gameThread(NULL), gameHasBegun(false), readyToAccept(false), parseAnagram(false), aSocket(NULL), chatMessage(""), whereGo(""), playerList(""), dungeonList(""), townList(""), specialList(""), scoreFactor(1), dungeonCounter(0), placeType(0)  {
+Exploration::Exploration(): gameObject(), gameThread(NULL), gameHasBegun(false), readyToAccept(false), parseAnagram(false), aSocket(NULL), chatMessage(""), whereGo(""), playerList(""), dungeonList(""), townList(""), specialList(""), temp1(""), temp2(""), scoreFactor(1), dungeonCounter(0), placeType(0), chatCounter(0)  {
 	lastGameFinish = chrono::system_clock::now();
 }
 
@@ -159,10 +160,10 @@ void Exploration::makeAnagram() {
 		resultType = "mysterious location";
 	}
 
-	chatMessage = Lib::formatChatMessage("Unscramble the following " + resultType + ":");
-	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
-	chatMessage = Lib::formatChatMessage(to_string(length) + " words: " + resultMessage);
-	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
+	temp1 = Lib::formatChatMessage("Unscramble the following " + resultType + ":");
+	TwitchCommandLimit::fetchInstance().AddCommand(temp1);
+	temp2 = Lib::formatChatMessage(to_string(length) + " words: " + resultMessage);
+	TwitchCommandLimit::fetchInstance().AddCommand(temp2);
 }
 
 void Exploration::flavourText() {
@@ -314,6 +315,7 @@ void Exploration::setAnagramFalse() {
 	parseAnagram.store(false, memory_order_relaxed);
 }
 
+
 void Exploration::theGame() {
 	while (aSocket) {
 		
@@ -323,14 +325,18 @@ void Exploration::theGame() {
 		parseAnagram.store(true, memory_order_relaxed);
 
 		//set TwitchIRC modules to filter for correct answer
-		
-		
 		while (inAnagram()) {
 			//wait before checking again
-			this_thread::sleep_for(chrono::seconds(2));
+			this_thread::sleep_for(chrono::seconds(1));
+			if (chatCounter > 120) {
+				TwitchCommandLimit::fetchInstance().AddCommand(temp1);
+				TwitchCommandLimit::fetchInstance().AddCommand(temp2);
+				chatCounter = 0;
+			}
+			chatCounter++;
 		}
 		//break out of loop when someone guesses the correct location
-		
+		chatCounter = 0;
 		//award points to first player
 		//points scale according to the length of the word
 		unsigned int tempScore = 3 * whereGo.length() + 10;

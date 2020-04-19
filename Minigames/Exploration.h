@@ -13,6 +13,11 @@ private:
 	//for sending messages in chat
 	string chatMessage;
 
+	//temp messages for reminders:
+	string temp1;
+
+	string temp2;
+
 	//dictionary object
 	AllUsers gameObject;
 
@@ -30,6 +35,9 @@ private:
 
 	//thread which runs the game
 	thread* gameThread;
+
+	//workaround to avoid multithreading
+	int chatCounter;
 
 	//mutex object to lock thread
 	mutex mtx;
