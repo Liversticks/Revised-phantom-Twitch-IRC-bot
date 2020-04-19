@@ -20,7 +20,7 @@ class Command_Help : public CustomCommand {
 		}
 
 		virtual void Fire(string input) {
-			string help = Lib::formatChatMessage("Commands: !dadjoke, !discord, !join, !hint, !points, !rules, !top. Most are self-explanatory.");
+			string help = Lib::formatChatMessage("Commands: !dadjoke, !discord, !join, !hint, !multi, !points, !rules, !top. Most are self-explanatory.");
 			TwitchCommandLimit::fetchInstance().AddCommand(help);
 		}
 };

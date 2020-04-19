@@ -26,6 +26,7 @@
 #include "CustomCommands/ccmd_discord.h"
 #include "CustomCommands/ccmd_help.h"
 #include "CustomCommands/ccmd_hint.h"
+#include "CustomCommands/ccmd_multi.h"
 
 /*
 ChatCommandDecs Class
@@ -56,7 +57,7 @@ class ChatCommandDecs {
 				CustomCommandManager::fetchInstance().AddCommand("!dadjoke", new Command_DadJoke());
 				CustomCommandManager::fetchInstance().AddCommand("!secret", new Command_Secret());
 				CustomCommandManager::fetchInstance().AddCommand("!join", new Command_Join());
-				
+				CustomCommandManager::fetchInstance().AddCommand("!multi", new Command_Multi());
 				CustomCommandManager::fetchInstance().AddCommand("!rules", new Command_Rules());
 				CustomCommandManager::fetchInstance().AddCommand("!top", new Command_Top());
 				CustomCommandManager::fetchInstance().AddCommand("!discord", new Command_Discord());
