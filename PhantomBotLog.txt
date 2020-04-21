@@ -7448,3 +7448,29 @@ he LiverNexus is booting...'.
 [04/18/20 18:50:02]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
 [04/18/20 18:50:09]: {Chat} liversticks: nice good job :)
 
+[04/19/20 18:12:26]: {C++} Establishing TwitchIRC Instance
+[04/19/20 18:12:27]: {C++} Establishing TwitchIRC Login Token
+[04/19/20 18:12:27]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/19/20 18:12:27]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/19/20 18:12:27]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/19/20 18:12:27]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/19/20 18:12:27]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/19/20 18:12:27]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/19/20 18:12:27]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/19/20 18:12:27]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/19/20 18:12:27]: {Twitch} Sending Message The LiverNexus is booting......
+[04/19/20 18:12:27]: {C++} Added command 'PRIVMSG #liversticks :The LiverNexus is booting...'.
+[04/19/20 18:12:27]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/19/20 18:12:27]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/19/20 18:12:27]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/19/20 18:12:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :The LiverNexus is booting...'.
+[04/19/20 18:12:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/19/20 18:12:28]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/19/20 18:12:28]: {Twitch} Recieved USERSTATE Command: ':tmi.twitch.tv CAP * ACK :twitch.tv/commands:tmi.twitch.tv CAP * ACK :twitch.tv/membership:tmi.twitch.tv CAP * ACK :twitch.tv/tags:livernexus!livernexus@livernexus.tmi.twitch.tv JOIN #liversticks:livernexus.tmi.twitch.tv 353 livernexus = #liversticks :livernexus:livernexus.tmi.twitch.tv 366 livernexus #liversticks :End of /NAMES list:tmi.twitch.tv HOSTTARGET #liversticks :reallyreallylongathon -@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting ReallyReallyLongAThon.@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/19/20 18:12:30]: {Chat} liversticks: !multi
+
+[04/19/20 18:12:30]: {C++} Added command 'PRIVMSG #liversticks :Not in a race right now, but the multi-stream link is here when I would be.'.
+[04/19/20 18:12:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Not in a race right now, but the multi-stream link is here when I would be.'.
+[04/19/20 18:12:30]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/19/20 18:12:33]: {Chat} liversticks: cool nerd
+

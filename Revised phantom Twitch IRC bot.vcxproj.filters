@@ -194,5 +194,8 @@
     <ClInclude Include="CustomCommands\ccmd_hint.h">
       <Filter>Header Files\Commands</Filter>
     </ClInclude>
+    <ClInclude Include="CustomCommands\ccmd_multi.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
