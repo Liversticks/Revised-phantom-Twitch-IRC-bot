@@ -7,6 +7,41 @@
 #include "TwitchCommandProcess.h"
 #include "../Minigames/Exploration.h"
 
+bool validateInput(string test, string ans) {
+    int testLength = test.length();
+    int ansLength = ans.length();
+    int i, j;
+    for (i = 0; i < testLength; i++) {
+        test[i] = tolower(test.at(i));
+    }
+    cout << testLength << ' ' << ansLength << endl;
+    cout << test << endl;
+    cout << ans << endl;
+    //messages have two newlines at the end: 1 from server, 1 from client
+    try {
+        for (j = 0; j < ansLength-2; j++) {
+            ans[j] = tolower(ans.at(j));
+            if (ans[j] != test.at(j)) {
+                return false;
+            }
+        }
+    }
+    catch (exception& e) {
+        return false;
+    }
+    try {
+        //this character
+        if (isgraph(test.at(ansLength))) {
+            return false;
+        }
+    }
+    catch (exception &e){
+        return true;
+    }
+    return true;
+    
+}
+
 bool TwitchPrivMsg::Process(const string incoming) {
     string name, message;
     //Strip the username and their message
@@ -18,38 +53,8 @@ bool TwitchPrivMsg::Process(const string incoming) {
     //do not filter text if not in anagram-accepting state!
     if (Exploration::fetchInstance().inAnagram()) {
         cout << "Checking for anagram status." << endl;
-        int messageLength = message.length();
-        for (int i = 0; i < messageLength; i++) {
-            message[i] = tolower(message.at(i));
-        }
-        bool localbool = true;
         string correctAns = Exploration::fetchInstance().whereGoFetch();
-        int ansLength = correctAns.length();
-        
-        int i;
-        for (i = 0; i < ansLength; i++) {
-            correctAns[i] = tolower(correctAns.at(i));
-            try {
-                message.at(i);
-            }
-            catch (exception& e) {
-                goto ENDLOOP;
-            }
-            if (correctAns[i] != message[i]) {
-                localbool = false;
-            }
-        }
-        //cout << message << "a" << endl;
-        //cout << correctAns << "a" << endl;
-        //verify that the response is not too long
-        
-        if (isgraph(message.at(i))) {
-            localbool = false;
-        }
-        
-        
-        
-        if (localbool) {
+        if (validateInput(message, correctAns)) {
             Exploration::fetchInstance().whoWon(name);
             Exploration::fetchInstance().setAnagramFalse();
         }
@@ -65,7 +70,7 @@ bool TwitchPrivMsg::Process(const string incoming) {
 		
     }
 	*/
-    ENDLOOP: CustomCommandManager::fetchInstance().Process(incoming);
+    CustomCommandManager::fetchInstance().Process(incoming);
 
 	return true;
 }

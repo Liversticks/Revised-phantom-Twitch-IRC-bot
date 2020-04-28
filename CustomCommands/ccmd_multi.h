@@ -26,7 +26,7 @@ class Command_Multi : public CustomCommand {
 				multiTwitch = Lib::formatChatMessage("Not in a race right now, but the multi-stream link is here when I would be.");
 			}
 			else {
-				multiTwitch = Lib::formatChatMessage("https://kadgar.net/live/liversticks");
+				multiTwitch = Lib::formatChatMessage("https://kadgar.net/live/liversticks/MozzarellaCheez/wh0misDS/hgfin/rioynerisanidiot");
 			}
 			TwitchCommandLimit::fetchInstance().AddCommand(multiTwitch);
 		}
