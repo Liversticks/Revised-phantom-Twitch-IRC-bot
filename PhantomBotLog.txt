@@ -10720,3 +10720,633 @@ t knowing what to expect.'.
 [04/28/20 16:29:08]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nfsaaty atsirt '.
 [04/28/20 16:29:08]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
 [04/28/20 16:29:08]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:31:43]: {C++} Establishing TwitchIRC Instance
+[04/29/20 13:31:43]: {C++} Establishing TwitchIRC Login Token
+[04/29/20 13:31:43]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/29/20 13:31:43]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/29/20 13:31:43]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/29/20 13:31:43]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/29/20 13:31:43]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/29/20 13:31:43]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/29/20 13:31:43]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/29/20 13:31:43]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/29/20 13:31:43]: {Twitch} Sending Message The LiverNexus is booting......
+[04/29/20 13:31:43]: {C++} Added command 'PRIVMSG #liversticks :The LiverNexus is booting...'.
+[04/29/20 13:31:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 13:31:43]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 13:31:43]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 13:31:43]: {C++} Attempting to send command 'PRIVMSG #liversticks :The LiverNexus is booting...'.
+[04/29/20 13:31:43]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 13:31:43]: {Twitch} Recieved USERSTATE Command: '@msg-id=host_on :tmi.twitch.tv NOTICE #liversticks :Now hosting Wh0misDS.@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks@emote-only=0;followers-only=-1;r9k=0;rituals=0;room-id=437623292;slow=0;subs-only=0 :tmi.twitch.tv ROOMSTATE #liversticks'.
+[04/29/20 13:31:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 13:31:43]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:32:03]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:32:03]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:32:03]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:32:03]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:32:03]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:32:03]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:32:23]: {Chat} liversticks: !top
+
+[04/29/20 13:32:23]: {C++} Added command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 7578, (2) ColeQuil: 2451, (3) Ethan_26_: 2063, (4) warningnimrod: 2027, (5) bluefelly: 879, (6) Wolfkiller95: 187, (7) yoshikass: 125, (8) SubmitNameHere: 65, (9) WitjesForRealz: 60, (10) MozzarellaCheez: 51'.
+[04/29/20 13:32:23]: {C++} Attempting to send command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 7578, (2) ColeQuil: 2451, (3) Ethan_26_: 2063, (4) warningnimrod: 2027, (5) bluefelly: 879, (6) Wolfkiller95: 187, (7) yoshikass: 125, (8) SubmitNameHere: 65, (9) WitjesForRealz: 60, (10) MozzarellaCheez: 51'.
+[04/29/20 13:32:23]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:34:05]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:34:05]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:34:05]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:34:05]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:34:05]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:34:05]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:35:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 13:35:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 13:36:06]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:36:06]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:36:06]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:36:06]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:36:06]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:36:06]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:36:37]: {Twitch} Recieved PING request, responding...
+[04/29/20 13:36:37]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/29/20 13:36:37]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/29/20 13:38:07]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:38:07]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:38:07]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:38:07]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:38:07]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:38:08]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:39:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 13:39:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 13:40:08]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:40:08]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:40:08]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:40:08]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:40:08]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:40:08]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:41:31]: {Twitch} Recieved PING request, responding...
+[04/29/20 13:41:31]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/29/20 13:41:31]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/29/20 13:42:09]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:42:09]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:42:09]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:42:09]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:42:09]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:42:09]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:42:13]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 13:42:13]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 13:42:13]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 13:42:13]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:43:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 13:43:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 13:44:10]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:44:10]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:44:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:44:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:44:10]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:44:11]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:45:47]: {Twitch} Recieved PING request, responding...
+[04/29/20 13:45:47]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/29/20 13:45:47]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/29/20 13:46:11]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:46:11]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:46:11]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:46:11]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:46:12]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:46:12]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:47:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 13:47:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 13:48:12]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:48:12]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:48:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:48:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:48:13]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:48:13]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:50:13]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:50:13]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:50:13]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:50:13]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:50:14]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:50:14]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:50:18]: {Twitch} Recieved PING request, responding...
+[04/29/20 13:50:18]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/29/20 13:50:18]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/29/20 13:51:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 13:51:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 13:52:15]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:52:15]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:52:15]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:52:15]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:52:15]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:52:15]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:52:43]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 13:52:43]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 13:52:43]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 13:52:43]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:54:16]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:54:16]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:54:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:54:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:54:16]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:54:16]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:54:52]: {Twitch} Recieved PING request, responding...
+[04/29/20 13:54:52]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/29/20 13:54:52]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/29/20 13:55:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 13:55:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 13:56:17]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:56:17]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:56:17]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:56:17]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:56:17]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:56:17]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:58:18]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:58:18]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:58:18]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 13:58:18]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 13:58:18]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:58:18]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 13:59:01]: {Twitch} Recieved PING request, responding...
+[04/29/20 13:59:01]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/29/20 13:59:01]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/29/20 13:59:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 13:59:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:00:19]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:00:19]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 14:00:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:00:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 14:00:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 14:00:19]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 14:02:20]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:02:20]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 14:02:20]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:02:20]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 14:02:20]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 14:02:20]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 14:03:13]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 14:03:13]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:03:13]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:03:13]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 14:03:22]: {Twitch} Recieved PING request, responding...
+[04/29/20 14:03:22]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/29/20 14:03:22]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/29/20 14:03:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:03:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:04:21]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:04:21]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 14:04:21]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:04:21]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 14:04:21]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 14:04:21]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 14:06:22]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:06:22]: {C++} Added command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 14:06:22]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:06:22]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: lcaailg drseuapsn '.
+[04/29/20 14:06:22]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 14:06:22]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 14:06:41]: {Chat} keegansimyh: timpR
+
+[04/29/20 14:06:48]: {Chat} Logi_Carra: whomHype
+
+[04/29/20 14:06:55]: {Chat} QUOTE_ME_IF_HE_THROWS: whomHype
+
+[04/29/20 14:06:56]: {Chat} ShadyGamerX: whomHype
+
+[04/29/20 14:07:12]: {Chat} FuriousMagic: It's also sub 2:50 whomDerp
+
+[04/29/20 14:07:12]: {Chat} Farenris: whomHype whomHype
+
+[04/29/20 14:07:20]: {Chat} Logi_Carra: it was 2:49:14 iirc
+
+[04/29/20 14:07:22]: {Chat} robthegamer115: how do i solve the dungeon scramble?
+
+[04/29/20 14:07:27]: {Chat} ShadyGamerX: LUL
+
+[04/29/20 14:07:37]: {Chat} QUOTE_ME_IF_HE_THROWS: whom had the god run mozzarHype
+
+[04/29/20 14:07:38]: {Twitch} Recieved PING request, responding...
+[04/29/20 14:07:38]: {C++} Attempting to push command 'PONG :tmi.twitch.tv'.
+[04/29/20 14:07:39]: {C++} Attempting to send command 'PONG :tmi.twitch.tv'.
+[04/29/20 14:07:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:07:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:07:45]: {Chat} Wh0misDS: whomBongo
+
+[04/29/20 14:07:46]: {Chat} FuriousMagic: Gl whomLove
+
+[04/29/20 14:07:47]: {Chat} cinderdog: whomBongo whomBongo
+
+[04/29/20 14:07:48]: {Chat} ColeQuil: @robthegamer115 just type in the dungeon name by itself
+
+[04/29/20 14:07:51]: {Chat} robthegamer115: glacial underpass
+
+[04/29/20 14:07:52]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? robthegamer115 is leading a group headed to Glacial Underpass! Type !join to join the expedition party!'.
+[04/29/20 14:07:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? robthegamer115 is leading a group headed to Glacial Underpass! Type !join to join the expedition party!'.
+[04/29/20 14:07:52]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 14:07:55]: {Chat} Zebews: mozzarLove
+
+[04/29/20 14:08:03]: {Chat} Wh0misDS: !join
+
+[04/29/20 14:08:04]: {Chat} Zebews: !join
+
+[04/29/20 14:08:04]: {Chat} Logi_Carra: !join
+
+[04/29/20 14:08:06]: {Chat} Farenris: !join
+
+[04/29/20 14:08:07]: {Chat} QUOTE_ME_IF_HE_THROWS: !join
+
+[04/29/20 14:08:08]: {Chat} ColeQuil: !join
+
+[04/29/20 14:08:10]: {Chat} FuriousMagic: !join
+
+[04/29/20 14:08:11]: {Chat} robthegamer115: !join
+
+[04/29/20 14:08:12]: {Chat} ShadyGamerX: !join
+
+[04/29/20 14:08:21]: {Chat} cinderdog: !join
+
+[04/29/20 14:08:21]: {Chat} ShadowPhoenixDX: !join
+
+[04/29/20 14:09:07]: {C++} Added command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Glacial Underpass, not knowing what to expect.'.
+[04/29/20 14:09:07]: {C++} Added command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/29/20 14:09:07]: {C++} Attempting to send command 'PRIVMSG #liversticks :All prepared and well-fed, the exploration party heads into Glacial Underpass, not knowing what to expect.'.
+[04/29/20 14:09:07]: {C++} Added command 'PRIVMSG #liversticks :After a long, hard day in Glacial Underpass, here are the explorers' spoils: ColeQuil(103), Farenris(101), FuriousMagic(101), Logi_Carra(108), QUOTE_ME_IF_HE_THROWS(105), ShadowPhoenixDX(112), ShadyGamerX(107), Wh0misDS(97), Zebews(98), cinderdog(97), robthegamer115(106)'.
+[04/29/20 14:09:07]: {C++} Attempting to send command 'PRIVMSG #liversticks :While exploring, the party reaches the clearing after the final stairs and the exploration concludes succesfully.'.
+[04/29/20 14:09:07]: {C++} Attempting to send command 'PRIVMSG #liversticks :After a long, hard day in Glacial Underpass, here are the explorers' spoils: ColeQuil(103), Farenris(101), FuriousMagic(101), Logi_Carra(108), QUOTE_ME_IF_HE_THROWS(105), ShadowPhoenixDX(112), ShadyGamerX(107), Wh0misDS(97), Zebews(98), cinderdog(97), robthegamer115(106)'.
+[04/29/20 14:11:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:11:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:13:43]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 14:13:43]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:13:43]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:15:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:15:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:19:27]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:19:27]: {C++} Added command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:19:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:19:27]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:19:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:19:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:21:29]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:21:29]: {C++} Added command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:21:29]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:21:29]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:23:30]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:23:30]: {C++} Added command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:23:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:23:30]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:23:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:23:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:24:13]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 14:24:13]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:24:13]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:25:31]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:25:31]: {C++} Added command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:25:31]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:25:31]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:27:33]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:27:33]: {C++} Added command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:27:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:27:33]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:27:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:27:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:29:34]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:29:34]: {C++} Added command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:29:34]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:29:34]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:31:35]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:31:35]: {C++} Added command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:31:35]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:31:35]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:31:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:31:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:33:36]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:33:36]: {C++} Added command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:33:36]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:33:36]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:34:43]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 14:34:43]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:34:43]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:35:37]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:35:37]: {C++} Added command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:35:37]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:35:37]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: llnstiyarec eamz '.
+[04/29/20 14:35:43]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:35:43]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:37:25]: {C++} Establishing TwitchIRC Instance
+[04/29/20 14:37:25]: {C++} Establishing TwitchIRC Login Token
+[04/29/20 14:37:25]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/29/20 14:37:25]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/29/20 14:37:25]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/29/20 14:37:25]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/29/20 14:37:25]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/29/20 14:37:25]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/29/20 14:37:25]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/29/20 14:37:25]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/29/20 14:37:25]: {Twitch} Sending Message The LiverNexus is booting......
+[04/29/20 14:37:25]: {C++} Added command 'PRIVMSG #liversticks :The LiverNexus is booting...'.
+[04/29/20 14:37:25]: {C++} Attempting to send command 'PRIVMSG #liversticks :The LiverNexus is booting...'.
+[04/29/20 14:37:25]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:37:25]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 14:37:25]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:37:26]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:37:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:37:46]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:37:46]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:37:46]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:37:46]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:37:46]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 14:37:46]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 14:37:49]: {Chat} ColeQuil: I guess checking the Crystalline maze case would be something to do
+
+[04/29/20 14:39:48]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:39:48]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:39:48]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:39:48]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:41:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:41:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:41:49]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:41:49]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:41:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:41:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:43:50]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:43:50]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:43:50]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:43:50]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:45:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:45:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:45:51]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:45:51]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:45:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:45:51]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:47:52]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:47:52]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:47:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:47:52]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:47:56]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 14:47:56]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:47:56]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:49:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:49:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:49:53]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:49:53]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:49:53]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:49:53]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:51:54]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:51:54]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:51:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:51:55]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:53:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:53:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:53:56]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:53:56]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:53:56]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:53:56]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:55:57]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:55:57]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:55:57]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:55:57]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:57:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 14:57:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 14:57:58]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:57:58]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:57:58]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:57:58]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:58:26]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 14:58:26]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:58:26]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 14:59:59]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:59:59]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 14:59:59]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 14:59:59]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:01:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 15:01:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 15:02:00]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:02:00]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:02:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:02:00]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:04:01]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:04:01]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:04:01]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:04:01]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:05:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 15:05:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 15:06:02]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:06:02]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:06:02]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:06:02]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:08:03]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:08:03]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:08:03]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:08:03]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:08:56]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 15:08:56]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 15:08:56]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 15:09:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 15:09:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 15:10:04]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:10:04]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:10:04]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:10:04]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:12:05]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:12:05]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:12:05]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:12:05]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:13:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 15:13:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 15:14:06]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:14:06]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:14:06]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:14:06]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:16:07]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:16:07]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:16:07]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:16:07]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:17:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 15:17:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 15:18:08]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:18:08]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:18:08]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:18:08]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:19:26]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 15:19:26]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 15:19:26]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 15:20:09]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:20:09]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:20:09]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:20:09]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:21:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 15:21:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 15:22:10]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:22:10]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:22:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:22:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:24:11]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:24:11]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:24:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:24:12]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:25:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 15:25:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 15:26:13]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:26:13]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:26:13]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:26:13]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:28:14]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:28:14]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:28:14]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:28:14]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:29:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 15:29:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 15:29:56]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 15:29:56]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 15:29:56]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 15:30:15]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:30:15]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:30:15]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:30:15]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:32:16]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:32:16]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:32:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:32:16]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:33:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 15:33:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 15:34:17]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:34:17]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:34:17]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:34:17]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:36:18]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:36:18]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:36:18]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:36:18]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:37:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 15:37:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 15:38:19]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:38:19]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:38:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:38:19]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:40:20]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:40:20]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:40:20]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:40:20]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:40:26]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 15:40:26]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 15:40:26]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 15:41:26]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 15:41:26]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 15:42:21]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:42:21]: {C++} Added command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 15:42:21]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 15:42:21]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: nunow riecl '.
+[04/29/20 16:03:49]: {C++} Establishing TwitchIRC Instance
+[04/29/20 16:03:50]: {C++} Establishing TwitchIRC Login Token
+[04/29/20 16:03:50]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/29/20 16:03:50]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/29/20 16:03:50]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/29/20 16:03:50]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/29/20 16:03:50]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/29/20 16:03:50]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/29/20 16:03:50]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/29/20 16:03:50]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/29/20 16:03:50]: {Twitch} Sending Message The LiverNexus is booting......
+[04/29/20 16:03:50]: {C++} Added command 'PRIVMSG #liversticks :The LiverNexus is booting...'.
+[04/29/20 16:03:50]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 16:03:50]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 16:03:50]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 16:03:50]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 16:03:50]: {C++} Attempting to send command 'PRIVMSG #liversticks :The LiverNexus is booting...'.
+[04/29/20 16:03:50]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 16:04:03]: {Chat} liversticks: !top
+
+[04/29/20 16:04:03]: {C++} Added command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 7578, (2) ColeQuil: 2554, (3) Ethan_26_: 2063, (4) warningnimrod: 2027, (5) bluefelly: 879, (6) Wolfkiller95: 187, (7) robthegamer115: 167, (8) yoshikass: 125, (9) ShadowPhoenixDX: 112, (10) Logi_Carra: 108, (11) ShadyGamerX: 107, (12) QUOTE_ME_IF_HE_THROWS: 105, (13) Farenris: 101, (14) FuriousMagic: 101, (15) Zebews: 98'.
+[04/29/20 16:04:03]: {C++} Attempting to send command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 7578, (2) ColeQuil: 2554, (3) Ethan_26_: 2063, (4) warningnimrod: 2027, (5) bluefelly: 879, (6) Wolfkiller95: 187, (7) robthegamer115: 167, (8) yoshikass: 125, (9) ShadowPhoenixDX: 112, (10) Logi_Carra: 108, (11) ShadyGamerX: 107, (12) QUOTE_ME_IF_HE_THROWS: 105, (13) Farenris: 101, (14) FuriousMagic: 101, (15) Zebews: 98'.
+[04/29/20 16:04:04]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 16:04:10]: {Chat} liversticks: cool
+
+[04/29/20 16:04:10]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 16:04:10]: {C++} Added command 'PRIVMSG #liversticks :2 words: dhdeni ldna '.
+[04/29/20 16:04:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following dungeon:'.
+[04/29/20 16:04:10]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: dhdeni ldna '.
+[04/29/20 16:04:11]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 16:04:11]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 16:04:38]: {Chat} liversticks: bidden land
+
+[04/29/20 16:05:20]: {Chat} liversticks: hidden band
+
+[04/29/20 16:05:34]: {Chat} liversticks: hidden land
+
+[04/29/20 16:05:35]: {C++} Added command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Hidden Land! Type !join to join the expedition party!'.
+[04/29/20 16:05:35]: {C++} Attempting to send command 'PRIVMSG #liversticks :Ready to explore? liversticks is leading a group headed to Hidden Land! Type !join to join the expedition party!'.
+[04/29/20 16:05:35]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 16:06:02]: {C++} Establishing TwitchIRC Instance
+[04/29/20 16:06:02]: {C++} Establishing TwitchIRC Login Token
+[04/29/20 16:06:02]: {C++} Attempting to send command 'PASS oauth:ahkpufow2ozvar34ou5135r92p3gz7'.
+[04/29/20 16:06:02]: {C++} Attempting to send command 'NICK LiverNexus'.
+[04/29/20 16:06:02]: {C++} Attempting to send command 'USER LiverNexus'.
+[04/29/20 16:06:02]: {C++} Attempting to send command 'CAP REQ :twitch.tv/commands'.
+[04/29/20 16:06:02]: {C++} Attempting to send command 'CAP REQ :twitch.tv/membership'.
+[04/29/20 16:06:02]: {C++} Attempting to send command 'CAP REQ :twitch.tv/tags'.
+[04/29/20 16:06:02]: {Twitch} Connected to TwitchIRC, connecting to channel '##liversticks'.
+[04/29/20 16:06:02]: {C++} Attempting to send command 'JOIN #liversticks'.
+[04/29/20 16:06:02]: {Twitch} Sending Message The LiverNexus is booting......
+[04/29/20 16:06:02]: {C++} Added command 'PRIVMSG #liversticks :The LiverNexus is booting...'.
+[04/29/20 16:06:02]: {C++} Attempting to send command 'PRIVMSG #liversticks :The LiverNexus is booting...'.
+[04/29/20 16:06:02]: {Twitch} Sending Message Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help....
+[04/29/20 16:06:02]: {C++} Added command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 16:06:02]: {C++} Attempting to push command 'PING :tmi.twitch.tv'.
+[04/29/20 16:06:02]: {C++} Attempting to send command 'PING :tmi.twitch.tv'.
+[04/29/20 16:06:02]: {C++} Attempting to send command 'PRIVMSG #liversticks :Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.'.
+[04/29/20 16:06:02]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 16:06:17]: {Chat} liversticks: hi bot :)
+
+[04/29/20 16:06:22]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following town or village:'.
+[04/29/20 16:06:22]: {C++} Added command 'PRIVMSG #liversticks :2 words: oeknopm qraues '.
+[04/29/20 16:06:23]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following town or village:'.
+[04/29/20 16:06:23]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: oeknopm qraues '.
+[04/29/20 16:06:23]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 16:06:23]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 16:06:38]: {Chat} liversticks: pokemon rectangle
+
+[04/29/20 16:06:43]: {Chat} liversticks: hi
+
+[04/29/20 16:06:49]: {Chat} liversticks: !top
+
+[04/29/20 16:06:49]: {C++} Added command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 7621, (2) ColeQuil: 2554, (3) Ethan_26_: 2063, (4) warningnimrod: 2027, (5) bluefelly: 879, (6) Wolfkiller95: 187, (7) robthegamer115: 167, (8) yoshikass: 125, (9) ShadowPhoenixDX: 112, (10) Logi_Carra: 108, (11) ShadyGamerX: 107, (12) QUOTE_ME_IF_HE_THROWS: 105, (13) Farenris: 101, (14) FuriousMagic: 101, (15) Zebews: 98'.
+[04/29/20 16:06:49]: {C++} Attempting to send command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 7621, (2) ColeQuil: 2554, (3) Ethan_26_: 2063, (4) warningnimrod: 2027, (5) bluefelly: 879, (6) Wolfkiller95: 187, (7) robthegamer115: 167, (8) yoshikass: 125, (9) ShadowPhoenixDX: 112, (10) Logi_Carra: 108, (11) ShadyGamerX: 107, (12) QUOTE_ME_IF_HE_THROWS: 105, (13) Farenris: 101, (14) FuriousMagic: 101, (15) Zebews: 98'.
+[04/29/20 16:06:50]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 16:07:01]: {Chat} liversticks: pokeeèhfurodofnfioskfbjf
+
+[04/29/20 16:07:07]: {Chat} liversticks: !top
+
+[04/29/20 16:07:08]: {C++} Added command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 7621, (2) ColeQuil: 2554, (3) Ethan_26_: 2063, (4) warningnimrod: 2027, (5) bluefelly: 879, (6) Wolfkiller95: 187, (7) robthegamer115: 167, (8) yoshikass: 125, (9) ShadowPhoenixDX: 112, (10) Logi_Carra: 108, (11) ShadyGamerX: 107, (12) QUOTE_ME_IF_HE_THROWS: 105, (13) Farenris: 101, (14) FuriousMagic: 101, (15) Zebews: 98'.
+[04/29/20 16:07:08]: {C++} Attempting to send command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 7621, (2) ColeQuil: 2554, (3) Ethan_26_: 2063, (4) warningnimrod: 2027, (5) bluefelly: 879, (6) Wolfkiller95: 187, (7) robthegamer115: 167, (8) yoshikass: 125, (9) ShadowPhoenixDX: 112, (10) Logi_Carra: 108, (11) ShadyGamerX: 107, (12) QUOTE_ME_IF_HE_THROWS: 105, (13) Farenris: 101, (14) FuriousMagic: 101, (15) Zebews: 98'.
+[04/29/20 16:07:08]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 16:07:30]: {Chat} liversticks: fyhrhrjdiiehrhfufūfjjfkeedjekekekeke f f f g g gjvjfjdjudjhfjdjfnfnfnnf
+
+[04/29/20 16:07:40]: {Chat} liversticks: !top
+
+[04/29/20 16:07:41]: {C++} Added command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 7621, (2) ColeQuil: 2554, (3) Ethan_26_: 2063, (4) warningnimrod: 2027, (5) bluefelly: 879, (6) Wolfkiller95: 187, (7) robthegamer115: 167, (8) yoshikass: 125, (9) ShadowPhoenixDX: 112, (10) Logi_Carra: 108, (11) ShadyGamerX: 107, (12) QUOTE_ME_IF_HE_THROWS: 105, (13) Farenris: 101, (14) FuriousMagic: 101, (15) Zebews: 98'.
+[04/29/20 16:07:41]: {C++} Attempting to send command 'PRIVMSG #liversticks :The top scorers are: (1) liversticks: 7621, (2) ColeQuil: 2554, (3) Ethan_26_: 2063, (4) warningnimrod: 2027, (5) bluefelly: 879, (6) Wolfkiller95: 187, (7) robthegamer115: 167, (8) yoshikass: 125, (9) ShadowPhoenixDX: 112, (10) Logi_Carra: 108, (11) ShadyGamerX: 107, (12) QUOTE_ME_IF_HE_THROWS: 105, (13) Farenris: 101, (14) FuriousMagic: 101, (15) Zebews: 98'.
+[04/29/20 16:07:41]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 16:07:52]: {Chat} liversticks: hi
+
+[04/29/20 16:07:55]: {Chat} liversticks: this
+
+[04/29/20 16:07:58]: {Chat} liversticks: is
+
+[04/29/20 16:08:01]: {Chat} liversticks: spam
+
+[04/29/20 16:08:11]: {Chat} liversticks: !pokemon square
+
+[04/29/20 16:08:20]: {Chat} liversticks: pokemon circle
+
+[04/29/20 16:08:24]: {C++} Added command 'PRIVMSG #liversticks :Unscramble the following town or village:'.
+[04/29/20 16:08:24]: {C++} Added command 'PRIVMSG #liversticks :2 words: oeknopm qraues '.
+[04/29/20 16:08:25]: {C++} Attempting to send command 'PRIVMSG #liversticks :Unscramble the following town or village:'.
+[04/29/20 16:08:25]: {C++} Attempting to send command 'PRIVMSG #liversticks :2 words: oeknopm qraues '.
+[04/29/20 16:08:25]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 16:08:25]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
+[04/29/20 16:08:37]: {Chat} liversticks: Pokémon Square
+
+[04/29/20 16:08:48]: {Chat} liversticks: poke mom square
+
+[04/29/20 16:09:13]: {Chat} liversticks: pokemon square
+
+[04/29/20 16:09:14]: {C++} Added command 'PRIVMSG #liversticks :That was a nice day of exploring! liversticks is leading a group headed back to Pokemon Square for a well-deserved rest. Type !join to join the group!'.
+[04/29/20 16:09:14]: {C++} Attempting to send command 'PRIVMSG #liversticks :That was a nice day of exploring! liversticks is leading a group headed back to Pokemon Square for a well-deserved rest. Type !join to join the group!'.
+[04/29/20 16:09:14]: {Twitch} Recieved USERSTATE Command: '@badge-info=;badges=moderator/1;color=;display-name=livernexus;emote-sets=0;mod=1;subscriber=0;user-type=mod :tmi.twitch.tv USERSTATE #liversticks'.
