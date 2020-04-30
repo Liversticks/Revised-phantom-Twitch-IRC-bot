@@ -22,6 +22,7 @@ public:
 	}
 
 	virtual void Fire(string input) {
+		//all searching and score retrieval handled by AllUsers class (called from Exploration class)
 		string username, message;
 		Lib::stripMessage(input, username, message);
 		unsigned int score = Exploration::fetchInstance().userScoreIs(username);

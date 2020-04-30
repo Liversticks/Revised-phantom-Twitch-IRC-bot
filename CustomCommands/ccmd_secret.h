@@ -23,6 +23,7 @@ class Command_Secret : public CustomCommand {
 			string link;
 			mt19937 seed(chrono::system_clock::now().time_since_epoch().count());
 			//find more secrets xD
+			//use fall-through case statements to increase the odds of getting a secret
 			switch (seed() % 25) {
 				case 0:
 				case 1:

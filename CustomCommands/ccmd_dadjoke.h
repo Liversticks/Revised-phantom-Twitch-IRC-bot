@@ -23,7 +23,8 @@ class Command_DadJoke : public CustomCommand {
 
 		virtual void Fire(string input) {
 			string chatMessage;
-			//random number generalization
+			//Use the Mersenne Twister to generate a random number (based on a time seed)
+			//Change the modulus (%) operator and switch statements to add or remove possible puns.
 			mt19937 seed(chrono::system_clock::now().time_since_epoch().count());
 				switch (seed() % 25) {
 				case 0:

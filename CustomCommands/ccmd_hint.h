@@ -20,7 +20,8 @@ public:
 	}
 
 	virtual void Fire(string input) {
-		string hint = Lib::formatChatMessage("Need a Wonder Map or Expedition Gadget? Check out https://bulbapedia.bulbagarden.net/wiki/Category:Pok%C3%A9mon_Mystery_Dungeon and find the locations for each game.");
+		//Changed link to a public spreadsheet
+		string hint = Lib::formatChatMessage("Need a Wonder Map or Expedition Gadget? Check out https://docs.google.com/spreadsheets/d/13TWuAPo-sanfgilj8mYij600yBs4lEcKpgDgsnJ7lfg/edit?usp=sharing and find the locations for each game.");
 		TwitchCommandLimit::fetchInstance().AddCommand(hint);
 	}
 

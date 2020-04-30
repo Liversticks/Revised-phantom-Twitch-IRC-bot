@@ -15,6 +15,7 @@
 #include "CustomCommands/ccmd_isadmin.h"
 #include "CustomCommands/ccmd_adminonly.h"
 
+//Liversticks commands
 #include "CustomCommands/ccmd_pmdseries.h"
 #include "CustomCommands/ccmd_dadjoke.h"
 #include "CustomCommands/ccmd_secret.h"
@@ -64,7 +65,7 @@ class ChatCommandDecs {
 				CustomCommandManager::fetchInstance().AddCommand("!help", new Command_Help());
 				CustomCommandManager::fetchInstance().AddCommand("!hint", new Command_Hint());
 			}
-			//inactive commands belong below, they should not be loaded
+			//inactive commands belong below, they will not be loaded.
 			else {
 				CustomCommandManager::fetchInstance().AddCommand("!score", new Command_Score());
 				CustomCommandManager::fetchInstance().AddCommand("!time", new Command_Time());

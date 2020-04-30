@@ -1,6 +1,7 @@
 /*
 ccmd_score.h
 !score for exploration minigames
+DEPRECATED - Use !points instead.
 Oliver X. (liversticks)
 */
 

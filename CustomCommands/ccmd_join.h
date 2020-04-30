@@ -22,6 +22,7 @@ public:
 	}
 
 	virtual void Fire(string input) {
+		//inGame() and inAccept() are atomic booleans from the Exploration class which indicate whether the game has "started" and is "accepting" !join requests.
 		if (!(Exploration::fetchInstance().inGame())) {
 			if (Exploration::fetchInstance().inAccept()) {
 				string username, message;

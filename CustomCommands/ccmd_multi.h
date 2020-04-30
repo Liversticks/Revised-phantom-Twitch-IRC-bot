@@ -22,6 +22,7 @@ class Command_Multi : public CustomCommand {
 
 		virtual void Fire(string input) {
 			string multiTwitch;
+			//Need to update the boolean and multi-stream link before every race stream
 			if (true) {
 				multiTwitch = Lib::formatChatMessage("Not in a race right now, but the multi-stream link is here when I would be.");
 			}
