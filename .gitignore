@@ -341,3 +341,4 @@ healthchecksdb
 
 # All text files because of sensitive information
 *.txt
+adminusers.txt
