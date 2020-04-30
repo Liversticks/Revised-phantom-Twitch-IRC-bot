@@ -99,6 +99,7 @@
 		//rewritten code here
 		
 		//make sure hints does not get destroyed when it goes out of scope
+		//see most recent WinSock documentation for inspiration
 		static ADDRINFOA hints;
 		ZeroMemory(&hints, sizeof(hints));
 		hints.ai_family = AF_INET;

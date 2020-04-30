@@ -20,6 +20,8 @@ bool AllUsers::addToDictionary(string name, unsigned int score) {
 	return true;
 }
 
+//Returns the score of the user if they exist in the dictionary
+//Otherwise, adds them to the dictionary with a score of 0
 unsigned int AllUsers::whatsMyScore(string name) {
 	map<string, unsigned int>::iterator itr;
 	itr = dictionary.find(name);
@@ -55,6 +57,8 @@ bool AllUsers::saveScores(string filename) {
 	return true;
 }
 
+//If a user exists in the dictionary, add newScore to their existing score
+//Otherwise, add them to the dictionary with starting value newScore
 bool AllUsers::updateScore(string name, unsigned int newScore) {
 	map<string, unsigned int>::iterator itr = dictionary.find(name);
 	if (itr != dictionary.end()) {
@@ -65,6 +69,7 @@ bool AllUsers::updateScore(string name, unsigned int newScore) {
 	return true;
 }
 
+//helper function for std::swap on pairs
 bool swapPair(const pair<string, unsigned int>& a, const pair<string, unsigned int>& b) {
 	return a.second > b.second;
 }
@@ -98,12 +103,11 @@ void AllUsers::top15Scores() {
 			if (topScorers.at(i).first == insertName) {
 				isFound = true;
 			}
-			i++;
-			
+			i++;	
 		}
 		//update score if necessary
 		if (isFound) {
-			topScorers.at(i - 1).second = tempscore;
+			topScorers.at(i-1).second = tempscore;
 		}
 		//add to back
 		else if (!isFound && (topScoreSize < 15 || tempscore > topScorers.back().second)) {

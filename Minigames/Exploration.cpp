@@ -43,6 +43,7 @@ bool Exploration::prepareGame() {
 		specialNames.push_back(input);
 	}
 	h.close();
+	//load scores and create sorted top-15 players list
 	gameObject.loadScores(playerList);
 	gameObject.top15Scores();
 	//set up theGame thread
@@ -66,7 +67,7 @@ bool Exploration::inAnagram() {
 
 void Exploration::addPlayingUser(string username) {
 	//mutex for data races
-	//need to check for unique users
+	//Will check the entire set of playing users; if username is not in, then it will be added.
 	set<string>::iterator itr;
 	mtx.lock();
 	itr = whoIsPlaying.find(username);
@@ -84,6 +85,7 @@ bool Exploration::setupGame() {
 		shuffle(dungeonNames.begin(), dungeonNames.end(), mt19937(chrono::system_clock::now().time_since_epoch().count()));
 		dungeonCounter == 0;
 	}
+	//Theoretical: Odds of dungeon: 47/50. Odds of town: 2/50. Odds of special place: 1/50
 	mt19937 rng(chrono::system_clock::now().time_since_epoch().count());
 	placeType = 0;
 	switch (rng() % 50) {
@@ -125,7 +127,8 @@ void Exploration::makeAnagram() {
 		result[i] = tolower(result.at(i));
 	}
 
-	//break down the string into tokens
+	//break down the string into tokens (separated by spaces)
+	//use secure strtok_s function
 	vector<string> tokens;
 	size_t size = result.size() + 1;
 	char* buffer = new char[size];
@@ -149,6 +152,7 @@ void Exploration::makeAnagram() {
 		resultMessage += " ";
 	}
 
+	//generate recurring chat messages to broadcast while location is unscrambled
 	string resultType;
 	if (placeType == 0) {
 		resultType = "dungeon";
@@ -167,6 +171,8 @@ void Exploration::makeAnagram() {
 }
 
 void Exploration::flavourText() {
+	//flavour text depends on the placeType
+	//flavour text probability is determined via case statements
 	mt19937 rng(chrono::system_clock::now().time_since_epoch().count());
 
 	if (placeType == 0) {
@@ -209,8 +215,8 @@ void Exploration::flavourText() {
 		}
 	}
 	else {
-		//second character is unique
-		char key = whereGo[1];
+		//second character of each special place is unique
+		char key = tolower(whereGo[1]);
 		switch (key) {
 		case 'e':
 			//Secret Bazaar
@@ -244,7 +250,7 @@ void Exploration::flavourText() {
 			break;
 		default:
 			//idk, how'd you get here?
-			chatMessage = Lib::formatChatMessage("While exploring, the party successfully skips a cutscene! Wait, this is supposed to be a debug line! Let the bot developer know that something broke ;(");
+			chatMessage = Lib::formatChatMessage("While exploring, the party successfully skips a cutscene! Wait, this is supposed to be a debug line! Let the bot developer know that something broke :(");
 			scoreFactor = 100;
 			break;
 		}
@@ -268,7 +274,9 @@ bool Exploration::awardPoints() {
 
 	//the mean of the score distribution should reflect the number of players and the special event, if any
 	//the variance of the score distribution should be fairly tight
-
+	//Mean: 30 * scoreFactor * (log(number of players) + 1)
+	//variance: (number of players)/(scoreFactor + 1)
+	//Hopefully this avoids the (very low) probability that a negative double value is generated, then cast to a high unsigned value ;)
 	normal_distribution<double> distribution((scoreFactor * 30 * (log(whoIsPlaying.size()) + 1)), (whoIsPlaying.size()) / (scoreFactor + 1));
 	mt19937 generator(chrono::system_clock::now().time_since_epoch().count());
 	unsigned int temp;
@@ -286,7 +294,7 @@ bool Exploration::awardPoints() {
 	chatMessage = Lib::formatChatMessage(chatMessage);
 	TwitchCommandLimit::fetchInstance().AddCommand(chatMessage);
 	gameObject.saveScores(playerList);
-	//for the next round
+	//reset scoreFactor for the next round
 	scoreFactor = 1;
 	return true;
 }
@@ -360,8 +368,6 @@ void Exploration::theGame() {
 		//update the acceptState to true;
 		readyToAccept.store(true, memory_order_relaxed);
 		//here, !join will add players to whoIsPlaying
-
-				
 
 		//wait a minute or however many seconds for people to !join
 		this_thread::sleep_for(chrono::seconds(75));

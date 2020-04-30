@@ -196,9 +196,12 @@ bool TwitchIRC::fetchServerMessage() {
 	return false;
 }
 
+//Can create additional recurring messages in a similar manner:
+//1. Create a new thread for each recurring message
+//2. Create a new function for each recurring message and have it sleep for a certain point
+//3. When initalizing the bot, stagger the start-times for each thread
 void TwitchIRC::streamUpdates() {
     string recurMessage("Welcome! Unscramble PMD dungeon names and use !join to gain points! !help for help.");
-    //recurMessage += CustomCommandManager::fetchInstance().listCommands();
     while (SocketActive()) {
         SendChatMessage(recurMessage.c_str());
         this_thread::sleep_for(chrono::milliseconds(COMMANDS_INTERVAL));
