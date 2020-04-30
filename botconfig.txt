@@ -1,5 +1,0 @@
-LiverNexus
-irc.chat.twitch.tv
-6667
-#liversticks
-oauth:ahkpufow2ozvar34ou5135r92p3gz7
