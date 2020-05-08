@@ -1,28 +1,25 @@
 # Phantom Bot Twitch IRC Project
-# CURRENT VERSION: Alpha 5 (Development Build)
 ## By Robert C. Fritzen (Phantom139)
-## Supported Platforms: Windows 10, Linux (Ubuntu 16.04 Tested)
+## Updated and enhanced by Oliver Xie (Liversticks)
+## Supported Platforms: Windows 10
 
 ### Prerequisites ###
 No Libraries Required!!! This project uses all native C++11 code. 
 
-* To Compile on Linux: You'll just need the 'cmake' package to build it!
-* To Compile on Windows 10: You'll need either cmake or MSVS 2015.
-
-### Setup Instructions (Linux) ###
-Drop the files into a directory and open a terminal. cd to the directory and run the command 'cmake . && make' to compile, then run the code with ./PhantomBot
+* To Compile on Windows 10: This version is optimized for the latest version of Visual Studio.
 
 ### Setup Instructions (Windows) ###
 Drop the files into a directory. Open Visual Studio and add all of the files to a project to compile. Run the compiled executable.
+Note: Visual Studio release-executables may require additional dependencies to run properly.
 
 ### Configuration Files ###
 There are two bot config files you can use.
 
 1. botconfig.txt contains information you'll need to obtain to run the bot You'll need to insert your account name associated with the bot, and the channel name of the channel you'd like the bot to be active in. Finally, you'll need to obtain your oauth code from Twitch. To obtain this, log into your bot account and naviagte to this link: http://twitchapps.com/tmi/ Copy the contents of the page and then paste it into the oauth line.
-2. adminusers.txt is a line delimited file of usernames who will have "admin status" on bot commands. These users will have elevated permissions which allow access to built in administrative functions such as !debugmode, !reset, !disconnect, and other commands you may choose to add to the bot. (You can just as easily add multiple levels of admin to the bot by customizing the Admin.h/.cpp files to do so.
+2. adminusers.txt is a line delimited file of usernames who will have "admin status" on bot commands. These users will have elevated permissions which allow access to built in administrative functions such as !debugmode, !reset, !disconnect, and other commands you may choose to add to the bot. (You can just as easily add multiple levels of admin to the bot by customizing the Admin.h/.cpp files to do so. Note: as of now, admin mode is disabled because there aren't any admins)
 
 ### Features ###
-This is a very basic Twitch IRC bot with a very flexible and easy to navigate code-base. At it's core, this bot has the following features:
+Phantom built a very basic Twitch IRC bot with a very flexible and easy to navigate code-base. At it's core, this bot has the following features:
 
 * Connection via native Sockets
 * Message Parsing System to Inquire and Parse Twitch IRC Commands
@@ -30,6 +27,14 @@ This is a very basic Twitch IRC bot with a very flexible and easy to navigate co
 * Logging system for both command and chat logging
 * Admin User Interface to have quick access to defining users with administrative capabilities for in-stream commands
 * Custom Command System to allow quick and easy deployment of custom chat commands
+
+Liversticks added on the following features:
+* Updated Windows Sockets to work in latest version of VS
+* Added a two-part, text-based minigame. For Part 1, users in chat must unscramble a provided word (via text file). For Part 2, additional users can "join" a party; the larger the party, the more points each player can get.
+* Timing for the minigame includes cooldown and input validation is done via inspecting the IRC PRIVMSG.
+* User scores are handled via an enhanced std::map(string, unsigned int) with score access, saving, and update methods.
+* Some commands have been deployed based on Phantom's base Command class.
+* Comment-based documentation available for added features.
 
 ### Custom Chat Commands ###
 As mentioned in the prior section, this bot has a very easy to use custom chat command interface. To create a custom chat command, follow the below instructions.
